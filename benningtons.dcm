@@ -1,1 +1,52 @@
-../Kicad-library/benningtons.dcm
+EESchema-DOCLIB  Version 2.0  Date: Sun 24 Feb 2019 02:16:16 GMT
+#
+$CMP +5V
+D +5v supply
+K 5 +5 power vcc
+$ENDCMP
+#
+$CMP 74LS04
+D Hex Inverter
+K TTL inverter NOT buffer
+F http://www.ti.com/lit/gpn/sn74ls04
+$ENDCMP
+#
+$CMP 74LS139
+D dual 2 to 4-line decoder/demultiplexer, inverting outputs
+K TTL 139 decoder
+F http://www.ti.com/lit/gpn/sn74ls139a
+$ENDCMP
+#
+$CMP 74LS189
+D 64-Bit RAM
+K TTL RAM memory 189
+F https://archive.org/stream/bitsavers_tidataBookcomputerComponentsDataBook_16851665/1977_TI_Bipolar_Microcomputer_Components_Data_Book#page/n191/mode/2up
+$ENDCMP
+#
+$CMP 74LS245
+D octal bus transceiver, non-inverting outputs
+K TTL bus 245
+F http://www.ti.com/lit/gpn/sn74ls245
+$ENDCMP
+#
+$CMP C
+D Non-polarised capacitor
+K cap capacitor c
+$ENDCMP
+#
+$CMP CONN_2
+D 2 pin connector
+K 2 conn
+$ENDCMP
+#
+$CMP CONN_8
+D 8-way ribbon cable header
+K 8 conn ribbon header
+$ENDCMP
+#
+$CMP CONN_8X2
+D 16-way ribbon cable header
+K 16 ribbon header
+$ENDCMP
+#
+#End Doc Library
