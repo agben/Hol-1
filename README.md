@@ -19,6 +19,7 @@ For more on HOL-1 see www.benningtons.net
 - 8cm x 12cm double-sided perfboards = a 30 x 42 grid of 2.54mm spaced vias
 - Initial design is on Fritzing (better suited to perfboard layouts but not suitable for Git)
 - KiCad is then used for a more professional(ish) schematic and PCB design (and a more suitable format for Git)
-- The KiCad PCB will adhere to the perfbard grid layout for component placement but tracks will then use a finer grid. This is because I'm not making PCBs but mass wiring the perfboard in wirewrapping style.
+- The KiCad PCB will adhere to the perfboard grid layout for component placement but tracks will then use a finer grid. This is because I'm not making PCBs but mass wiring the perfboard in wirewrapping style.
+- Blinkenlights - plug-in status LEDs at every opportunity that could be swapped for control panel fly leads in the future
 
 

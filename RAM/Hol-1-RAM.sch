@@ -30,13 +30,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Hol-1-RAM-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - RAM board"
-Date "28 feb 2019"
+Date "7 mar 2019"
 Rev "1.0"
 Comp "www.Benningtons.Net"
 Comment1 ""
@@ -1335,7 +1336,7 @@ F 1 "Blinkenlights" H 825 6775 60  0000 C CNN
 F 2 "" H 825 6775 60  0000 C CNN
 F 3 "" H 825 6775 60  0000 C CNN
 	1    825  6775
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	1075 6375 3050 6375
@@ -1385,8 +1386,6 @@ Text Label 4250 6425 0    60   ~ 0
 RAM-OUT
 Wire Wire Line
 	1075 7625 3650 7625
-Wire Wire Line
-	1075 7175 1075 7625
 Wire Wire Line
 	2150 7675 2150 7625
 Connection ~ 2150 7625
@@ -1672,4 +1671,6 @@ F 3 "" H 6650 1150 60  0000 C CNN
 	1    6650 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1075 7175 1075 7625
 $EndSCHEMATC
