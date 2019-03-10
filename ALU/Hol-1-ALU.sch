@@ -604,7 +604,7 @@ Subtract
 Text Label 1325 3475 0    60   ~ 0
 Not Zero?
 Text Label 1325 3575 0    60   ~ 0
-Even?
+Odd?
 Text Label 1325 3675 0    60   ~ 0
 Carry?
 $Comp
@@ -820,7 +820,7 @@ Entry Wire Line
 Text Label 8225 5500 0    60   ~ 0
 Not Zero?
 Text Label 8400 4050 0    60   ~ 0
-Even?
+Odd?
 Text Label 8350 1750 0    60   ~ 0
 Negative?
 Wire Wire Line
@@ -1360,4 +1360,28 @@ Wire Wire Line
 Connection ~ 6250 7325
 Wire Wire Line
 	6475 6625 6475 6775
+Text Notes 5100 6250 0    60   ~ 0
++5v for power rails and decoupling\ncapacitors (below)
+Text Notes 550  2850 0    60   ~ 0
+Status signals (with a ?) and control signal bus (below)
+Text Notes 1750 1400 0    60   ~ 0
+Direct link to register A
+Text Notes 550  4550 0    60   ~ 0
+Direct link to register B
+Text Notes 1200 7250 0    60   ~ 0
+INC: Switch off input from B register and replace by 00000001\nusing pull-down resistor array and one pull-up resistor\n\nDEC: achieved by using INC and Subtract commands
+Text Notes 3450 4150 0    60   ~ 0
+Subtract: by\ninverting B\nregister input\n(below) and \nadding 1 (right)
+Text Notes 8000 1600 0    60   ~ 0
+MSB indicates a negative result.
+Text Notes 8400 3900 0    60   ~ 0
+LSB indicates an odd or even result
+Text Notes 8850 6150 0    60   ~ 0
+16-way IDC ribbon cable\nheaders (right) wired in\nvertical pairs, provides a\n4 port Data Bus for Hol-1
+Text Notes 9450 1950 0    60   ~ 0
+Note: the status flags resulting from\nany sum can be tested without\nhaving to place the result onto the\nData Bus, using Sum-Out (below)
+Text Notes 6250 1800 0    60   ~ 0
+The Carry status (left) indicates the\nresult has overflowed a byte but can\nbe used to signal a carry forward to\na higher word of, say, a 16 byte word
+Text Notes 8250 5150 0    60   ~ 0
+If any bit of the 8-bit result is set\nthen that is enough to signal a\nnon-zero result
 $EndSCHEMATC
