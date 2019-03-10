@@ -1,6 +1,6 @@
 version=1
 last_client=eeschema
-update=Sun 03 Mar 2019 23:52:03 GMT
+update=Sun 10 Mar 2019 15:38:58 GMT
 [cvpcb]
 version=1
 NetIExt=net
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=/home/ben/Code/Circuits/Kicad-library
+LibDir=/home/ben/Code/Circuits/Hol-1/Kicad-library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
