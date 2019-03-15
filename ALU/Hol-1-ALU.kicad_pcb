@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 82.857143 60.3504 195.630001 139.750001)
     (thickness 1.6)
-    (drawings 13)
+    (drawings 12)
     (tracks 443)
     (zones 0)
     (modules 29)
@@ -1890,9 +1890,6 @@
     )
   )
 
-  (gr_text "Data Bus" (at 181.61 66.04) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_text "Register A" (at 88.9 102.87 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
