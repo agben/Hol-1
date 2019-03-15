@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - ALU board"
-Date "10 mar 2019"
+Date "14 mar 2019"
 Rev "1.0"
 Comp "www.Benningtons.Net"
 Comment1 ""
@@ -256,90 +256,90 @@ F 3 "~" H 5275 3450 60  0000 C CNN
 $EndComp
 $Comp
 L 74LS86 U3
-U 1 1 5C81C8AD
+U 3 1 5C81C8AD
 P 3800 4850
 F 0 "U3" H 3800 4830 20  0000 C CNN
 F 1 "74LS86" H 3800 4870 20  0000 C CNN
 F 2 "~" H 3850 4850 60  0000 C CNN
 F 3 "~" H 3850 4850 60  0000 C CNN
-	1    3800 4850
+	3    3800 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U3
-U 2 1 5C81C8BA
+U 4 1 5C81C8BA
 P 3800 5050
 F 0 "U3" H 3800 5030 20  0000 C CNN
 F 1 "74LS86" H 3800 5070 20  0000 C CNN
 F 2 "~" H 3850 5050 60  0000 C CNN
 F 3 "~" H 3850 5050 60  0000 C CNN
-	2    3800 5050
+	4    3800 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U3
-U 3 1 5C81C8C2
+U 1 1 5C81C8C2
 P 3800 5250
 F 0 "U3" H 3800 5230 20  0000 C CNN
 F 1 "74LS86" H 3800 5270 20  0000 C CNN
 F 2 "~" H 3850 5250 60  0000 C CNN
 F 3 "~" H 3850 5250 60  0000 C CNN
-	3    3800 5250
+	1    3800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U3
-U 4 1 5C81C8D1
+U 2 1 5C81C8D1
 P 3800 5450
 F 0 "U3" H 3800 5430 20  0000 C CNN
 F 1 "74LS86" H 3800 5470 20  0000 C CNN
 F 2 "~" H 3850 5450 60  0000 C CNN
 F 3 "~" H 3850 5450 60  0000 C CNN
-	4    3800 5450
+	2    3800 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U4
-U 1 1 5C81C8E0
+U 3 1 5C81C8E0
 P 3800 5650
 F 0 "U4" H 3800 5630 20  0000 C CNN
 F 1 "74LS86" H 3800 5670 20  0000 C CNN
 F 2 "~" H 3850 5650 60  0000 C CNN
 F 3 "~" H 3850 5650 60  0000 C CNN
-	1    3800 5650
+	3    3800 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U4
-U 2 1 5C81C8EF
+U 4 1 5C81C8EF
 P 3800 5850
 F 0 "U4" H 3800 5830 20  0000 C CNN
 F 1 "74LS86" H 3800 5870 20  0000 C CNN
 F 2 "~" H 3850 5850 60  0000 C CNN
 F 3 "~" H 3850 5850 60  0000 C CNN
-	2    3800 5850
+	4    3800 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U4
-U 3 1 5C81C8FE
+U 1 1 5C81C8FE
 P 3800 6050
 F 0 "U4" H 3800 6030 20  0000 C CNN
 F 1 "74LS86" H 3800 6070 20  0000 C CNN
 F 2 "~" H 3850 6050 60  0000 C CNN
 F 3 "~" H 3850 6050 60  0000 C CNN
-	3    3800 6050
+	1    3800 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS86 U4
-U 4 1 5C81C90D
+U 2 1 5C81C90D
 P 3800 6250
 F 0 "U4" H 3800 6230 20  0000 C CNN
 F 1 "74LS86" H 3800 6270 20  0000 C CNN
 F 2 "~" H 3850 6250 60  0000 C CNN
 F 3 "~" H 3850 6250 60  0000 C CNN
-	4    3800 6250
+	2    3800 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -786,21 +786,21 @@ Entry Wire Line
 Entry Wire Line
 	8225 2600 8325 2700
 Text Label 7525 3750 0    60   ~ 0
-Sum1
-Text Label 7525 3900 0    60   ~ 0
-Sum2
-Text Label 7525 4050 0    60   ~ 0
-Sum3
-Text Label 7525 4200 0    60   ~ 0
-Sum4
-Text Label 7525 4350 0    60   ~ 0
-Sum5
-Text Label 7525 4500 0    60   ~ 0
-Sum6
-Text Label 7525 4650 0    60   ~ 0
-Sum7
-Text Label 7525 4800 0    60   ~ 0
 Sum8
+Text Label 7525 3900 0    60   ~ 0
+Sum7
+Text Label 7525 4050 0    60   ~ 0
+Sum6
+Text Label 7525 4200 0    60   ~ 0
+Sum5
+Text Label 7525 4350 0    60   ~ 0
+Sum4
+Text Label 7525 4500 0    60   ~ 0
+Sum3
+Text Label 7525 4650 0    60   ~ 0
+Sum2
+Text Label 7525 4800 0    60   ~ 0
+Sum1
 Entry Wire Line
 	6600 3650 6700 3750
 Entry Wire Line
@@ -823,6 +823,76 @@ Text Label 8400 4050 0    60   ~ 0
 Odd?
 Text Label 8350 1750 0    60   ~ 0
 Negative?
+$Comp
+L GND #PWR015
+U 1 1 5C855E86
+P 7825 5225
+F 0 "#PWR015" H 7825 5225 30  0001 C CNN
+F 1 "GND" H 7825 5155 30  0001 C CNN
+F 2 "" H 7825 5225 60  0000 C CNN
+F 3 "" H 7825 5225 60  0000 C CNN
+	1    7825 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X2 P5
+U 1 1 5C856897
+P 10600 4750
+F 0 "P5" V 10600 4975 60  0000 C CNN
+F 1 "DATA BUS" V 10600 4625 50  0000 C CNN
+F 2 "" H 10600 4750 60  0000 C CNN
+F 3 "" H 10600 4750 60  0000 C CNN
+	1    10600 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_8X2 P6
+U 1 1 5C85689D
+P 10600 5650
+F 0 "P6" V 10600 5875 60  0000 C CNN
+F 1 "DATA BUS" V 10600 5525 50  0000 C CNN
+F 2 "" H 10600 5650 60  0000 C CNN
+F 3 "" H 10600 5650 60  0000 C CNN
+	1    10600 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_8X2 P7
+U 1 1 5C8568A3
+P 10600 6550
+F 0 "P7" V 10600 6775 60  0000 C CNN
+F 1 "DATA BUS" V 10600 6425 50  0000 C CNN
+F 2 "" H 10600 6550 60  0000 C CNN
+F 3 "" H 10600 6550 60  0000 C CNN
+	1    10600 6550
+	0    -1   -1   0   
+$EndComp
+Text Label 9775 2450 0    60   ~ 0
+Sum Out
+Text Notes 5100 6250 0    60   ~ 0
++5v for power rails and decoupling\ncapacitors (below)
+Text Notes 550  2850 0    60   ~ 0
+Status signals (with a ?) and control signal bus (below)
+Text Notes 1750 1400 0    60   ~ 0
+Direct link to register A
+Text Notes 550  4550 0    60   ~ 0
+Direct link to register B
+Text Notes 1200 7250 0    60   ~ 0
+INC: Switch off input from B register and replace by 00000001\nusing pull-down resistor array and one pull-up resistor\n\nDEC: achieved by using INC and Subtract commands
+Text Notes 3450 4150 0    60   ~ 0
+Subtract: by\ninverting B\nregister input\n(below) and \nadding 1 (right)
+Text Notes 8000 1600 0    60   ~ 0
+MSB indicates a negative result.
+Text Notes 8400 3900 0    60   ~ 0
+LSB indicates an odd or even result
+Text Notes 8850 6150 0    60   ~ 0
+16-way IDC ribbon cable\nheaders (right) wired in\nvertical pairs, provides a\n4 port Data Bus for Hol-1
+Text Notes 9450 1950 0    60   ~ 0
+Note: the status flags resulting from\nany sum can be tested without\nhaving to place the result onto the\nData Bus, using Sum-Out (below)
+Text Notes 6250 1800 0    60   ~ 0
+The Carry status (left) indicates the\nresult has overflowed a byte but can\nbe used to signal a carry forward to\na higher word of, say, a 16 byte word
+Text Notes 8250 5150 0    60   ~ 0
+If any bit of the 8-bit result is set\nthen that is enough to signal a\nnon-zero result
 Wire Wire Line
 	6025 6625 6025 6775
 Wire Wire Line
@@ -917,94 +987,75 @@ Connection ~ 1150 5850
 Wire Wire Line
 	3950 6550 3950 6975
 Wire Wire Line
-	2475 5200 2950 5200
+	2475 5200 2800 5200
 Wire Wire Line
-	2475 5300 3050 5300
+	2475 5300 2900 5300
 Wire Wire Line
-	2475 5400 3150 5400
+	2475 5400 3000 5400
 Wire Wire Line
-	2475 5500 3250 5500
+	2475 5500 3050 5500
 Wire Wire Line
 	2475 5600 3600 5600
 Wire Wire Line
-	2475 5700 3150 5700
+	2475 5700 2850 5700
 Wire Wire Line
-	2950 5200 2950 4800
+	2800 5200 2800 4800
 Wire Wire Line
-	2950 4800 3600 4800
+	2800 4800 3600 4800
 Wire Wire Line
-	3050 5300 3050 5000
+	2900 5300 2900 5000
 Wire Wire Line
-	3050 5000 3600 5000
+	2900 5000 3600 5000
 Wire Wire Line
-	3150 5400 3150 5200
+	3000 5400 3000 5200
 Wire Wire Line
-	3150 5200 3600 5200
+	3000 5200 3600 5200
 Wire Wire Line
-	3250 5500 3250 5400
+	3050 5400 3050 6550
 Wire Wire Line
-	3250 5400 3600 5400
+	3050 5400 3600 5400
 Wire Wire Line
-	3150 5800 3600 5800
+	2850 5800 3600 5800
 Wire Wire Line
-	2550 5800 2550 6000
+	2750 5800 2750 6550
 Wire Wire Line
-	2550 6000 3600 6000
+	2750 6000 3600 6000
 Wire Wire Line
 	2475 6200 3600 6200
 Wire Wire Line
 	3450 6550 3950 6550
 Wire Wire Line
-	2650 6550 2650 5200
-Connection ~ 2650 5200
-Wire Wire Line
-	2750 6550 2750 5300
-Connection ~ 2750 5300
-Wire Wire Line
-	2850 6550 2850 5400
-Connection ~ 2850 5400
-Wire Wire Line
-	2950 6550 2950 5500
-Connection ~ 2950 5500
-Wire Wire Line
-	3050 6550 3050 5600
-Connection ~ 3050 5600
-Wire Wire Line
-	3150 5700 3150 6550
-Wire Wire Line
 	2475 5900 2475 6550
 Wire Wire Line
-	3350 4900 3600 4900
+	3475 4900 3600 4900
 Wire Wire Line
-	3350 3950 3350 6300
+	3350 3950 3350 4600
 Wire Wire Line
-	3350 6300 3600 6300
+	3475 4600 3475 6300
 Wire Wire Line
-	3600 6100 3350 6100
-Connection ~ 3350 6100
+	3475 6300 3600 6300
 Wire Wire Line
-	3600 5100 3350 5100
-Connection ~ 3350 5100
+	3600 6100 3475 6100
+Connection ~ 3475 6100
 Wire Wire Line
-	3600 5300 3350 5300
-Connection ~ 3350 5300
+	3600 5100 3475 5100
+Connection ~ 3475 5100
 Wire Wire Line
-	3600 5500 3350 5500
-Connection ~ 3350 5500
+	3600 5300 3475 5300
+Connection ~ 3475 5300
 Wire Wire Line
-	3600 5900 3350 5900
-Connection ~ 3350 5900
+	3600 5500 3475 5500
+Connection ~ 3475 5500
 Wire Wire Line
-	2475 5800 2550 5800
+	3600 5900 3475 5900
+Connection ~ 3475 5900
 Wire Wire Line
-	3250 6550 3250 6000
-Connection ~ 3250 6000
+	2475 5800 2750 5800
 Wire Wire Line
-	3600 5700 3350 5700
-Connection ~ 3350 5700
+	3600 5700 3475 5700
+Connection ~ 3475 5700
 Connection ~ 2475 6200
-Connection ~ 3150 5800
-Connection ~ 3350 4900
+Connection ~ 3475 4900
 Wire Wire Line
 	4000 6250 4125 6250
 Wire Wire Line
@@ -1147,9 +1198,7 @@ Connection ~ 8175 4350
 Connection ~ 8175 4500
 Connection ~ 8175 4650
 Wire Wire Line
-	3350 6550 3350 6425
-Wire Wire Line
-	3350 6425 4600 6425
+	2650 6425 4600 6425
 Wire Wire Line
 	4600 5500 8725 5500
 Connection ~ 8175 4800
@@ -1174,17 +1223,6 @@ Connection ~ 6450 2300
 Connection ~ 8175 5500
 Wire Wire Line
 	4600 6425 4600 5500
-$Comp
-L GND #PWR015
-U 1 1 5C855E86
-P 7825 5225
-F 0 "#PWR015" H 7825 5225 30  0001 C CNN
-F 1 "GND" H 7825 5155 30  0001 C CNN
-F 2 "" H 7825 5225 60  0000 C CNN
-F 3 "" H 7825 5225 60  0000 C CNN
-	1    7825 5225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7825 5225 7825 4950
 Wire Wire Line
@@ -1213,43 +1251,8 @@ Connection ~ 7350 4650
 Wire Wire Line
 	7450 4950 7450 4800
 Connection ~ 7450 4800
-$Comp
-L CONN_8X2 P5
-U 1 1 5C856897
-P 10600 4750
-F 0 "P5" V 10600 4975 60  0000 C CNN
-F 1 "DATA BUS" V 10600 4625 50  0000 C CNN
-F 2 "" H 10600 4750 60  0000 C CNN
-F 3 "" H 10600 4750 60  0000 C CNN
-	1    10600 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_8X2 P6
-U 1 1 5C85689D
-P 10600 5650
-F 0 "P6" V 10600 5875 60  0000 C CNN
-F 1 "DATA BUS" V 10600 5525 50  0000 C CNN
-F 2 "" H 10600 5650 60  0000 C CNN
-F 3 "" H 10600 5650 60  0000 C CNN
-	1    10600 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_8X2 P7
-U 1 1 5C8568A3
-P 10600 6550
-F 0 "P7" V 10600 6775 60  0000 C CNN
-F 1 "DATA BUS" V 10600 6425 50  0000 C CNN
-F 2 "" H 10600 6550 60  0000 C CNN
-F 3 "" H 10600 6550 60  0000 C CNN
-	1    10600 6550
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9775 2450 10025 2450
-Text Label 9775 2450 0    60   ~ 0
-Sum Out
 Wire Wire Line
 	9775 3400 10250 3400
 Wire Wire Line
@@ -1360,28 +1363,25 @@ Wire Wire Line
 Connection ~ 6250 7325
 Wire Wire Line
 	6475 6625 6475 6775
-Text Notes 5100 6250 0    60   ~ 0
-+5v for power rails and decoupling\ncapacitors (below)
-Text Notes 550  2850 0    60   ~ 0
-Status signals (with a ?) and control signal bus (below)
-Text Notes 1750 1400 0    60   ~ 0
-Direct link to register A
-Text Notes 550  4550 0    60   ~ 0
-Direct link to register B
-Text Notes 1200 7250 0    60   ~ 0
-INC: Switch off input from B register and replace by 00000001\nusing pull-down resistor array and one pull-up resistor\n\nDEC: achieved by using INC and Subtract commands
-Text Notes 3450 4150 0    60   ~ 0
-Subtract: by\ninverting B\nregister input\n(below) and \nadding 1 (right)
-Text Notes 8000 1600 0    60   ~ 0
-MSB indicates a negative result.
-Text Notes 8400 3900 0    60   ~ 0
-LSB indicates an odd or even result
-Text Notes 8850 6150 0    60   ~ 0
-16-way IDC ribbon cable\nheaders (right) wired in\nvertical pairs, provides a\n4 port Data Bus for Hol-1
-Text Notes 9450 1950 0    60   ~ 0
-Note: the status flags resulting from\nany sum can be tested without\nhaving to place the result onto the\nData Bus, using Sum-Out (below)
-Text Notes 6250 1800 0    60   ~ 0
-The Carry status (left) indicates the\nresult has overflowed a byte but can\nbe used to signal a carry forward to\na higher word of, say, a 16 byte word
-Text Notes 8250 5150 0    60   ~ 0
-If any bit of the 8-bit result is set\nthen that is enough to signal a\nnon-zero result
+Wire Wire Line
+	2650 6550 2650 6425
+Wire Wire Line
+	2850 5700 2850 6550
+Connection ~ 2750 6000
+Wire Wire Line
+	2950 6550 2950 5600
+Connection ~ 2950 5600
+Connection ~ 3050 5500
+Connection ~ 2850 5800
+Wire Wire Line
+	3150 6550 3150 5200
+Connection ~ 3150 5200
+Wire Wire Line
+	3250 6550 3250 5000
+Connection ~ 3250 5000
+Wire Wire Line
+	3350 4800 3350 6550
+Wire Wire Line
+	3350 4600 3475 4600
+Connection ~ 3350 4800
 $EndSCHEMATC
