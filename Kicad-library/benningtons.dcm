@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sun 10 Mar 2019 13:01:44 GMT
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Mar 2019 21:47:33 GMT
 #
 $CMP +5V
 D +5v supply
@@ -15,6 +15,12 @@ $CMP 74LS139
 D dual 2 to 4-line decoder/demultiplexer, inverting outputs
 K TTL 139 decoder
 F http://www.ti.com/lit/gpn/sn74ls139a
+$ENDCMP
+#
+$CMP 74LS173
+D 4-bit D-type Register
+K TTL Register 163
+F https://www.ti.com/lit/ds/symlink/sn54ls173a.pdf
 $ENDCMP
 #
 $CMP 74LS189
@@ -57,8 +63,8 @@ K 8 conn ribbon header
 $ENDCMP
 #
 $CMP CONN_8X2
-D 16-way ribbon cable header
-K 16 ribbon header
+D 16 way ribbon cable IDC header
+K CONN
 $ENDCMP
 #
 $CMP DIODE
