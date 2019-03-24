@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 12 Mar 2019 22:45:06 GMT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 24 Mar 2019 00:13:14 GMT
 
 BeginCmp
 TimeStamp = /5C60D0BB;
@@ -165,42 +165,42 @@ BeginCmp
 TimeStamp = /5C81AD95;
 Reference = U1;
 ValeurCmp = 74LS283;
-IdModule  = DIP-16__300;
+IdModule  = DIP-16;
 EndCmp
 
 BeginCmp
 TimeStamp = /5C81ADA2;
 Reference = U2;
 ValeurCmp = 74LS283;
-IdModule  = DIP-16__300;
+IdModule  = DIP-16;
 EndCmp
 
 BeginCmp
 TimeStamp = /5C81C8AD;
 Reference = U3;
 ValeurCmp = 74LS86;
-IdModule  = DIP-14__300;
+IdModule  = DIP-14;
 EndCmp
 
 BeginCmp
 TimeStamp = /5C81C8E0;
 Reference = U4;
 ValeurCmp = 74LS86;
-IdModule  = DIP-14__300;
+IdModule  = DIP-14;
 EndCmp
 
 BeginCmp
 TimeStamp = /5C607B53;
 Reference = U5;
 ValeurCmp = 74LS245;
-IdModule  = DIP-20__300;
+IdModule  = DIP-20;
 EndCmp
 
 BeginCmp
 TimeStamp = /5C81A802;
 Reference = U6;
 ValeurCmp = 74LS245;
-IdModule  = DIP-20__300;
+IdModule  = DIP-20;
 EndCmp
 
 EndListe
