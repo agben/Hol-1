@@ -10,7 +10,7 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=/home/ben/Code/Circuits/Hol-1/Kicad-library
+LibDir=../Kicad-library
 NetFmtName=
 RptD_X=0
 RptD_Y=100

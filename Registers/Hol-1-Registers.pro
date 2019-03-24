@@ -5,7 +5,7 @@ update=Thu 21 Mar 2019 23:16:43 GMT
 version=1
 [eeschema]
 version=1
-LibDir=/home/ben/Code/Circuits/Hol-1/Kicad-library
+LibDir=../Kicad-library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -78,7 +78,7 @@ LibName12=led
 LibName13=dip_sockets
 LibName14=pga_sockets
 LibName15=valves
-LibDir=/home/ben/Code/Circuits/Hol-1/Kicad-library
+LibDir=../Kicad-library
 [cvpcb]
 version=1
 NetIExt=net
