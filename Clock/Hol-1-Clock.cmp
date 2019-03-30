@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 30 Mar 2019 19:41:36 GMT
+
+BeginCmp
+TimeStamp = /5C9BFFFA;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = EC2v;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980CC2;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9BFDE4;
+Reference = C3;
+ValeurCmp = 10nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980CEA;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980CE4;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9C0349;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9807B6;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9C006D;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9BFA94;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9BFADE;
+Reference = R1;
+ValeurCmp = 1kΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9BFAE4;
+Reference = R2;
+ValeurCmp = 1kΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9C00A4;
+Reference = R3;
+ValeurCmp = 220Ω;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980CD1;
+Reference = R4;
+ValeurCmp = 1kΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980CDE;
+Reference = R5;
+ValeurCmp = 1MΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9BFBB2;
+Reference = RV1;
+ValeurCmp = 1MΩ;
+IdModule  = RV2X4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980E3A;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C98077C;
+Reference = U1;
+ValeurCmp = NE555;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C980782;
+Reference = U2;
+ValeurCmp = NE555;
+IdModule  = DIP-8__300;
+EndCmp
+
+EndListe

@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  Sat 23 Mar 2019 23:55:10 GMT
+PCBNEW-LibModule-V1  Sat 30 Mar 2019 20:01:15 GMT
 # encoding utf-8
 Units mm
 $INDEX
 DIP-14
 DIP-16
 DIP-20
+EC2v
 $EndINDEX
 $MODULE DIP-14
 Po 0 0 0 15 5C96C756 00000000 ~P
@@ -428,4 +429,36 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE DIP-20
+$MODULE EC2v
+Po 0 0 0 15 5C9FCB03 00000000 ~~
+Li EC2v
+Cd Electrolytic Capacitor vertical
+Kw C cap
+Sc 0
+AR /5C9BFFFA
+Op 0 0 0
+T0 0 -3.81 1.397 1.27 0 0.2032 N V 21 N "C1"
+T1 0 3.81 1.397 1.27 0 0.2032 N I 21 N "1uF"
+DC 0 0 2.54 0 0.15 21
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "1" R 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000006"
+Po -1.27 0
+$EndPAD
+$SHAPE3D
+Na "discret/capacitor/electrolytic/c_vert_c1v5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE EC2v
 $EndLIBRARY
