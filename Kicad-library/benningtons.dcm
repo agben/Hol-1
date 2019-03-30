@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 16 Mar 2019 21:47:33 GMT
+EESchema-DOCLIB  Version 2.0  Date: Wed 27 Mar 2019 22:55:10 GMT
 #
 $CMP +5V
 D +5v supply
@@ -52,6 +52,11 @@ D Non-polarised capacitor
 K cap capacitor c
 $ENDCMP
 #
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
 $CMP CONN_2
 D 2 pin connector
 K 2 conn
@@ -67,9 +72,30 @@ D 16 way ribbon cable IDC header
 K CONN
 $ENDCMP
 #
+$CMP CP1
+D Electrolytic Capacitor
+K C cap
+$ENDCMP
+#
 $CMP DIODE
 D Diode
 K Diode
+$ENDCMP
+#
+$CMP LED
+D Light Emitting Diode
+K LED
+$ENDCMP
+#
+$CMP NE555
+D universal timer IC
+K 555 timer
+F https://en.wikipedia.org/wiki/555_timer_IC
+$ENDCMP
+#
+$CMP POT
+D Potentionmeter
+K R pot
 $ENDCMP
 #
 $CMP R
@@ -80,6 +106,11 @@ $ENDCMP
 $CMP R-ARRAY-8
 D 8 resistors
 K resistor array 8
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
 $ENDCMP
 #
 #End Doc Library

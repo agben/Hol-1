@@ -1,0 +1,411 @@
+EESchema Schematic File Version 2
+LIBS:benningtons
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Hol-1-Clock-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Hol-1 8-bit CPU clock source & selection"
+Date "30 mar 2019"
+Rev ""
+Comp "www.benningtons.net"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NE555 U1
+U 1 1 5C98077C
+P 7450 1700
+F 0 "U1" H 7450 1650 60  0000 C CNN
+F 1 "NE555" H 7450 1750 60  0000 C CNN
+F 2 "~" H 7450 1800 60  0000 C CNN
+F 3 "~" H 7450 1800 60  0000 C CNN
+	1    7450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE555 U2
+U 1 1 5C980782
+P 3350 1700
+F 0 "U2" H 3350 1650 60  0000 C CNN
+F 1 "NE555" H 3350 1750 60  0000 C CNN
+F 2 "~" H 3350 1800 60  0000 C CNN
+F 3 "~" H 3350 1800 60  0000 C CNN
+	1    3350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 5C9807B6
+P 9950 1850
+F 0 "P1" V 9900 1850 40  0000 C CNN
+F 1 "CONN_2" V 10000 1850 40  0000 C CNN
+F 2 "~" H 9950 1850 60  0000 C CNN
+F 3 "~" H 9950 1850 60  0000 C CNN
+	1    9950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5C980CC2
+P 8700 1850
+F 0 "C2" H 8700 1950 40  0000 L CNN
+F 1 "100nF" H 8706 1765 40  0000 L CNN
+F 2 "~" H 8738 1700 30  0000 C CNN
+F 3 "~" H 8700 1850 60  0000 C CNN
+	1    8700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5C980CD1
+P 1250 1300
+F 0 "R4" V 1375 1300 40  0000 C CNN
+F 1 "1kΩ" V 1150 1300 40  0000 C CNN
+F 2 "~" V 1180 1300 30  0000 C CNN
+F 3 "~" H 1250 1250 30  0000 C CNN
+	1    1250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5C980CDE
+P 1850 1300
+F 0 "R5" V 1975 1300 40  0000 C CNN
+F 1 "1MΩ" V 1750 1300 40  0000 C CNN
+F 2 "~" V 1780 1300 30  0000 C CNN
+F 3 "~" H 1850 1250 30  0000 C CNN
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5C980CE4
+P 1850 2200
+F 0 "C5" H 1850 2300 40  0000 L CNN
+F 1 "100nF" H 1856 2115 40  0000 L CNN
+F 2 "~" H 1888 2050 30  0000 C CNN
+F 3 "~" H 1850 2200 60  0000 C CNN
+	1    1850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5C980CEA
+P 3450 2600
+F 0 "C4" H 3450 2700 40  0000 L CNN
+F 1 "10nF" H 3456 2515 40  0000 L CNN
+F 2 "~" H 3488 2450 30  0000 C CNN
+F 3 "~" H 3450 2600 60  0000 C CNN
+	1    3450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5C980E3A
+P 1250 2300
+F 0 "SW1" H 1400 2410 50  0000 C CNN
+F 1 "SW_PUSH" H 1250 2220 50  0000 C CNN
+F 2 "~" H 1250 2300 60  0000 C CNN
+F 3 "~" H 1250 2300 60  0000 C CNN
+	1    1250 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 1100 1250 850 
+Wire Wire Line
+	1250 850  9100 850 
+Wire Wire Line
+	1850 1100 1850 850 
+Connection ~ 1850 850 
+Wire Wire Line
+	3250 1100 3250 850 
+Connection ~ 3250 850 
+Wire Wire Line
+	3450 1100 3450 850 
+Connection ~ 3450 850 
+Wire Wire Line
+	1850 1500 1850 2000
+Wire Wire Line
+	1250 1500 1250 2000
+Wire Wire Line
+	1250 2600 1250 2900
+Wire Wire Line
+	1250 2900 9100 2900
+Wire Wire Line
+	1850 2400 1850 2900
+Connection ~ 1850 2900
+Wire Wire Line
+	2750 1550 1850 1550
+Connection ~ 1850 1550
+Wire Wire Line
+	2750 1700 1850 1700
+Connection ~ 1850 1700
+Wire Wire Line
+	2750 1850 1250 1850
+Connection ~ 1250 1850
+Wire Wire Line
+	3250 2250 3250 2900
+Connection ~ 3250 2900
+Wire Wire Line
+	3450 2250 3450 2400
+Wire Wire Line
+	3450 2800 3450 2900
+Connection ~ 3450 2900
+$Comp
+L CONN_1 P3
+U 1 1 5C9BFA94
+P 4050 1450
+F 0 "P3" H 4025 1400 40  0000 L CNN
+F 1 "CONN_1" H 4050 1505 30  0001 C CNN
+F 2 "" H 4050 1450 60  0000 C CNN
+F 3 "" H 4050 1450 60  0000 C CNN
+	1    4050 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 1700 4050 1700
+Wire Wire Line
+	4050 1700 4050 1600
+$Comp
+L R R1
+U 1 1 5C9BFADE
+P 6300 1350
+F 0 "R1" V 6425 1350 40  0000 C CNN
+F 1 "1kΩ" V 6200 1350 40  0000 C CNN
+F 2 "~" V 6230 1350 30  0000 C CNN
+F 3 "~" H 6300 1300 30  0000 C CNN
+	1    6300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5C9BFAE4
+P 5650 2050
+F 0 "R2" V 5775 2050 40  0000 C CNN
+F 1 "1kΩ" V 5550 2050 40  0000 C CNN
+F 2 "~" V 5580 2050 30  0000 C CNN
+F 3 "~" H 5650 2000 30  0000 C CNN
+	1    5650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV1
+U 1 1 5C9BFBB2
+P 5650 1550
+F 0 "RV1" H 5650 1450 50  0000 C CNN
+F 1 "1MΩ" H 5650 1550 50  0000 C CNN
+F 2 "~" H 5650 1550 60  0000 C CNN
+F 3 "~" H 5650 1550 60  0000 C CNN
+	1    5650 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 1150 6300 850 
+Connection ~ 6300 850 
+Wire Wire Line
+	7350 1100 7350 850 
+Connection ~ 7350 850 
+Wire Wire Line
+	7550 1100 7550 850 
+Connection ~ 7550 850 
+Wire Wire Line
+	5900 1550 6850 1550
+Wire Wire Line
+	5650 1850 5650 1700
+Connection ~ 6300 1550
+Wire Wire Line
+	5650 1700 6850 1700
+Wire Wire Line
+	6850 1850 6750 1850
+Wire Wire Line
+	6750 1850 6750 1700
+Connection ~ 6750 1700
+$Comp
+L C C3
+U 1 1 5C9BFDE4
+P 7550 2600
+F 0 "C3" H 7550 2700 40  0000 L CNN
+F 1 "10nF" H 7556 2515 40  0000 L CNN
+F 2 "~" H 7588 2450 30  0000 C CNN
+F 3 "~" H 7550 2600 60  0000 C CNN
+	1    7550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2250 7550 2400
+Wire Wire Line
+	7550 2800 7550 2900
+Connection ~ 7550 2900
+Wire Wire Line
+	7350 2250 7350 2900
+Connection ~ 7350 2900
+$Comp
+L CP1 C1
+U 1 1 5C9BFFFA
+P 5650 2600
+F 0 "C1" H 5700 2700 50  0000 L CNN
+F 1 "1uF" H 5700 2500 50  0000 L CNN
+F 2 "~" H 5650 2600 60  0000 C CNN
+F 3 "~" H 5650 2600 60  0000 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2900 5650 2800
+Connection ~ 5650 2900
+Wire Wire Line
+	5650 2400 5650 2250
+$Comp
+L CONN_1 P2
+U 1 1 5C9C006D
+P 8150 1450
+F 0 "P2" H 8125 1400 40  0000 L CNN
+F 1 "CONN_1" H 8150 1505 30  0001 C CNN
+F 2 "" H 8150 1450 60  0000 C CNN
+F 3 "" H 8150 1450 60  0000 C CNN
+	1    8150 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 1700 8150 1700
+Wire Wire Line
+	8150 1600 8150 1850
+$Comp
+L R R3
+U 1 1 5C9C00A4
+P 8150 2050
+F 0 "R3" V 8275 2050 40  0000 C CNN
+F 1 "220Ω" V 8050 2050 40  0000 C CNN
+F 2 "~" V 8080 2050 30  0000 C CNN
+F 3 "~" H 8150 2000 30  0000 C CNN
+	1    8150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5C9C0349
+P 8150 2600
+F 0 "D1" H 8150 2700 50  0000 C CNN
+F 1 "LED" H 8150 2500 50  0001 C CNN
+F 2 "~" H 8150 2600 60  0000 C CNN
+F 3 "~" H 8150 2600 60  0000 C CNN
+	1    8150 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 8150 1700
+Wire Wire Line
+	8150 2250 8150 2400
+Wire Wire Line
+	8150 2800 8150 2900
+Connection ~ 8150 2900
+Wire Wire Line
+	9100 850  9100 1750
+Wire Wire Line
+	9100 2900 9100 1950
+Wire Wire Line
+	8700 1650 8700 850 
+Connection ~ 8700 850 
+Wire Wire Line
+	8700 2050 8700 2900
+Connection ~ 8700 2900
+$Comp
+L +5V #PWR01
+U 1 1 5C9FA37D
+P 9600 1650
+F 0 "#PWR01" H 9600 1740 20  0001 C CNN
+F 1 "+5V" H 9600 1750 59  0000 C CNN
+F 2 "~" H 9600 1650 60  0000 C CNN
+F 3 "~" H 9600 1650 60  0000 C CNN
+	1    9600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5C9FA396
+P 9600 2050
+F 0 "#PWR02" H 9600 2050 30  0001 C CNN
+F 1 "GND" H 9600 1980 30  0001 C CNN
+F 2 "~" H 9600 2050 60  0000 C CNN
+F 3 "~" H 9600 2050 60  0000 C CNN
+	1    9600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1750 9600 1750
+Wire Wire Line
+	9100 1950 9600 1950
+Wire Wire Line
+	9600 1950 9600 2050
+Wire Wire Line
+	9600 1750 9600 1650
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5C9FA4F3
+P 9350 1650
+F 0 "#FLG03" H 9350 1745 30  0001 C CNN
+F 1 "PWR_FLAG" H 9350 1830 30  0000 C CNN
+F 2 "~" H 9350 1650 60  0000 C CNN
+F 3 "~" H 9350 1650 60  0000 C CNN
+	1    9350 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1650 9350 1750
+Connection ~ 9350 1750
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5C9FA5BA
+P 9350 2050
+F 0 "#FLG04" H 9350 2145 30  0001 C CNN
+F 1 "PWR_FLAG" H 9350 2230 30  0000 C CNN
+F 2 "~" H 9350 2050 60  0000 C CNN
+F 3 "~" H 9350 2050 60  0000 C CNN
+	1    9350 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 2050 9350 1950
+Connection ~ 9350 1950
+Text Notes 3800 1150 0    60   ~ 0
+Monostable Output\na debounced pulse when SW1 is pressed
+Text Notes 7900 1150 0    60   ~ 0
+Astable Output\nclock pulse frequency adjusted by RV1
+Text Notes 2350 700  0    60   ~ 0
+CLOCK SOURCE A
+Text Notes 6850 700  0    60   ~ 0
+CLOCK SOURCE B
+$EndSCHEMATC
