@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 30 Mar 2019 19:41:36 GMT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 05 Apr 2019 22:53:38 BST
 
 BeginCmp
 TimeStamp = /5C9BFFFA;
@@ -36,8 +36,29 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
+TimeStamp = /5C9FFDA5;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CA001B5;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5C9C0349;
 Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FFD86;
+Reference = D2;
 ValeurCmp = LED;
 IdModule  = LED-5MM;
 EndCmp
@@ -61,6 +82,27 @@ TimeStamp = /5C9BFA94;
 Reference = P3;
 ValeurCmp = CONN_1;
 IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FFD7E;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FFD71;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CA00CB7;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -99,6 +141,20 @@ IdModule  = R4;
 EndCmp
 
 BeginCmp
+TimeStamp = /5C9FFD99;
+Reference = R6;
+ValeurCmp = 1kΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FFD9F;
+Reference = R7;
+ValeurCmp = 1kΩ;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
 TimeStamp = /5C9BFBB2;
 Reference = RV1;
 ValeurCmp = 1MΩ;
@@ -113,6 +169,13 @@ IdModule  = SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
+TimeStamp = /5CA00068;
+Reference = SW2;
+ValeurCmp = SPDT;
+IdModule  = MICROSWITCH_SPST;
+EndCmp
+
+BeginCmp
 TimeStamp = /5C98077C;
 Reference = U1;
 ValeurCmp = NE555;
@@ -124,6 +187,27 @@ TimeStamp = /5C980782;
 Reference = U2;
 ValeurCmp = NE555;
 IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FFD93;
+Reference = U3;
+ValeurCmp = NE555;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FF661;
+Reference = U4;
+ValeurCmp = 74LS00;
+IdModule  = DIP-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /5C9FF7A8;
+Reference = U5;
+ValeurCmp = 74LS04;
+IdModule  = DIP-14;
 EndCmp
 
 EndListe

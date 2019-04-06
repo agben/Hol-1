@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU clock source & selection"
-Date "31 mar 2019"
+Date "5 apr 2019"
 Rev ""
 Comp "www.benningtons.net"
 Comment1 ""
@@ -774,4 +774,6 @@ Text Notes 6475 4875 0    60   ~ 0
 Wire Wire Line
 	5900 4150 5900 4100
 Connection ~ 5900 4100
+NoConn ~ 5400 5150
+NoConn ~ 5400 1650
 $EndSCHEMATC
