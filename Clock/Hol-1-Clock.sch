@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU clock source & selection"
-Date "5 apr 2019"
+Date "23 apr 2019"
 Rev ""
 Comp "www.benningtons.net"
 Comment1 ""
@@ -364,12 +364,12 @@ $EndComp
 $Comp
 L 74LS04 U5
 U 5 1 5C9FF7BB
-P 4375 4600
-F 0 "U5" H 4375 4580 20  0000 C CNN
-F 1 "74LS04" H 4375 4620 20  0000 C CNN
-F 2 "~" H 4425 4600 60  0000 C CNN
-F 3 "~" H 4425 4600 60  0000 C CNN
-	5    4375 4600
+P 4375 4400
+F 0 "U5" H 4375 4380 20  0000 C CNN
+F 1 "74LS04" H 4375 4420 20  0000 C CNN
+F 2 "~" H 4425 4400 60  0000 C CNN
+F 3 "~" H 4425 4400 60  0000 C CNN
+	5    4375 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -408,12 +408,12 @@ $EndComp
 $Comp
 L LED D2
 U 1 1 5C9FFD86
-P 4725 4900
-F 0 "D2" H 4725 5000 50  0000 C CNN
-F 1 "LED" H 4725 4800 50  0001 C CNN
-F 2 "~" H 4725 4900 60  0000 C CNN
-F 3 "~" H 4725 4900 60  0000 C CNN
-	1    4725 4900
+P 4725 5000
+F 0 "D2" H 4725 5100 50  0000 C CNN
+F 1 "LED" H 4725 4900 50  0001 C CNN
+F 2 "~" H 4725 5000 60  0000 C CNN
+F 3 "~" H 4725 5000 60  0000 C CNN
+	1    4725 5000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -643,8 +643,6 @@ Wire Wire Line
 Wire Wire Line
 	1250 1200 1250 950 
 Wire Wire Line
-	4075 4600 4175 4600
-Wire Wire Line
 	6100 5850 6100 6175
 Wire Wire Line
 	9675 5125 9675 5025
@@ -679,9 +677,6 @@ Connection ~ 6100 6575
 Wire Wire Line
 	5050 5950 7025 5950
 Wire Wire Line
-	4725 4600 4575 4600
-Connection ~ 4725 4600
-Wire Wire Line
 	3450 4400 3450 4550
 Wire Wire Line
 	3450 4550 3650 4550
@@ -703,10 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	4725 6575 9175 6575
 Wire Wire Line
-	5400 5300 4725 5300
-Connection ~ 4725 5300
-Wire Wire Line
-	4725 5100 4725 6575
+	4725 5200 4725 6575
 Connection ~ 5900 6575
 Wire Wire Line
 	8500 5575 8500 6575
@@ -760,8 +752,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 4150 4725 4150
 Wire Wire Line
-	4725 4150 4725 4700
-Wire Wire Line
 	5900 4550 5900 4700
 Wire Wire Line
 	6100 4700 6100 4100
@@ -776,4 +766,33 @@ Wire Wire Line
 Connection ~ 5900 4100
 NoConn ~ 5400 5150
 NoConn ~ 5400 1650
+$Comp
+L 74LS04 U5
+U 6 1 5CBF52F2
+P 4375 4750
+F 0 "U5" H 4375 4730 20  0000 C CNN
+F 1 "74LS04" H 4375 4770 20  0000 C CNN
+F 2 "~" H 4425 4750 60  0000 C CNN
+F 3 "~" H 4425 4750 60  0000 C CNN
+	6    4375 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 4750 4725 4750
+Wire Wire Line
+	4575 4400 4725 4400
+Wire Wire Line
+	4725 4750 4725 4800
+Wire Wire Line
+	4725 4400 4725 4150
+Wire Wire Line
+	4175 4400 4175 4750
+Wire Wire Line
+	4075 4600 4175 4600
+Connection ~ 4175 4600
+Wire Wire Line
+	5400 5300 4900 5300
+Wire Wire Line
+	4900 5300 4900 6575
+Connection ~ 4900 6575
 $EndSCHEMATC
