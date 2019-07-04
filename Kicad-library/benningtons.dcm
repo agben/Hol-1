@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 30 Mar 2019 21:56:38 GMT
+EESchema-DOCLIB  Version 2.0  Date: Sun 23 Jun 2019 23:21:22 BST
 #
 $CMP +5V
 D +5v supply
@@ -23,9 +23,15 @@ K TTL 139 decoder
 F http://www.ti.com/lit/gpn/sn74ls139a
 $ENDCMP
 #
+$CMP 74LS157
+D Quad 2 to 1 line mux
+K TTL 157 mux selector multiplexer line
+F https://www.ti.com/lit/ds/symlink/sn74ls157.pdf
+$ENDCMP
+#
 $CMP 74LS173
 D 4-bit D-type Register
-K TTL Register 163
+K TTL Register 173
 F https://www.ti.com/lit/ds/symlink/sn54ls173a.pdf
 $ENDCMP
 #
@@ -56,6 +62,12 @@ $ENDCMP
 $CMP C
 D Non-polarised capacitor
 K cap capacitor c
+$ENDCMP
+#
+$CMP CODE_SWITCH
+D Coded rotary switch
+K Switch code hex bcd dec rotary
+F https://www.apem.com/uk/pt65-series-208.html
 $ENDCMP
 #
 $CMP CONN_1
