@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 13 Jul 2019 23:14:11 BST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 27 Jul 2019 21:47:20 BST
 
 BeginCmp
 TimeStamp = /5D19265E;
@@ -19,6 +19,20 @@ TimeStamp = /5D0FDAFD;
 Reference = D2;
 ValeurCmp = LED;
 IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3CC316;
+Reference = JP1;
+ValeurCmp = 9-PIN_HEADER;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3CB67A;
+Reference = JP2;
+ValeurCmp = 9-PIN_HEADER;
+IdModule  = SIL-9;
 EndCmp
 
 BeginCmp
@@ -50,17 +64,24 @@ IdModule  = pin_array_4x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /5D3C5DD9;
+Reference = P5;
+ValeurCmp = Power;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5D0FDFE4;
 Reference = R1;
-ValeurCmp = R;
-IdModule  = R1;
+ValeurCmp = 220Ω;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /5D19252D;
 Reference = R2;
 ValeurCmp = 1K;
-IdModule  = R1;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
@@ -106,17 +127,17 @@ IdModule  = SW_Hex6;
 EndCmp
 
 BeginCmp
-TimeStamp = /5D0FC53E;
+TimeStamp = /5D2B21C4;
 Reference = SW5;
-ValeurCmp = SPDT;
-IdModule  = SW_SPDT;
+ValeurCmp = DPDT;
+IdModule  = sw-dpdt-push;
 EndCmp
 
 BeginCmp
 TimeStamp = /5D102E6A;
 Reference = SW6;
 ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH;
+IdModule  = sw_push_lrg;
 EndCmp
 
 BeginCmp

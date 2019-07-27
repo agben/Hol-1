@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sun 23 Jun 2019 23:21:22 BST
+EESchema-DOCLIB  Version 2.0  Date: Sun 14 Jul 2019 13:32:40 BST
 #
 $CMP +5V
 D +5v supply
@@ -98,6 +98,11 @@ $ENDCMP
 $CMP DIODE
 D Diode
 K Diode
+$ENDCMP
+#
+$CMP DPDT
+D Double pole double throw switch
+K switch dpdt
 $ENDCMP
 #
 $CMP LED
