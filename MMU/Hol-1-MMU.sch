@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - Memory Management Unit"
-Date "28 jul 2019"
+Date "29 jul 2019"
 Rev "1"
 Comp "www.benningtons.net"
 Comment1 ""
@@ -746,8 +746,6 @@ Text Notes 8150 6600 2    60   ~ 0
 Clock edge detection\nto provide quick snapshot\n of RAM_INPUT signal
 Text Notes 10150 4250 0    60   ~ 0
 Select Run mode\nto use Data Bus\nelse Program mode\nto use input switches
-Text Notes 9900 900  2    60   ~ 0
-+5v supply to power\nrails and IC's\n\nAdd decoupling caps\nafter PCB design
 Text Notes 3550 2350 0    60   ~ 0
 Run mode = use register D to address RAM\nProgram = use switch input instead
 Text Notes 6950 4550 0    60   ~ 0
@@ -822,6 +820,30 @@ F 2 "~" H 6050 900 60  0000 C CNN
 F 3 "~" H 6050 900 60  0000 C CNN
 	1    6050 900 
 	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5D3CCB97
+P 6800 1000
+F 0 "#PWR035" H 6800 1000 30  0001 C CNN
+F 1 "GND" H 6800 930 30  0001 C CNN
+F 2 "~" H 6800 1000 60  0000 C CNN
+F 3 "~" H 6800 1000 60  0000 C CNN
+	1    6800 1000
+	1    0    0    -1  
+$EndComp
+Text Notes 9900 650  2    60   ~ 0
++5v supply to power\nrails, IC's and decoupling caps\n
+$Comp
+L C C4
+U 1 1 5D3F2FA0
+P 9100 1300
+F 0 "C4" H 9100 1400 40  0000 L CNN
+F 1 "100nF" V 9150 1050 40  0000 L CNN
+F 2 "~" H 9138 1150 30  0000 C CNN
+F 3 "~" H 9100 1300 60  0000 C CNN
+	1    9100 1300
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3500 1400 3850 1400
@@ -1225,10 +1247,10 @@ Wire Wire Line
 Wire Wire Line
 	10100 1650 10100 1750
 Wire Wire Line
-	10350 900  10100 900 
+	8700 900  10350 900 
 Connection ~ 10100 900 
 Wire Wire Line
-	10350 1700 10100 1700
+	8700 1700 10350 1700
 Connection ~ 10100 1700
 Wire Wire Line
 	8875 6300 8350 6300
@@ -1247,9 +1269,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 5100 7800 5100
 Wire Wire Line
-	10350 1200 10350 900 
+	10350 900  10350 1200
 Wire Wire Line
-	10350 1400 10350 1700
+	10350 1700 10350 1400
 Wire Wire Line
 	3900 4450 4050 4450
 Wire Wire Line
@@ -1258,17 +1280,6 @@ Wire Wire Line
 	4050 4200 4200 4200
 Wire Wire Line
 	4200 4200 4200 4350
-$Comp
-L GND #PWR035
-U 1 1 5D3CCB97
-P 6800 1000
-F 0 "#PWR035" H 6800 1000 30  0001 C CNN
-F 1 "GND" H 6800 930 30  0001 C CNN
-F 2 "~" H 6800 1000 60  0000 C CNN
-F 3 "~" H 6800 1000 60  0000 C CNN
-	1    6800 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 1150 6600 1150
 Wire Wire Line
@@ -1281,4 +1292,110 @@ Wire Wire Line
 	7400 5300 7650 5300
 Wire Wire Line
 	7400 5500 8350 5500
+Wire Wire Line
+	9100 1100 9100 900 
+Wire Wire Line
+	9100 1500 9100 1700
+Wire Wire Line
+	9300 1500 9300 1700
+Connection ~ 9300 1700
+Wire Wire Line
+	9500 1500 9500 1700
+Connection ~ 9500 1700
+Wire Wire Line
+	9700 1500 9700 1700
+Connection ~ 9700 1700
+Wire Wire Line
+	9900 1500 9900 1700
+Connection ~ 9900 1700
+Wire Wire Line
+	9300 1100 9300 900 
+Connection ~ 9300 900 
+Wire Wire Line
+	9500 1100 9500 900 
+Connection ~ 9500 900 
+Wire Wire Line
+	9700 1100 9700 900 
+Connection ~ 9700 900 
+Wire Wire Line
+	9900 1100 9900 900 
+Connection ~ 9900 900 
+$Comp
+L C C5
+U 1 1 5D3F3F7D
+P 9300 1300
+F 0 "C5" H 9300 1400 40  0000 L CNN
+F 1 "100nF" V 9350 1050 40  0000 L CNN
+F 2 "~" H 9338 1150 30  0000 C CNN
+F 3 "~" H 9300 1300 60  0000 C CNN
+	1    9300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5D3F3F83
+P 9500 1300
+F 0 "C6" H 9500 1400 40  0000 L CNN
+F 1 "100nF" V 9550 1050 40  0000 L CNN
+F 2 "~" H 9538 1150 30  0000 C CNN
+F 3 "~" H 9500 1300 60  0000 C CNN
+	1    9500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 5D3F3F89
+P 9700 1300
+F 0 "C7" H 9700 1400 40  0000 L CNN
+F 1 "100nF" V 9750 1050 40  0000 L CNN
+F 2 "~" H 9738 1150 30  0000 C CNN
+F 3 "~" H 9700 1300 60  0000 C CNN
+	1    9700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5D3F3F8F
+P 9900 1300
+F 0 "C8" H 9900 1400 40  0000 L CNN
+F 1 "100nF" V 9950 1050 40  0000 L CNN
+F 2 "~" H 9938 1150 30  0000 C CNN
+F 3 "~" H 9900 1300 60  0000 C CNN
+	1    9900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5D3F4132
+P 8900 1300
+F 0 "C3" H 8900 1400 40  0000 L CNN
+F 1 "100nF" V 8950 1050 40  0000 L CNN
+F 2 "~" H 8938 1150 30  0000 C CNN
+F 3 "~" H 8900 1300 60  0000 C CNN
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5D3F4138
+P 8700 1300
+F 0 "C2" H 8700 1400 40  0000 L CNN
+F 1 "100nF" V 8750 1050 40  0000 L CNN
+F 2 "~" H 8738 1150 30  0000 C CNN
+F 3 "~" H 8700 1300 60  0000 C CNN
+	1    8700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1100 8900 900 
+Connection ~ 9100 900 
+Wire Wire Line
+	8700 1100 8700 900 
+Connection ~ 8900 900 
+Wire Wire Line
+	8900 1500 8900 1700
+Connection ~ 9100 1700
+Wire Wire Line
+	8700 1500 8700 1700
+Connection ~ 8900 1700
 $EndSCHEMATC

@@ -1,9 +1,58 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 27 Jul 2019 21:47:20 BST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 29 Jul 2019 18:59:28 BST
 
 BeginCmp
 TimeStamp = /5D19265E;
 Reference = C1;
 ValeurCmp = 0.01uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F4138;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F4132;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F2FA0;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F3F7D;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F3F83;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F3F89;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D3F3F8F;
+Reference = C8;
+ValeurCmp = 100nF;
 IdModule  = C1;
 EndCmp
 
@@ -24,14 +73,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5D3CC316;
 Reference = JP1;
-ValeurCmp = 9-PIN_HEADER;
+ValeurCmp = Blinkenlights;
 IdModule  = SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /5D3CB67A;
 Reference = JP2;
-ValeurCmp = 9-PIN_HEADER;
+ValeurCmp = Blinkenlights;
 IdModule  = SIL-9;
 EndCmp
 
