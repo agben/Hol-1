@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - Memory Management Unit"
-Date "27 jul 2019"
+Date "28 jul 2019"
 Rev "1"
 Comp "www.benningtons.net"
 Comment1 ""
@@ -688,11 +688,11 @@ F 3 "~" H 7050 5450 60  0000 C CNN
 	1    7050 5450
 	-1   0    0    1   
 $EndComp
-Text Label 7400 5700 0    60   ~ 0
+Text Label 7400 5300 0    60   ~ 0
 CLK
 Text Label 7400 5200 0    60   ~ 0
 IN-D
-Text Label 7400 5800 0    60   ~ 0
+Text Label 7400 5500 0    60   ~ 0
 RAM-INPUT
 Text Label 7400 5100 0    60   ~ 0
 RAM-OUT
@@ -763,8 +763,8 @@ Run mode = pass Data Bus to RAM\nProgram = use switch input instead
 Text Notes 7750 1950 0    60   ~ 0
 6-bit memory addressing\nso top 2 bits ignored
 NoConn ~ 7400 5600
-NoConn ~ 7400 5300
-NoConn ~ 7400 5500
+NoConn ~ 7400 5800
+NoConn ~ 7400 5700
 NoConn ~ 7400 5400
 Text Notes 650  7400 0    60   ~ 0
 Note: Rotary switches (SW1-4)\nselect 0 to F and output the\nresult in 4-bits.
@@ -1233,7 +1233,7 @@ Connection ~ 10100 1700
 Wire Wire Line
 	8875 6300 8350 6300
 Wire Wire Line
-	8875 6200 8350 6200
+	8350 6200 8875 6200
 Wire Wire Line
 	10750 5750 11100 5750
 Wire Wire Line
@@ -1243,11 +1243,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 5200 7650 5200
 Wire Wire Line
-	7400 5700 7600 5700
-Wire Wire Line
-	7400 5800 8350 5800
-Wire Wire Line
-	8350 5800 8350 6200
+	8350 5500 8350 6200
 Wire Wire Line
 	7400 5100 7800 5100
 Wire Wire Line
@@ -1281,4 +1277,8 @@ Wire Wire Line
 	6600 850  6800 850 
 Wire Wire Line
 	6800 850  6800 1000
+Wire Wire Line
+	7400 5300 7650 5300
+Wire Wire Line
+	7400 5500 8350 5500
 $EndSCHEMATC
