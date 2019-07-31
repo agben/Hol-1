@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 29 Jul 2019 18:59:28 BST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 31 Jul 2019 23:12:16 BST
 
 BeginCmp
 TimeStamp = /5D19265E;
@@ -71,17 +71,17 @@ IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /5D3CC316;
+TimeStamp = /5D4233C9;
 Reference = JP1;
 ValeurCmp = Blinkenlights;
-IdModule  = SIL-9;
+IdModule  = SIL-10;
 EndCmp
 
 BeginCmp
-TimeStamp = /5D3CB67A;
+TimeStamp = /5D420FD3;
 Reference = JP2;
 ValeurCmp = Blinkenlights;
-IdModule  = SIL-9;
+IdModule  = SIL-10;
 EndCmp
 
 BeginCmp
