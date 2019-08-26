@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 01 Aug 2019 22:53:06 BST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 26 Aug 2019 11:04:55 BST
 
 BeginCmp
 TimeStamp = /5D19265E;
@@ -95,28 +95,28 @@ BeginCmp
 TimeStamp = /5D0FC049;
 Reference = P1;
 ValeurCmp = DATA BUS;
-IdModule  = pin_array_8x2;
+IdModule  = IDC_head_8x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5D0FF6FC;
 Reference = P2;
 ValeurCmp = ADDRESS PORT;
-IdModule  = pin_array_4x2;
+IdModule  = IDC_head_4x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5D100630;
 Reference = P3;
 ValeurCmp = DATA PORT;
-IdModule  = pin_array_4x2;
+IdModule  = IDC_head_4x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5D18F3B6;
 Reference = P4;
 ValeurCmp = MMU CONTROL;
-IdModule  = pin_array_4x2;
+IdModule  = IDC_head_4x2;
 EndCmp
 
 BeginCmp

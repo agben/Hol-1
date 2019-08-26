@@ -1,8 +1,19 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 31 Jul 2019 22:57:19 BST
+EESchema-DOCLIB  Version 2.0  Date: Sat 10 Aug 2019 22:15:15 BST
 #
 $CMP +5V
 D +5v supply
 K 5 +5 power vcc
+$ENDCMP
+#
+$CMP 10-PIN_HEADER
+D 10 Pin Header
+K header
+$ENDCMP
+#
+$CMP 7-Seg-dual-cc
+D dual 7 segment display common cathode 5261as
+K 7 segment led display
+F http://www.xlitx.com/datasheet/5261AS.pdf
 $ENDCMP
 #
 $CMP 74LS00
@@ -98,6 +109,12 @@ $ENDCMP
 $CMP DIODE
 D Diode
 K Diode
+$ENDCMP
+#
+$CMP DM9368
+D 7-Segment Display Driver
+K TTL 9368 LED display
+F https://datasheet.octopart.com/DM9368N-Fairchild-Semiconductor-datasheet-38152238.pdf
 $ENDCMP
 #
 $CMP DPDT
