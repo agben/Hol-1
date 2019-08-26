@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 26 Aug 2019 11:04:23 BST
+PCBNEW-LibModule-V1  Mon 26 Aug 2019 12:15:58 BST
 # encoding utf-8
 Units mm
 $INDEX
@@ -9,6 +9,7 @@ DIP-20
 EC2v
 IDC_head_4x2
 IDC_head_8x2
+JST_head_2X1
 SW_Hex6
 sw-dpdt-push
 sw_push_lrg
@@ -837,6 +838,44 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE IDC_head_8x2
+$MODULE JST_head_2X1
+Po 0 0 0 15 5D63BF19 00000000 ~~
+Li JST_head_2X1
+Cd JST header 2 pins
+Kw CONN JST 2
+Sc 0
+AR /5D3C5DD9
+Op 0 0 0
+T0 0 2.54 0.762 0.762 0 0.1524 N V 21 N "P?"
+T1 0 -1.905 0.762 0.762 0 0.1524 N I 21 N ""
+DS 0.635 1.27 2.54 1.27 0.1524 21
+DS -2.54 1.27 -0.635 1.27 0.1524 21
+DS -2.54 -1.27 -2.54 -2.54 0.1524 21
+DS -2.54 -2.54 2.54 -2.54 0.1524 21
+DS 2.54 -2.54 2.54 -1.27 0.1524 21
+DS -2.54 1.27 -2.54 -1.27 0.1524 21
+DS 2.54 -1.27 2.54 1.27 0.1524 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_2x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE JST_head_2X1
 $MODULE SW_Hex6
 Po 0 0 0 15 5D2B1A48 00000000 ~~
 Li SW_Hex6
