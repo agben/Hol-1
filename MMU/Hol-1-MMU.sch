@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - Memory Management Unit"
-Date "2 aug 2019"
+Date "8 sep 2019"
 Rev "1"
 Comp "www.benningtons.net"
 Comment1 ""
@@ -546,12 +546,12 @@ $Comp
 L SW_PUSH SW6
 U 1 1 5D102E6A
 P 9100 5950
-F 0 "SW6" H 9250 6060 50  0000 C CNN
+F 0 "SW6" H 8950 6050 50  0000 C CNN
 F 1 "SW_PUSH" H 9100 5870 50  0001 C CNN
 F 2 "~" H 9100 5950 60  0000 C CNN
 F 3 "~" H 9100 5950 60  0000 C CNN
 	1    9100 5950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L 74LS157 U7
