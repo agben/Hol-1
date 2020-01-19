@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 26 Aug 2019 23:52:12 BST
+PCBNEW-LibModule-V1  Mon 16 Sep 2019 22:54:09 BST
 # encoding utf-8
 Units mm
 $INDEX
@@ -935,7 +935,7 @@ Po -2.54 -3.81
 $EndPAD
 $EndMODULE SW_Hex6
 $MODULE sw-dpdt-push
-Po 0 0 0 15 5D2B2638 00000000 ~~
+Po 0 0 0 15 5D800477 00000000 ~~
 Li sw-dpdt-push
 Cd Switch DPDT push button
 Kw SWITCH DPDT PUSH
@@ -950,42 +950,42 @@ DS -3.81 3.81 3.81 3.81 0.3048 21
 DS 3.81 -3.81 3.81 3.81 0.3048 21
 DS -3.81 -3.81 -3.81 3.81 0.3048 21
 $PAD
-Sh "1" R 1.524 1.524 0 0 0
+Sh "6" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -2.54 2.54
 $EndPAD
 $PAD
-Sh "2" C 1.524 1.524 0 0 0
+Sh "5" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 2.54
 $EndPAD
 $PAD
-Sh "3" C 1.524 1.524 0 0 0
+Sh "4" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.54 2.54
 $EndPAD
 $PAD
-Sh "4" C 1.524 1.524 0 0 0
+Sh "3" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.54 -2.54
 $EndPAD
 $PAD
-Sh "5" C 1.524 1.524 0 0 0
+Sh "2" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 -2.54
 $EndPAD
 $PAD
-Sh "6" C 1.524 1.524 0 0 0
+Sh "1" R 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""

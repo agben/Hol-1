@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - Registers A, B & C board"
-Date "21 mar 2019"
+Date "18 jan 2020"
 Rev ""
 Comp "www.benningtons.net"
 Comment1 ""
@@ -748,13 +748,6 @@ $EndComp
 Wire Wire Line
 	10550 1550 9600 1550
 Connection ~ 9600 1550
-Connection ~ 9700 1650
-Connection ~ 9800 1750
-Connection ~ 9900 1850
-Connection ~ 10000 1950
-Connection ~ 10100 2050
-Connection ~ 10200 2150
-Connection ~ 10300 2250
 Wire Wire Line
 	800  1650 800  1750
 Wire Wire Line
@@ -796,20 +789,6 @@ F 3 "~" H 10400 1350 60  0000 C CNN
 	1    10400 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10550 1650 9700 1650
-Wire Wire Line
-	9800 1750 10550 1750
-Wire Wire Line
-	9900 1850 10550 1850
-Wire Wire Line
-	10000 1950 10550 1950
-Wire Wire Line
-	10100 2050 10550 2050
-Wire Wire Line
-	10200 2150 10550 2150
-Wire Wire Line
-	10300 2250 10550 2250
 Wire Wire Line
 	800  1350 650  1350
 Wire Wire Line
@@ -1330,16 +1309,7 @@ F 3 "~" H 10000 3100 60  0000 C CNN
 	1    10000 3100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10550 3650 9600 3650
 Connection ~ 9600 3650
-Connection ~ 9700 3750
-Connection ~ 9800 3850
-Connection ~ 9900 3950
-Connection ~ 10000 4050
-Connection ~ 10100 4150
-Connection ~ 10200 4250
-Connection ~ 10300 4350
 $Comp
 L GND #PWR018
 U 1 1 5C916EE7
@@ -1351,20 +1321,6 @@ F 3 "~" H 10400 3450 60  0000 C CNN
 	1    10400 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10550 3750 9700 3750
-Wire Wire Line
-	9800 3850 10550 3850
-Wire Wire Line
-	9900 3950 10550 3950
-Wire Wire Line
-	10000 4050 10550 4050
-Wire Wire Line
-	10100 4150 10550 4150
-Wire Wire Line
-	10200 4250 10550 4250
-Wire Wire Line
-	10300 4350 10550 4350
 Wire Wire Line
 	10400 3350 10400 3450
 $Comp
@@ -1850,4 +1806,48 @@ Text Notes 6150 7100 2    60   ~ 0
 CLK: clock to synchronise Data Bus I/O
 Text Notes 4450 7650 0    60   ~ 0
 CLR: to reset all registers to zero
+Connection ~ 10300 1650
+Wire Wire Line
+	10550 1650 10300 1650
+Connection ~ 9700 1750
+Wire Wire Line
+	10550 1750 9700 1750
+Connection ~ 10200 1850
+Wire Wire Line
+	10550 1850 10200 1850
+Connection ~ 9800 1950
+Connection ~ 10100 2050
+Connection ~ 9900 2150
+Connection ~ 10000 2250
+Wire Wire Line
+	10550 1950 9800 1950
+Wire Wire Line
+	10550 2050 10100 2050
+Wire Wire Line
+	10550 2150 9900 2150
+Wire Wire Line
+	10550 2250 10000 2250
+Connection ~ 10300 3750
+Connection ~ 9700 3850
+Connection ~ 10200 3950
+Connection ~ 9800 4050
+Connection ~ 10100 4150
+Connection ~ 9900 4250
+Connection ~ 10000 4350
+Wire Wire Line
+	10550 3650 9600 3650
+Wire Wire Line
+	10550 3750 10300 3750
+Wire Wire Line
+	10550 3850 9700 3850
+Wire Wire Line
+	10550 3950 10200 3950
+Wire Wire Line
+	10550 4050 9800 4050
+Wire Wire Line
+	10550 4150 10100 4150
+Wire Wire Line
+	10550 4250 9900 4250
+Wire Wire Line
+	10550 4350 10000 4350
 $EndSCHEMATC
