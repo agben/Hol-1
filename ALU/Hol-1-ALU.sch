@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - ALU board"
-Date "16 mar 2019"
+Date "19 jan 2020"
 Rev "1.0"
 Comp "www.Benningtons.Net"
 Comment1 ""
@@ -48,13 +48,13 @@ $EndDescr
 $Comp
 L CONN_8 P2
 U 1 1 5C5A0CA2
-P 700 5250
-F 0 "P2" V 650 5250 60  0000 C CNN
-F 1 "REGISTER B LINK" V 750 5250 60  0000 C CNN
-F 2 "" H 700 5250 60  0000 C CNN
-F 3 "" H 700 5250 60  0000 C CNN
-	1    700  5250
-	-1   0    0    -1  
+P 925 4400
+F 0 "P2" V 875 4400 60  0000 C CNN
+F 1 "REGISTER B LINK" V 975 4400 60  0000 C CNN
+F 2 "" H 925 4400 60  0000 C CNN
+F 3 "" H 925 4400 60  0000 C CNN
+	1    925  4400
+	0    1    -1   0   
 $EndComp
 $Comp
 L CONN_8 P1
@@ -209,17 +209,6 @@ F 2 "" H 10600 3850 60  0000 C CNN
 F 3 "" H 10600 3850 60  0000 C CNN
 	1    10600 3850
 	0    -1   -1   0   
-$EndComp
-$Comp
-L 74LS245 U6
-U 1 1 5C81A802
-P 1875 5400
-F 0 "U6" H 1825 5200 60  0000 L BNN
-F 1 "74LS245" H 1675 5450 60  0000 L TNN
-F 2 "~" H 1875 5400 60  0000 C CNN
-F 3 "~" H 1875 5400 60  0000 C CNN
-	1    1875 5400
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_8 P3
@@ -476,20 +465,6 @@ F 3 "~" H 2475 6750 30  0000 C CNN
 $EndComp
 Text Label 2450 1550 0    60   ~ 0
 A8
-Text Label 2450 1650 0    60   ~ 0
-A7
-Text Label 2450 1750 0    60   ~ 0
-A6
-Text Label 2450 1850 0    60   ~ 0
-A5
-Text Label 2450 1950 0    60   ~ 0
-A4
-Text Label 2450 2050 0    60   ~ 0
-A3
-Text Label 2450 2150 0    60   ~ 0
-A2
-Text Label 2450 2250 0    60   ~ 0
-A1
 Entry Wire Line
 	2875 1550 2975 1650
 Entry Wire Line
@@ -593,40 +568,40 @@ F 3 "" H 5275 2300 60  0000 C CNN
 	1    5275 2300
 	1    0    0    -1  
 $EndComp
-Text Label 1325 3075 0    60   ~ 0
-Negative?
 Text Label 1325 3175 0    60   ~ 0
-INC
-Text Label 1325 3275 0    60   ~ 0
-Sum Out
+Negative?
 Text Label 1325 3375 0    60   ~ 0
+INC
+Text Label 1325 3575 0    60   ~ 0
+Sum Out
+Text Label 1325 3675 0    60   ~ 0
 Subtract
 Text Label 1325 3475 0    60   ~ 0
 Not Zero?
-Text Label 1325 3575 0    60   ~ 0
+Text Label 1325 3275 0    60   ~ 0
 Odd?
-Text Label 1325 3675 0    60   ~ 0
+Text Label 1325 3075 0    60   ~ 0
 Carry?
 $Comp
 L 9-PIN_HEADER JP1
 U 1 1 5C847A3A
-P 2300 3375
-F 0 "JP1" H 2300 3275 60  0000 C CNN
-F 1 "Blinkenlights" H 2300 3375 60  0000 C CNN
-F 2 "" H 2300 3375 60  0000 C CNN
-F 3 "" H 2300 3375 60  0000 C CNN
-	1    2300 3375
-	0    -1   -1   0   
+P 2300 4000
+F 0 "JP1" H 2300 3900 60  0000 C CNN
+F 1 "Blinkenlights" H 2300 4000 60  0000 C CNN
+F 2 "" H 2300 4000 60  0000 C CNN
+F 3 "" H 2300 4000 60  0000 C CNN
+	1    2300 4000
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR012
 U 1 1 5C847C07
-P 2050 3925
-F 0 "#PWR012" H 2050 3925 30  0001 C CNN
-F 1 "GND" H 2050 3855 30  0001 C CNN
-F 2 "" H 2050 3925 60  0000 C CNN
-F 3 "" H 2050 3925 60  0000 C CNN
-	1    2050 3925
+P 1575 3850
+F 0 "#PWR012" H 1575 3850 30  0001 C CNN
+F 1 "GND" H 1575 3780 30  0001 C CNN
+F 2 "" H 1575 3850 60  0000 C CNN
+F 3 "" H 1575 3850 60  0000 C CNN
+	1    1575 3850
 	1    0    0    -1  
 $EndComp
 Text Label 2475 4950 0    60   ~ 0
@@ -729,11 +704,11 @@ Text Label 8325 2600 0    60   ~ 0
 Sum6
 Text Label 8325 2700 0    60   ~ 0
 Sum5
-Text Label 8325 2800 0    60   ~ 0
+Text Label 8350 2800 0    60   ~ 0
 Sum4
 Text Label 8325 2900 0    60   ~ 0
 Sum3
-Text Label 8325 3000 0    60   ~ 0
+Text Label 8350 3000 0    60   ~ 0
 Sum2
 Text Label 8325 3100 0    60   ~ 0
 Sum1
@@ -875,7 +850,7 @@ Text Notes 550  2850 0    60   ~ 0
 Status signals (with a ?) and control signal bus (below)
 Text Notes 1750 1400 0    60   ~ 0
 Direct link to register A
-Text Notes 550  4550 0    60   ~ 0
+Text Notes 550  4225 0    60   ~ 0
 Direct link to register B
 Text Notes 1200 7250 0    60   ~ 0
 INC: Switch off input from B register and replace by 00000001\nusing pull-down resistor array and one pull-up resistor\n\nDEC: achieved by using INC and Subtract commands
@@ -942,48 +917,21 @@ Wire Wire Line
 Wire Wire Line
 	4675 3300 4550 3300
 Wire Wire Line
-	1050 4900 1275 4900
+	1025 5850 1275 5850
 Wire Wire Line
-	1050 5000 1275 5000
+	1325 3075 2700 3075
 Wire Wire Line
-	1050 5100 1275 5100
+	1325 3175 2100 3175
 Wire Wire Line
-	1050 5200 1275 5200
+	1325 3275 2600 3275
 Wire Wire Line
-	1050 5300 1275 5300
+	1325 3375 2200 3375
 Wire Wire Line
-	1050 5400 1275 5400
+	1325 3475 2500 3475
 Wire Wire Line
-	1050 5500 1275 5500
+	1325 3575 2300 3575
 Wire Wire Line
-	1050 5600 1275 5600
-Wire Wire Line
-	1275 5850 1150 5850
-Wire Wire Line
-	1150 4650 1150 6950
-Wire Wire Line
-	1150 4650 1875 4650
-Wire Wire Line
-	1325 2975 2050 2975
-Wire Wire Line
-	1325 3075 2050 3075
-Wire Wire Line
-	1325 3175 2050 3175
-Wire Wire Line
-	1325 3275 2050 3275
-Wire Wire Line
-	1325 3375 2050 3375
-Wire Wire Line
-	1325 3475 2050 3475
-Wire Wire Line
-	1325 3575 2050 3575
-Wire Wire Line
-	1325 3675 2050 3675
-Wire Wire Line
-	2050 3775 2050 3925
-Wire Wire Line
-	1150 6950 2475 6950
-Connection ~ 1150 5850
+	1325 3675 2400 3675
 Wire Wire Line
 	3950 6550 3950 6975
 Wire Wire Line
@@ -1119,12 +1067,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 4150 2900 4150
 Connection ~ 3350 4150
-Wire Wire Line
-	8575 3350 8050 3350
-Wire Wire Line
-	8050 3350 8050 2150
-Wire Wire Line
-	8050 2150 9175 2150
 Wire Wire Line
 	8575 2400 8325 2400
 Wire Wire Line
@@ -1384,4 +1326,109 @@ Wire Wire Line
 Wire Wire Line
 	3350 4600 3475 4600
 Connection ~ 3350 4800
+Text Label 2450 1650 0    60   ~ 0
+A1
+Text Label 2450 1750 0    60   ~ 0
+A7
+Text Label 2450 1850 0    60   ~ 0
+A2
+Text Label 2450 1950 0    60   ~ 0
+A6
+Text Label 2450 2050 0    60   ~ 0
+A3
+Text Label 2450 2150 0    60   ~ 0
+A5
+Text Label 2450 2250 0    60   ~ 0
+A4
+$Comp
+L 74LS245 U6
+U 1 1 5C81A802
+P 1875 5400
+F 0 "U6" H 1825 5200 60  0000 L BNN
+F 1 "74LS245" H 1675 5450 60  0000 L TNN
+F 2 "~" H 1875 5400 60  0000 C CNN
+F 3 "~" H 1875 5400 60  0000 C CNN
+	1    1875 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 4750 1275 4900
+Wire Wire Line
+	1175 4750 1175 5600
+Wire Wire Line
+	1175 5600 1275 5600
+Wire Wire Line
+	1075 4750 1075 5000
+Wire Wire Line
+	1075 5000 1275 5000
+Wire Wire Line
+	975  4750 975  5500
+Wire Wire Line
+	975  5500 1275 5500
+Wire Wire Line
+	875  4750 875  5100
+Wire Wire Line
+	875  5100 1275 5100
+Wire Wire Line
+	775  4750 775  5400
+Wire Wire Line
+	775  5400 1275 5400
+Wire Wire Line
+	675  4750 675  5200
+Wire Wire Line
+	675  5200 1275 5200
+Wire Wire Line
+	575  4750 575  5300
+Wire Wire Line
+	575  5300 1275 5300
+$Comp
+L +5V #PWR016
+U 1 1 5E23B821
+P 1025 5850
+F 0 "#PWR016" H 1025 5940 20  0001 C CNN
+F 1 "+5V" H 1025 5940 30  0000 C CNN
+F 2 "" H 1025 5850 60  0000 C CNN
+F 3 "" H 1025 5850 60  0000 C CNN
+	1    1025 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 5850 1275 6950
+Wire Wire Line
+	1275 6950 2475 6950
+$Comp
+L +5V #PWR017
+U 1 1 5E23BE9C
+P 8500 3350
+F 0 "#PWR017" H 8500 3440 20  0001 C CNN
+F 1 "+5V" H 8500 3440 30  0000 C CNN
+F 2 "" H 8500 3350 60  0000 C CNN
+F 3 "" H 8500 3350 60  0000 C CNN
+	1    8500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 3350 8500 3350
+Wire Wire Line
+	1900 3750 1575 3750
+Wire Wire Line
+	1575 3750 1575 3850
+Wire Wire Line
+	2700 3075 2700 3750
+Wire Wire Line
+	2100 3175 2100 3750
+Wire Wire Line
+	2600 3275 2600 3750
+Wire Wire Line
+	2200 3375 2200 3750
+Wire Wire Line
+	2500 3475 2500 3750
+Wire Wire Line
+	2300 3575 2300 3750
+Wire Wire Line
+	2400 3675 2400 3750
+Wire Wire Line
+	2000 3750 2000 2975
+Wire Wire Line
+	2000 2975 1325 2975
 $EndSCHEMATC
