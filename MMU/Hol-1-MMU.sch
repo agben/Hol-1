@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hol-1 8-bit CPU - Memory Management Unit"
-Date "8 sep 2019"
+Date "29 jan 2020"
 Rev "1"
 Comp "www.benningtons.net"
 Comment1 ""
@@ -331,12 +331,12 @@ $EndComp
 $Comp
 L R R1
 U 1 1 5D0FDFE4
-P 10600 2550
-F 0 "R1" V 10725 2550 40  0000 C CNN
-F 1 "220Ω" V 10500 2550 40  0000 C CNN
-F 2 "~" V 10530 2550 30  0000 C CNN
-F 3 "~" H 10600 2500 30  0000 C CNN
-	1    10600 2550
+P 10700 2550
+F 0 "R1" V 10800 2450 40  0000 C CNN
+F 1 "220Ω" V 10800 2600 40  0000 C CNN
+F 2 "~" V 10630 2550 30  0000 C CNN
+F 3 "~" H 10700 2500 30  0000 C CNN
+	1    10700 2550
 	1    0    0    -1  
 $EndComp
 Text Notes 10400 2900 2    60   ~ 0
@@ -760,17 +760,6 @@ NoConn ~ 7450 5600
 Text Notes 650  7400 0    60   ~ 0
 Note: Rotary switches (SW1-4)\nselect 0 to F and output the\nresult in 4-bits.
 $Comp
-L DPDT SW5
-U 1 1 5D2B21C4
-P 10600 3850
-F 0 "SW5" H 10400 4000 50  0000 C CNN
-F 1 "DPDT" H 10450 3700 50  0001 C CNN
-F 2 "~" H 10600 3850 60  0000 C CNN
-F 3 "~" H 10600 3850 60  0000 C CNN
-	1    10600 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L CONN_2 P5
 U 1 1 5D3C5DD9
 P 11050 1300
@@ -1073,9 +1062,6 @@ Wire Wire Line
 	10500 2750 10500 2850
 Wire Wire Line
 	10700 2750 10700 2850
-Wire Wire Line
-	10500 2750 10700 2750
-Connection ~ 10600 2750
 Wire Wire Line
 	3400 1700 3500 1700
 Connection ~ 3500 1700
@@ -1474,4 +1460,29 @@ Connection ~ 9500 6650
 Wire Wire Line
 	9600 6750 9500 6750
 Connection ~ 9500 6750
+$Comp
+L DPDT SW5
+U 1 1 5D8007A6
+P 10600 3850
+F 0 "SW5" H 10400 4000 50  0000 C CNN
+F 1 "DPDT" H 10450 3700 50  0001 C CNN
+F 2 "~" H 10600 3850 60  0000 C CNN
+F 3 "~" H 10600 3850 60  0000 C CNN
+	1    10600 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5E31EEDA
+P 10500 2550
+F 0 "R3" V 10400 2450 40  0000 C CNN
+F 1 "220Ω" V 10400 2600 40  0000 C CNN
+F 2 "~" V 10430 2550 30  0000 C CNN
+F 3 "~" H 10500 2500 30  0000 C CNN
+	1    10500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2350 10700 2350
+Connection ~ 10600 2350
 $EndSCHEMATC

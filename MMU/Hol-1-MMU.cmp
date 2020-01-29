@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 26 Aug 2019 23:56:12 BST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 29 Jan 2020 20:49:12 GMT
 
 BeginCmp
 TimeStamp = /5D19265E;
@@ -134,8 +134,15 @@ IdModule  = R4;
 EndCmp
 
 BeginCmp
-TimeStamp = /5D19252D;
+TimeStamp = /5E31EEDA;
 Reference = R2;
+ValeurCmp = 220Ω;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5D19252D;
+Reference = R3;
 ValeurCmp = 1K;
 IdModule  = R4;
 EndCmp
@@ -183,7 +190,7 @@ IdModule  = SW_Hex6;
 EndCmp
 
 BeginCmp
-TimeStamp = /5D2B21C4;
+TimeStamp = /5D8007A6;
 Reference = SW5;
 ValeurCmp = DPDT;
 IdModule  = sw-dpdt-push;
