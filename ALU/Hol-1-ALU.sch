@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Hol-1-ALU-rescue
 LIBS:benningtons
 LIBS:power
 LIBS:device
@@ -11,7 +12,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Hol-1-ALU-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -442,7 +442,7 @@ F 3 "~" H 7975 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-ARRAY-8 RA1
+L R-array-8 RA1
 U 1 1 5C81D152
 P 3000 6900
 F 0 "RA1" V 3175 6925 70  0000 C CNN
@@ -852,7 +852,7 @@ Text Notes 1750 1400 0    60   ~ 0
 Direct link to register A
 Text Notes 550  4225 0    60   ~ 0
 Direct link to register B
-Text Notes 1200 7250 0    60   ~ 0
+Text Notes 1200 7550 0    60   ~ 0
 INC: Switch off input from B register and replace by 00000001\nusing pull-down resistor array and one pull-up resistor\n\nDEC: achieved by using INC and Subtract commands
 Text Notes 3450 4150 0    60   ~ 0
 Subtract: by\ninverting B\nregister input\n(below) and \nadding 1 (right)
@@ -862,7 +862,7 @@ Text Notes 8400 3900 0    60   ~ 0
 LSB indicates an odd or even result
 Text Notes 8850 6150 0    60   ~ 0
 16-way IDC ribbon cable\nheaders (right) wired in\nvertical pairs, provides a\n4 port Data Bus for Hol-1
-Text Notes 9450 1950 0    60   ~ 0
+Text Notes 9450 2100 0    60   ~ 0
 Note: the status flags resulting from\nany sum can be tested without\nhaving to place the result onto the\nData Bus, using Sum-Out (below)
 Text Notes 6250 1800 0    60   ~ 0
 The Carry status (left) indicates the\nresult has overflowed a byte but can\nbe used to signal a carry forward to\na higher word of, say, a 16 byte word

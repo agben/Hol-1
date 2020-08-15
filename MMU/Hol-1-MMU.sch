@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Hol-1-MMU-rescue
 LIBS:benningtons
 LIBS:power
 LIBS:device
@@ -11,7 +12,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Hol-1-MMU-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -252,7 +252,7 @@ F 3 "~" H 4650 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-ARRAY-8 RA1
+L R-array-8 RA1
 U 1 1 5D0EBE15
 P 6450 4450
 F 0 "RA1" V 6500 4300 70  0000 C CNN
@@ -463,7 +463,7 @@ F 3 "~" H 1650 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-ARRAY-8 RA2
+L R-array-8 RA2
 U 1 1 5D1005E6
 P 3450 7650
 F 0 "RA2" V 3500 7500 70  0000 C CNN

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 16 Sep 2019 23:02:17 BST
+EESchema-DOCLIB  Version 2.0  Date: Mon 03 Aug 2020 00:42:10 BST
 #
 $CMP +5V
 D +5v supply
@@ -125,6 +125,12 @@ $ENDCMP
 $CMP LED
 D Light Emitting Diode
 K LED
+$ENDCMP
+#
+$CMP MC14495P1
+D hex to 7-Segment latch/decoder LED driver
+K TTL 14495 LED display CMOS decoder hex
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC14495P1.pdf
 $ENDCMP
 #
 $CMP NE555
