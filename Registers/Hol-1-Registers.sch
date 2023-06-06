@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:benningtons
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Hol-1-Registers-cache
-EELAYER 27 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74LS245 U1
+L benningtons:74LS245 U1
 U 1 1 5C8D7221
 P 3850 1900
 F 0 "U1" H 3800 1700 60  0000 L BNN
@@ -57,7 +26,7 @@ F 3 "~" H 3850 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U4
+L benningtons:74LS173 U4
 U 1 1 5C8D723E
 P 6050 1800
 F 0 "U4" H 6050 1650 60  0000 C CNN
@@ -68,7 +37,7 @@ F 3 "~" H 6050 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U7
+L benningtons:74LS173 U7
 U 1 1 5C8D724B
 P 8250 1800
 F 0 "U7" H 8250 1650 60  0000 C CNN
@@ -79,7 +48,7 @@ F 3 "~" H 8250 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_8X2 P1
+L benningtons:CONN_8X2 P1
 U 1 1 5C8D7274
 P 1200 1300
 F 0 "P1" V 1200 1050 60  0000 C CNN
@@ -90,7 +59,7 @@ F 3 "~" H 1200 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P5
+L benningtons:CONN_2 P5
 U 1 1 5C8D7285
 P 750 7100
 F 0 "P5" V 700 7100 40  0000 C CNN
@@ -101,7 +70,7 @@ F 3 "~" H 750 7100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_2 P6
+L benningtons:CONN_2 P6
 U 1 1 5C8D7292
 P 4950 7350
 F 0 "P6" V 4900 7350 40  0000 C CNN
@@ -112,7 +81,7 @@ F 3 "~" H 4950 7350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P2
+L benningtons:CONN_2 P2
 U 1 1 5C8D7298
 P 1200 2350
 F 0 "P2" V 1200 2350 40  0000 C CNN
@@ -123,7 +92,7 @@ F 3 "~" H 1200 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1
+L benningtons:C C1
 U 1 1 5C8D72C4
 P 1450 7100
 F 0 "C1" H 1450 7200 40  0000 L CNN
@@ -134,7 +103,7 @@ F 3 "~" H 1450 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L benningtons:C C2
 U 1 1 5C8D72D1
 P 1700 7100
 F 0 "C2" H 1700 7200 40  0000 L CNN
@@ -145,7 +114,7 @@ F 3 "~" H 1700 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L benningtons:C C3
 U 1 1 5C8D72D7
 P 1950 7100
 F 0 "C3" H 1950 7200 40  0000 L CNN
@@ -156,7 +125,7 @@ F 3 "~" H 1950 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L benningtons:C C4
 U 1 1 5C8D72DD
 P 2200 7100
 F 0 "C4" H 2200 7200 40  0000 L CNN
@@ -167,7 +136,7 @@ F 3 "~" H 2200 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L benningtons:C C5
 U 1 1 5C8D72E3
 P 2450 7100
 F 0 "C5" H 2450 7200 40  0000 L CNN
@@ -178,7 +147,7 @@ F 3 "~" H 2450 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L benningtons:C C6
 U 1 1 5C8D72E9
 P 2700 7100
 F 0 "C6" H 2700 7200 40  0000 L CNN
@@ -189,7 +158,7 @@ F 3 "~" H 2700 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR01
+L benningtons:+5V #PWR01
 U 1 1 5C8D73A3
 P 1350 6800
 F 0 "#PWR01" H 1350 6890 20  0001 C CNN
@@ -200,7 +169,7 @@ F 3 "~" H 1350 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L benningtons:GND #PWR02
 U 1 1 5C8D73B2
 P 1350 7500
 F 0 "#PWR02" H 1350 7500 30  0001 C CNN
@@ -211,7 +180,7 @@ F 3 "~" H 1350 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L benningtons:PWR_FLAG #FLG03
 U 1 1 5C8D73C1
 P 1100 7400
 F 0 "#FLG03" H 1100 7495 30  0001 C CNN
@@ -222,7 +191,7 @@ F 3 "~" H 1100 7400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L benningtons:PWR_FLAG #FLG04
 U 1 1 5C8D73CE
 P 1100 6850
 F 0 "#FLG04" H 1100 6945 30  0001 C CNN
@@ -233,7 +202,7 @@ F 3 "~" H 1100 6850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L benningtons:+5V #PWR05
 U 1 1 5C8D7827
 P 8250 1150
 F 0 "#PWR05" H 8250 1240 20  0001 C CNN
@@ -244,7 +213,7 @@ F 3 "~" H 8250 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L benningtons:+5V #PWR06
 U 1 1 5C8D782D
 P 6050 1150
 F 0 "#PWR06" H 6050 1240 20  0001 C CNN
@@ -255,7 +224,7 @@ F 3 "~" H 6050 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR07
+L benningtons:+5V #PWR07
 U 1 1 5C8D7833
 P 3850 1150
 F 0 "#PWR07" H 3850 1240 20  0001 C CNN
@@ -266,7 +235,7 @@ F 3 "~" H 3850 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L benningtons:GND #PWR08
 U 1 1 5C8D7888
 P 8250 2450
 F 0 "#PWR08" H 8250 2450 30  0001 C CNN
@@ -277,7 +246,7 @@ F 3 "~" H 8250 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L benningtons:GND #PWR09
 U 1 1 5C8D788E
 P 6050 2450
 F 0 "#PWR09" H 6050 2450 30  0001 C CNN
@@ -288,7 +257,7 @@ F 3 "~" H 6050 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L benningtons:GND #PWR010
 U 1 1 5C8D7894
 P 3850 2650
 F 0 "#PWR010" H 3850 2650 30  0001 C CNN
@@ -299,7 +268,7 @@ F 3 "~" H 3850 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P7
+L benningtons:CONN_8 P7
 U 1 1 5C8E9599
 P 10900 1900
 F 0 "P7" V 10950 1900 60  0000 C CNN
@@ -470,7 +439,7 @@ Entry Wire Line
 Entry Wire Line
 	2950 2200 3050 2100
 Wire Wire Line
-	1100 6850 2700 6850
+	1100 6850 1350 6850
 Wire Wire Line
 	2700 6850 2700 6900
 Connection ~ 1350 6850
@@ -505,7 +474,6 @@ Wire Wire Line
 Connection ~ 2450 7400
 Wire Wire Line
 	2700 7400 2700 7300
-Connection ~ 2700 7400
 Wire Wire Line
 	1350 6800 1350 6850
 Wire Wire Line
@@ -517,7 +485,7 @@ Wire Wire Line
 	1350 7400 1350 7500
 Connection ~ 1350 7400
 Wire Wire Line
-	1100 7400 2700 7400
+	1100 7400 1350 7400
 Wire Wire Line
 	3250 2350 2800 2350
 Wire Wire Line
@@ -542,8 +510,6 @@ Wire Wire Line
 	4450 2300 4650 2300
 Wire Wire Line
 	4450 2400 4650 2400
-Wire Bus Line
-	2250 850  2250 4950
 Wire Wire Line
 	6650 1900 6850 1900
 Wire Wire Line
@@ -578,12 +544,6 @@ Wire Wire Line
 	7650 2100 7450 2100
 Wire Wire Line
 	7650 2200 7450 2200
-Wire Bus Line
-	4750 850  4750 2300
-Wire Bus Line
-	5150 850  5150 2100
-Wire Bus Line
-	7350 850  7350 2100
 Wire Wire Line
 	3250 1400 3050 1400
 Wire Wire Line
@@ -601,16 +561,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 2100 3050 2100
 Wire Bus Line
-	6950 2000 6950 2750
-Wire Bus Line
-	2950 2750 10200 2750
-Wire Bus Line
-	2950 1500 2950 2750
-Wire Bus Line
-	9150 2000 9150 2750
+	2950 2750 6950 2750
 Connection ~ 6950 2750
 Wire Wire Line
-	6650 1400 7050 1400
+	6650 1400 6750 1400
 Wire Wire Line
 	7050 1400 7050 2450
 Wire Wire Line
@@ -621,7 +575,7 @@ Wire Wire Line
 	6750 1500 6750 1400
 Connection ~ 6750 1400
 Wire Wire Line
-	8850 1400 9250 1400
+	8850 1400 8950 1400
 Wire Wire Line
 	9250 1400 9250 2450
 Wire Wire Line
@@ -656,7 +610,7 @@ Wire Wire Line
 Text Label 7450 1700 0    60   ~ 0
 CLK
 Wire Wire Line
-	5250 1400 5450 1400
+	5250 1400 5350 1400
 Wire Wire Line
 	5450 1500 5350 1500
 Wire Wire Line
@@ -667,7 +621,7 @@ IN-A
 Wire Wire Line
 	1550 2450 1750 2450
 Wire Wire Line
-	7450 1400 7650 1400
+	7450 1400 7550 1400
 Wire Wire Line
 	7650 1500 7550 1500
 Wire Wire Line
@@ -686,21 +640,21 @@ CLR
 Text Label 6650 1700 0    60   ~ 0
 CLR
 Wire Wire Line
-	9600 1250 9600 2650
+	9600 1250 9600 1550
 Wire Wire Line
-	9700 1250 9700 2650
+	9700 1250 9700 1750
 Wire Wire Line
-	9800 1250 9800 2650
+	9800 1250 9800 1950
 Wire Wire Line
-	9900 1250 9900 2650
+	9900 1250 9900 2150
 Wire Wire Line
-	10000 1250 10000 2650
+	10000 1250 10000 2250
 Wire Wire Line
-	10100 1250 10100 2650
+	10100 1250 10100 2050
 Wire Wire Line
-	10200 1250 10200 2650
+	10200 1250 10200 1850
 Wire Wire Line
-	10300 1250 10300 2650
+	10300 1250 10300 1650
 Text Label 9600 2650 1    60   ~ 0
 A1
 Text Label 9700 2650 1    60   ~ 0
@@ -735,7 +689,7 @@ Entry Wire Line
 	10200 2750 10300 2650
 Connection ~ 9150 2750
 $Comp
-L 9-PIN_HEADER JP1
+L benningtons:9-PIN_HEADER JP1
 U 1 1 5C8D72F1
 P 10000 1000
 F 0 "JP1" H 10000 900 60  0000 C CNN
@@ -765,7 +719,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1800 1650 1550
 Wire Wire Line
-	1600 1550 2150 1550
+	1600 1550 1650 1550
 Connection ~ 1650 1550
 Wire Wire Line
 	800  1450 700  1450
@@ -776,10 +730,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 1850 1700 1450
 Wire Wire Line
-	1600 1450 2150 1450
+	1600 1450 1700 1450
 Connection ~ 1700 1450
 $Comp
-L GND #PWR011
+L benningtons:GND #PWR011
 U 1 1 5C9152BA
 P 10400 1350
 F 0 "#PWR011" H 10400 1350 30  0001 C CNN
@@ -816,7 +770,7 @@ Connection ~ 1650 1050
 Wire Wire Line
 	1600 950  2150 950 
 Wire Wire Line
-	1600 1050 2150 1050
+	1600 1050 1650 1050
 Wire Wire Line
 	800  1150 700  1150
 Wire Wire Line
@@ -835,18 +789,18 @@ Wire Wire Line
 Wire Wire Line
 	1750 700  1750 1250
 Wire Wire Line
-	1600 1250 2150 1250
+	1600 1250 1750 1250
 Connection ~ 1750 1250
 Wire Wire Line
-	1600 1150 2150 1150
+	1600 1150 1700 1150
 Wire Wire Line
-	1600 1350 2150 1350
+	1600 1350 1750 1350
 Wire Bus Line
-	2250 850  7350 850 
+	2250 850  4750 850 
 Wire Wire Line
 	10400 1250 10400 1350
 $Comp
-L 74LS245 U2
+L benningtons:74LS245 U2
 U 1 1 5C916DC3
 P 3850 4000
 F 0 "U2" H 3800 3800 60  0000 L BNN
@@ -857,7 +811,7 @@ F 3 "~" H 3850 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U5
+L benningtons:74LS173 U5
 U 1 1 5C916DC9
 P 6050 3900
 F 0 "U5" H 6050 3750 60  0000 C CNN
@@ -868,7 +822,7 @@ F 3 "~" H 6050 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U8
+L benningtons:74LS173 U8
 U 1 1 5C916DCF
 P 8250 3900
 F 0 "U8" H 8250 3750 60  0000 C CNN
@@ -879,7 +833,7 @@ F 3 "~" H 8250 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P3
+L benningtons:CONN_2 P3
 U 1 1 5C916DDB
 P 1200 4000
 F 0 "P3" V 1200 4000 40  0000 C CNN
@@ -890,7 +844,7 @@ F 3 "~" H 1200 4000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L benningtons:+5V #PWR012
 U 1 1 5C916DE1
 P 8250 3250
 F 0 "#PWR012" H 8250 3340 20  0001 C CNN
@@ -901,7 +855,7 @@ F 3 "~" H 8250 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR013
+L benningtons:+5V #PWR013
 U 1 1 5C916DE7
 P 6050 3250
 F 0 "#PWR013" H 6050 3340 20  0001 C CNN
@@ -912,7 +866,7 @@ F 3 "~" H 6050 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR014
+L benningtons:+5V #PWR014
 U 1 1 5C916DED
 P 3850 3250
 F 0 "#PWR014" H 3850 3340 20  0001 C CNN
@@ -923,7 +877,7 @@ F 3 "~" H 3850 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L benningtons:GND #PWR015
 U 1 1 5C916DF3
 P 8250 4550
 F 0 "#PWR015" H 8250 4550 30  0001 C CNN
@@ -934,7 +888,7 @@ F 3 "~" H 8250 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L benningtons:GND #PWR016
 U 1 1 5C916DF9
 P 6050 4550
 F 0 "#PWR016" H 6050 4550 30  0001 C CNN
@@ -945,7 +899,7 @@ F 3 "~" H 6050 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L benningtons:GND #PWR017
 U 1 1 5C916DFF
 P 3850 4750
 F 0 "#PWR017" H 3850 4750 30  0001 C CNN
@@ -956,7 +910,7 @@ F 3 "~" H 3850 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P8
+L benningtons:CONN_8 P8
 U 1 1 5C916E05
 P 10900 4000
 F 0 "P8" V 10950 4000 60  0000 C CNN
@@ -1150,12 +1104,6 @@ Wire Wire Line
 	7650 4200 7450 4200
 Wire Wire Line
 	7650 4300 7450 4300
-Wire Bus Line
-	4750 2950 4750 4400
-Wire Bus Line
-	5150 2950 5150 4200
-Wire Bus Line
-	7350 2950 7350 4200
 Wire Wire Line
 	3250 3500 3050 3500
 Wire Wire Line
@@ -1173,16 +1121,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 4200 3050 4200
 Wire Bus Line
-	6950 4100 6950 4850
-Wire Bus Line
-	2950 4850 10200 4850
-Wire Bus Line
-	2950 3600 2950 4850
-Wire Bus Line
-	9150 4100 9150 4850
+	2950 4850 6950 4850
 Connection ~ 6950 4850
 Wire Wire Line
-	6650 3500 7050 3500
+	6650 3500 6750 3500
 Wire Wire Line
 	7050 3500 7050 4550
 Wire Wire Line
@@ -1193,7 +1135,7 @@ Wire Wire Line
 	6750 3600 6750 3500
 Connection ~ 6750 3500
 Wire Wire Line
-	8850 3500 9250 3500
+	8850 3500 8950 3500
 Wire Wire Line
 	9250 3500 9250 4550
 Wire Wire Line
@@ -1220,7 +1162,7 @@ Wire Wire Line
 Text Label 7450 3800 0    60   ~ 0
 CLK
 Wire Wire Line
-	5250 3500 5450 3500
+	5250 3500 5350 3500
 Wire Wire Line
 	5450 3600 5350 3600
 Wire Wire Line
@@ -1231,7 +1173,7 @@ IN-B
 Wire Wire Line
 	1550 4100 1750 4100
 Wire Wire Line
-	7450 3500 7650 3500
+	7450 3500 7550 3500
 Wire Wire Line
 	7650 3600 7550 3600
 Wire Wire Line
@@ -1250,21 +1192,21 @@ CLR
 Text Label 6650 3800 0    60   ~ 0
 CLR
 Wire Wire Line
-	9600 3350 9600 4750
+	9600 3350 9600 3650
 Wire Wire Line
-	9700 3350 9700 4750
+	9700 3350 9700 3850
 Wire Wire Line
-	9800 3350 9800 4750
+	9800 3350 9800 4050
 Wire Wire Line
-	9900 3350 9900 4750
+	9900 3350 9900 4250
 Wire Wire Line
-	10000 3350 10000 4750
+	10000 3350 10000 4350
 Wire Wire Line
-	10100 3350 10100 4750
+	10100 3350 10100 4150
 Wire Wire Line
-	10200 3350 10200 4750
+	10200 3350 10200 3950
 Wire Wire Line
-	10300 3350 10300 4750
+	10300 3350 10300 3750
 Text Label 9600 4750 1    60   ~ 0
 B1
 Text Label 9700 4750 1    60   ~ 0
@@ -1299,7 +1241,7 @@ Entry Wire Line
 	10200 4850 10300 4750
 Connection ~ 9150 4850
 $Comp
-L 9-PIN_HEADER JP2
+L benningtons:9-PIN_HEADER JP2
 U 1 1 5C916EC8
 P 10000 3100
 F 0 "JP2" H 10000 3000 60  0000 C CNN
@@ -1311,7 +1253,7 @@ F 3 "~" H 10000 3100 60  0000 C CNN
 $EndComp
 Connection ~ 9600 3650
 $Comp
-L GND #PWR018
+L benningtons:GND #PWR018
 U 1 1 5C916EE7
 P 10400 3450
 F 0 "#PWR018" H 10400 3450 30  0001 C CNN
@@ -1324,7 +1266,7 @@ $EndComp
 Wire Wire Line
 	10400 3350 10400 3450
 $Comp
-L 74LS245 U3
+L benningtons:74LS245 U3
 U 1 1 5C916F12
 P 3850 6000
 F 0 "U3" H 3800 5800 60  0000 L BNN
@@ -1335,7 +1277,7 @@ F 3 "~" H 3850 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U6
+L benningtons:74LS173 U6
 U 1 1 5C916F18
 P 6050 5900
 F 0 "U6" H 6050 5750 60  0000 C CNN
@@ -1346,7 +1288,7 @@ F 3 "~" H 6050 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U9
+L benningtons:74LS173 U9
 U 1 1 5C916F1E
 P 8250 5900
 F 0 "U9" H 8250 5750 60  0000 C CNN
@@ -1357,7 +1299,7 @@ F 3 "~" H 8250 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P4
+L benningtons:CONN_2 P4
 U 1 1 5C916F2A
 P 1200 5650
 F 0 "P4" V 1200 5650 40  0000 C CNN
@@ -1368,7 +1310,7 @@ F 3 "~" H 1200 5650 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR019
+L benningtons:+5V #PWR019
 U 1 1 5C916F30
 P 8250 5250
 F 0 "#PWR019" H 8250 5340 20  0001 C CNN
@@ -1379,7 +1321,7 @@ F 3 "~" H 8250 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR020
+L benningtons:+5V #PWR020
 U 1 1 5C916F36
 P 6050 5250
 F 0 "#PWR020" H 6050 5340 20  0001 C CNN
@@ -1390,7 +1332,7 @@ F 3 "~" H 6050 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR021
+L benningtons:+5V #PWR021
 U 1 1 5C916F3C
 P 3850 5250
 F 0 "#PWR021" H 3850 5340 20  0001 C CNN
@@ -1401,7 +1343,7 @@ F 3 "~" H 3850 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L benningtons:GND #PWR022
 U 1 1 5C916F42
 P 8250 6550
 F 0 "#PWR022" H 8250 6550 30  0001 C CNN
@@ -1412,7 +1354,7 @@ F 3 "~" H 8250 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L benningtons:GND #PWR023
 U 1 1 5C916F48
 P 6050 6550
 F 0 "#PWR023" H 6050 6550 30  0001 C CNN
@@ -1423,7 +1365,7 @@ F 3 "~" H 6050 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L benningtons:GND #PWR024
 U 1 1 5C916F4E
 P 3850 6750
 F 0 "#PWR024" H 3850 6750 30  0001 C CNN
@@ -1617,12 +1559,6 @@ Wire Wire Line
 	7650 6200 7450 6200
 Wire Wire Line
 	7650 6300 7450 6300
-Wire Bus Line
-	4750 4950 4750 6400
-Wire Bus Line
-	5150 4950 5150 6200
-Wire Bus Line
-	7350 4950 7350 6200
 Wire Wire Line
 	3250 5500 3050 5500
 Wire Wire Line
@@ -1640,16 +1576,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 6200 3050 6200
 Wire Bus Line
-	6950 6100 6950 6850
-Wire Bus Line
-	2950 6850 10200 6850
-Wire Bus Line
-	2950 5600 2950 6850
-Wire Bus Line
-	9150 6100 9150 6850
+	2950 6850 6950 6850
 Connection ~ 6950 6850
 Wire Wire Line
-	6650 5500 7050 5500
+	6650 5500 6750 5500
 Wire Wire Line
 	7050 5500 7050 6550
 Wire Wire Line
@@ -1660,7 +1590,7 @@ Wire Wire Line
 	6750 5600 6750 5500
 Connection ~ 6750 5500
 Wire Wire Line
-	8850 5500 9250 5500
+	8850 5500 8950 5500
 Wire Wire Line
 	9250 5500 9250 6550
 Wire Wire Line
@@ -1687,7 +1617,7 @@ Wire Wire Line
 Text Label 7450 5800 0    60   ~ 0
 CLK
 Wire Wire Line
-	5250 5500 5450 5500
+	5250 5500 5350 5500
 Wire Wire Line
 	5450 5600 5350 5600
 Wire Wire Line
@@ -1698,7 +1628,7 @@ IN-C
 Wire Wire Line
 	1550 5750 1750 5750
 Wire Wire Line
-	7450 5500 7650 5500
+	7450 5500 7550 5500
 Wire Wire Line
 	7650 5600 7550 5600
 Wire Wire Line
@@ -1766,7 +1696,7 @@ Entry Wire Line
 	10200 6850 10300 6750
 Connection ~ 9150 6850
 $Comp
-L 9-PIN_HEADER JP3
+L benningtons:9-PIN_HEADER JP3
 U 1 1 5C917017
 P 10000 5900
 F 0 "JP3" H 10000 5800 60  0000 C CNN
@@ -1777,7 +1707,7 @@ F 3 "~" H 10000 5900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR025
+L benningtons:GND #PWR025
 U 1 1 5C917036
 P 10400 6300
 F 0 "#PWR025" H 10400 6300 30  0001 C CNN
@@ -1790,9 +1720,9 @@ $EndComp
 Wire Wire Line
 	10400 6150 10400 6300
 Wire Bus Line
-	2250 2950 7350 2950
+	2250 2950 4750 2950
 Wire Bus Line
-	2250 4950 7350 4950
+	2250 4950 4750 4950
 Connection ~ 2250 2950
 Text Notes 850  6500 0    60   ~ 0
 +5v for power rails and decoupling\n             capacitors (below)
@@ -1850,4 +1780,160 @@ Wire Wire Line
 	10550 4250 9900 4250
 Wire Wire Line
 	10550 4350 10000 4350
+Wire Wire Line
+	1350 6850 1450 6850
+Wire Wire Line
+	1450 6850 1700 6850
+Wire Wire Line
+	1700 6850 1950 6850
+Wire Wire Line
+	1950 6850 2200 6850
+Wire Wire Line
+	2200 6850 2450 6850
+Wire Wire Line
+	2450 6850 2700 6850
+Wire Wire Line
+	1700 7400 1950 7400
+Wire Wire Line
+	1950 7400 2200 7400
+Wire Wire Line
+	2200 7400 2450 7400
+Wire Wire Line
+	2450 7400 2700 7400
+Wire Wire Line
+	1450 7400 1700 7400
+Wire Wire Line
+	1350 7400 1450 7400
+Wire Bus Line
+	4750 850  5150 850 
+Wire Bus Line
+	5150 850  7350 850 
+Wire Bus Line
+	6950 2750 9150 2750
+Wire Wire Line
+	6750 1400 7050 1400
+Wire Wire Line
+	8950 1400 9250 1400
+Wire Wire Line
+	5350 1400 5450 1400
+Wire Wire Line
+	7550 1400 7650 1400
+Wire Wire Line
+	9600 1550 9600 2650
+Wire Wire Line
+	1650 1550 2150 1550
+Wire Wire Line
+	1700 1450 2150 1450
+Wire Wire Line
+	1750 1350 2150 1350
+Wire Wire Line
+	1650 1050 2150 1050
+Wire Wire Line
+	1700 1150 2150 1150
+Wire Wire Line
+	1750 1250 2150 1250
+Wire Bus Line
+	4750 2950 5150 2950
+Wire Bus Line
+	5150 2950 7350 2950
+Wire Bus Line
+	6950 4850 9150 4850
+Wire Wire Line
+	6750 3500 7050 3500
+Wire Wire Line
+	8950 3500 9250 3500
+Wire Wire Line
+	5350 3500 5450 3500
+Wire Wire Line
+	7550 3500 7650 3500
+Wire Wire Line
+	9600 3650 9600 4750
+Wire Bus Line
+	4750 4950 5150 4950
+Wire Bus Line
+	5150 4950 7350 4950
+Wire Bus Line
+	6950 6850 9150 6850
+Wire Wire Line
+	6750 5500 7050 5500
+Wire Wire Line
+	8950 5500 9250 5500
+Wire Wire Line
+	5350 5500 5450 5500
+Wire Wire Line
+	7550 5500 7650 5500
+Wire Bus Line
+	2250 2950 2250 4950
+Wire Wire Line
+	10300 1650 10300 2650
+Wire Wire Line
+	9700 1750 9700 2650
+Wire Wire Line
+	10200 1850 10200 2650
+Wire Wire Line
+	9800 1950 9800 2650
+Wire Wire Line
+	10100 2050 10100 2650
+Wire Wire Line
+	9900 2150 9900 2650
+Wire Wire Line
+	10000 2250 10000 2650
+Wire Wire Line
+	10300 3750 10300 4750
+Wire Wire Line
+	9700 3850 9700 4750
+Wire Wire Line
+	10200 3950 10200 4750
+Wire Wire Line
+	9800 4050 9800 4750
+Wire Wire Line
+	10100 4150 10100 4750
+Wire Wire Line
+	9900 4250 9900 4750
+Wire Wire Line
+	10000 4350 10000 4750
+Wire Bus Line
+	5150 850  5150 2100
+Wire Bus Line
+	7350 850  7350 2100
+Wire Bus Line
+	6950 2000 6950 2750
+Wire Bus Line
+	9150 2000 9150 2750
+Wire Bus Line
+	5150 2950 5150 4200
+Wire Bus Line
+	7350 2950 7350 4200
+Wire Bus Line
+	6950 4100 6950 4850
+Wire Bus Line
+	9150 4100 9150 4850
+Wire Bus Line
+	5150 4950 5150 6200
+Wire Bus Line
+	7350 4950 7350 6200
+Wire Bus Line
+	6950 6100 6950 6850
+Wire Bus Line
+	9150 6100 9150 6850
+Wire Bus Line
+	9150 2750 10200 2750
+Wire Bus Line
+	9150 4850 10200 4850
+Wire Bus Line
+	9150 6850 10200 6850
+Wire Bus Line
+	2250 850  2250 2950
+Wire Bus Line
+	4750 850  4750 2300
+Wire Bus Line
+	2950 1500 2950 2750
+Wire Bus Line
+	4750 2950 4750 4400
+Wire Bus Line
+	2950 3600 2950 4850
+Wire Bus Line
+	4750 4950 4750 6400
+Wire Bus Line
+	2950 5600 2950 6850
 $EndSCHEMATC

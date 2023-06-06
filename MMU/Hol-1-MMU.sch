@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Hol-1-MMU-rescue
-LIBS:benningtons
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Hol-1-MMU-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74LS173 U2
+L Hol-1-MMU-rescue:74LS173 U2
 U 1 1 5D0E2AA2
 P 2800 1800
 F 0 "U2" H 2800 1650 60  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "~" H 2800 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS173 U4
+L Hol-1-MMU-rescue:74LS173 U4
 U 1 1 5D0E2BBE
 P 2800 3500
 F 0 "U4" H 2800 3350 60  0000 C CNN
@@ -68,7 +37,7 @@ F 3 "~" H 2800 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS157 U3
+L Hol-1-MMU-rescue:74LS157 U3
 U 1 1 5D0EAA1C
 P 7600 1800
 F 0 "U3" H 7600 1650 60  0000 C CNN
@@ -79,7 +48,7 @@ F 3 "~" H 7600 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS157 U5
+L Hol-1-MMU-rescue:74LS157 U5
 U 1 1 5D0EAA29
 P 7600 3500
 F 0 "U5" H 7600 3350 60  0000 C CNN
@@ -90,7 +59,7 @@ F 3 "~" H 7600 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR01
+L Hol-1-MMU-rescue:+5V #PWR01
 U 1 1 5D0EAA33
 P 2800 1150
 F 0 "#PWR01" H 2800 1240 20  0001 C CNN
@@ -101,7 +70,7 @@ F 3 "~" H 2800 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR02
+L Hol-1-MMU-rescue:+5V #PWR02
 U 1 1 5D0EAA42
 P 7600 1150
 F 0 "#PWR02" H 7600 1240 20  0001 C CNN
@@ -112,7 +81,7 @@ F 3 "~" H 7600 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR03
+L Hol-1-MMU-rescue:+5V #PWR03
 U 1 1 5D0EAA4B
 P 7600 2850
 F 0 "#PWR03" H 7600 2940 20  0001 C CNN
@@ -123,7 +92,7 @@ F 3 "~" H 7600 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR04
+L Hol-1-MMU-rescue:+5V #PWR04
 U 1 1 5D0EAA51
 P 2800 2850
 F 0 "#PWR04" H 2800 2940 20  0001 C CNN
@@ -134,7 +103,7 @@ F 3 "~" H 2800 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L Hol-1-MMU-rescue:GND #PWR05
 U 1 1 5D0EAA62
 P 7600 2450
 F 0 "#PWR05" H 7600 2450 30  0001 C CNN
@@ -145,7 +114,7 @@ F 3 "~" H 7600 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L Hol-1-MMU-rescue:GND #PWR06
 U 1 1 5D0EAA6F
 P 2800 2450
 F 0 "#PWR06" H 2800 2450 30  0001 C CNN
@@ -156,7 +125,7 @@ F 3 "~" H 2800 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L Hol-1-MMU-rescue:GND #PWR07
 U 1 1 5D0EAA75
 P 2800 4150
 F 0 "#PWR07" H 2800 4150 30  0001 C CNN
@@ -167,7 +136,7 @@ F 3 "~" H 2800 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L Hol-1-MMU-rescue:GND #PWR08
 U 1 1 5D0EAA7B
 P 7600 4150
 F 0 "#PWR08" H 7600 4150 30  0001 C CNN
@@ -178,7 +147,7 @@ F 3 "~" H 7600 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L Hol-1-MMU-rescue:GND #PWR09
 U 1 1 5D0EAA8A
 P 3500 1800
 F 0 "#PWR09" H 3500 1800 30  0001 C CNN
@@ -189,7 +158,7 @@ F 3 "~" H 3500 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L Hol-1-MMU-rescue:GND #PWR010
 U 1 1 5D0EAAC6
 P 3500 3500
 F 0 "#PWR010" H 3500 3500 30  0001 C CNN
@@ -208,7 +177,7 @@ CLK
 Text Label 2050 3400 0    60   ~ 0
 CLK
 $Comp
-L CODE_SWITCH SW1
+L Hol-1-MMU-rescue:CODE_SWITCH SW1
 U 1 1 5D0EBB7B
 P 5250 1450
 F 0 "SW1" H 5250 1200 60  0000 C CNN
@@ -219,7 +188,7 @@ F 3 "~" H 5250 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CODE_SWITCH SW2
+L Hol-1-MMU-rescue:CODE_SWITCH SW2
 U 1 1 5D0EBC6C
 P 5250 3150
 F 0 "SW2" H 5250 2900 60  0000 C CNN
@@ -230,7 +199,7 @@ F 3 "~" H 5250 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR011
+L Hol-1-MMU-rescue:+5V #PWR011
 U 1 1 5D0EBD5E
 P 4650 1500
 F 0 "#PWR011" H 4650 1590 20  0001 C CNN
@@ -241,7 +210,7 @@ F 3 "~" H 4650 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L Hol-1-MMU-rescue:+5V #PWR012
 U 1 1 5D0EBDAB
 P 4650 3200
 F 0 "#PWR012" H 4650 3290 20  0001 C CNN
@@ -252,7 +221,7 @@ F 3 "~" H 4650 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-array-8 RA1
+L Hol-1-MMU-rescue:R-array-8 RA1
 U 1 1 5D0EBE15
 P 6450 4450
 F 0 "RA1" V 6500 4300 70  0000 C CNN
@@ -263,7 +232,7 @@ F 3 "~" H 6450 4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR013
+L Hol-1-MMU-rescue:GND #PWR013
 U 1 1 5D0FBE2A
 P 8350 1600
 F 0 "#PWR013" H 8350 1600 30  0001 C CNN
@@ -274,7 +243,7 @@ F 3 "~" H 8350 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L Hol-1-MMU-rescue:GND #PWR014
 U 1 1 5D0FBE37
 P 8350 3300
 F 0 "#PWR014" H 8350 3300 30  0001 C CNN
@@ -285,7 +254,7 @@ F 3 "~" H 8350 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_8X2 P1
+L Hol-1-MMU-rescue:CONN_8X2 P1
 U 1 1 5D0FC049
 P 1150 1100
 F 0 "P1" V 1100 1100 60  0000 C CNN
@@ -296,7 +265,7 @@ F 3 "~" H 1150 1100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR015
+L Hol-1-MMU-rescue:GND #PWR015
 U 1 1 5D0FDA78
 P 10600 4350
 F 0 "#PWR015" H 10600 4350 30  0001 C CNN
@@ -307,7 +276,7 @@ F 3 "~" H 10600 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Hol-1-MMU-rescue:LED D1
 U 1 1 5D0FDAF0
 P 10500 3050
 F 0 "D1" H 10500 3150 50  0000 C CNN
@@ -318,7 +287,7 @@ F 3 "~" H 10500 3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D2
+L Hol-1-MMU-rescue:LED D2
 U 1 1 5D0FDAFD
 P 10700 3050
 F 0 "D2" H 10700 3150 50  0000 C CNN
@@ -329,7 +298,7 @@ F 3 "~" H 10700 3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L Hol-1-MMU-rescue:R R1
 U 1 1 5D0FDFE4
 P 10700 2550
 F 0 "R1" V 10800 2450 40  0000 C CNN
@@ -344,7 +313,7 @@ Program\n  Mode
 Text Notes 11000 2900 2    60   ~ 0
 Run\nMode
 $Comp
-L CONN_8 P2
+L Hol-1-MMU-rescue:CONN_8 P2
 U 1 1 5D0FF6FC
 P 9700 3550
 F 0 "P2" V 9650 3550 60  0000 C CNN
@@ -364,7 +333,7 @@ Input lower 4-bits\nof memory address
 Text Notes 4800 1050 0    60   ~ 0
 Input upper 2-bits\nof memory address
 $Comp
-L 74LS157 U6
+L Hol-1-MMU-rescue:74LS157 U6
 U 1 1 5D10059A
 P 4500 5000
 F 0 "U6" H 4500 4850 60  0000 C CNN
@@ -375,7 +344,7 @@ F 3 "~" H 4500 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS157 U8
+L Hol-1-MMU-rescue:74LS157 U8
 U 1 1 5D1005A0
 P 4500 6700
 F 0 "U8" H 4500 6550 60  0000 C CNN
@@ -386,7 +355,7 @@ F 3 "~" H 4500 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR016
+L Hol-1-MMU-rescue:+5V #PWR016
 U 1 1 5D1005A6
 P 4500 6050
 F 0 "#PWR016" H 4500 6140 20  0001 C CNN
@@ -397,7 +366,7 @@ F 3 "~" H 4500 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L Hol-1-MMU-rescue:GND #PWR017
 U 1 1 5D1005AC
 P 4500 5650
 F 0 "#PWR017" H 4500 5650 30  0001 C CNN
@@ -408,7 +377,7 @@ F 3 "~" H 4500 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L Hol-1-MMU-rescue:GND #PWR018
 U 1 1 5D1005B2
 P 4500 7350
 F 0 "#PWR018" H 4500 7350 30  0001 C CNN
@@ -419,7 +388,7 @@ F 3 "~" H 4500 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CODE_SWITCH SW3
+L Hol-1-MMU-rescue:CODE_SWITCH SW3
 U 1 1 5D1005C0
 P 2250 4650
 F 0 "SW3" H 2250 4400 60  0000 C CNN
@@ -430,7 +399,7 @@ F 3 "~" H 2250 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CODE_SWITCH SW4
+L Hol-1-MMU-rescue:CODE_SWITCH SW4
 U 1 1 5D1005C6
 P 2250 6350
 F 0 "SW4" H 2250 6100 60  0000 C CNN
@@ -441,7 +410,7 @@ F 3 "~" H 2250 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR019
+L Hol-1-MMU-rescue:+5V #PWR019
 U 1 1 5D1005D2
 P 1650 4700
 F 0 "#PWR019" H 1650 4790 20  0001 C CNN
@@ -452,7 +421,7 @@ F 3 "~" H 1650 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR020
+L Hol-1-MMU-rescue:+5V #PWR020
 U 1 1 5D1005DC
 P 1650 6400
 F 0 "#PWR020" H 1650 6490 20  0001 C CNN
@@ -463,7 +432,7 @@ F 3 "~" H 1650 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-array-8 RA2
+L Hol-1-MMU-rescue:R-array-8 RA2
 U 1 1 5D1005E6
 P 3450 7650
 F 0 "RA2" V 3500 7500 70  0000 C CNN
@@ -474,7 +443,7 @@ F 3 "~" H 3450 7650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR021
+L Hol-1-MMU-rescue:GND #PWR021
 U 1 1 5D100600
 P 5250 4800
 F 0 "#PWR021" H 5250 4800 30  0001 C CNN
@@ -485,7 +454,7 @@ F 3 "~" H 5250 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L Hol-1-MMU-rescue:GND #PWR022
 U 1 1 5D100606
 P 5250 6500
 F 0 "#PWR022" H 5250 6500 30  0001 C CNN
@@ -496,7 +465,7 @@ F 3 "~" H 5250 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P3
+L Hol-1-MMU-rescue:CONN_8 P3
 U 1 1 5D100630
 P 6200 5450
 F 0 "P3" V 6150 5450 60  0000 C CNN
@@ -511,7 +480,7 @@ Input lower 4-bits\nof memory data
 Text Notes 1850 4250 0    60   ~ 0
 Input upper 4-bits\nof memory data
 $Comp
-L +5V #PWR023
+L Hol-1-MMU-rescue:+5V #PWR023
 U 1 1 5D10071C
 P 4500 4350
 F 0 "#PWR023" H 4500 4440 20  0001 C CNN
@@ -522,7 +491,7 @@ F 3 "~" H 4500 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR024
+L Hol-1-MMU-rescue:+5V #PWR024
 U 1 1 5D102419
 P 10600 2350
 F 0 "#PWR024" H 10600 2440 20  0001 C CNN
@@ -543,86 +512,86 @@ PROG
 Text Label 5100 6300 0    60   ~ 0
 PROG
 $Comp
-L SW_PUSH SW6
+L Hol-1-MMU-rescue:SW_PUSH SW6
 U 1 1 5D102E6A
-P 9100 5950
-F 0 "SW6" H 8950 6050 50  0000 C CNN
-F 1 "SW_PUSH" H 9100 5870 50  0001 C CNN
-F 2 "~" H 9100 5950 60  0000 C CNN
-F 3 "~" H 9100 5950 60  0000 C CNN
-	1    9100 5950
+P 8950 5400
+F 0 "SW6" H 8800 5500 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 5320 50  0001 C CNN
+F 2 "~" H 8950 5400 60  0000 C CNN
+F 3 "~" H 8950 5400 60  0000 C CNN
+	1    8950 5400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74LS157 U7
+L Hol-1-MMU-rescue:74LS157 U7
 U 1 1 5D102E77
-P 10200 6350
-F 0 "U7" H 10200 6200 60  0000 C CNN
-F 1 "74LS157" H 10200 6350 60  0000 C CNN
-F 2 "~" H 10200 6350 60  0000 C CNN
-F 3 "~" H 10200 6350 60  0000 C CNN
-	1    10200 6350
+P 10050 5800
+F 0 "U7" H 10050 5650 60  0000 C CNN
+F 1 "74LS157" H 10050 5800 60  0000 C CNN
+F 2 "~" H 10050 5800 60  0000 C CNN
+F 3 "~" H 10050 5800 60  0000 C CNN
+	1    10050 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR025
+L Hol-1-MMU-rescue:+5V #PWR025
 U 1 1 5D102E7D
-P 10200 5700
-F 0 "#PWR025" H 10200 5790 20  0001 C CNN
-F 1 "+5V" H 10200 5800 59  0000 C CNN
-F 2 "~" H 10200 5700 60  0000 C CNN
-F 3 "~" H 10200 5700 60  0000 C CNN
-	1    10200 5700
+P 10050 5150
+F 0 "#PWR025" H 10050 5240 20  0001 C CNN
+F 1 "+5V" H 10050 5250 59  0000 C CNN
+F 2 "~" H 10050 5150 60  0000 C CNN
+F 3 "~" H 10050 5150 60  0000 C CNN
+	1    10050 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L Hol-1-MMU-rescue:GND #PWR026
 U 1 1 5D102E83
-P 10200 7000
-F 0 "#PWR026" H 10200 7000 30  0001 C CNN
-F 1 "GND" H 10200 6930 30  0001 C CNN
-F 2 "~" H 10200 7000 60  0000 C CNN
-F 3 "~" H 10200 7000 60  0000 C CNN
-	1    10200 7000
+P 10050 6450
+F 0 "#PWR026" H 10050 6450 30  0001 C CNN
+F 1 "GND" H 10050 6380 30  0001 C CNN
+F 2 "~" H 10050 6450 60  0000 C CNN
+F 3 "~" H 10050 6450 60  0000 C CNN
+	1    10050 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L Hol-1-MMU-rescue:GND #PWR027
 U 1 1 5D102E99
-P 10950 6150
-F 0 "#PWR027" H 10950 6150 30  0001 C CNN
-F 1 "GND" H 10950 6080 30  0001 C CNN
-F 2 "~" H 10950 6150 60  0000 C CNN
-F 3 "~" H 10950 6150 60  0000 C CNN
-	1    10950 6150
+P 10800 5600
+F 0 "#PWR027" H 10800 5600 30  0001 C CNN
+F 1 "GND" H 10800 5530 30  0001 C CNN
+F 2 "~" H 10800 5600 60  0000 C CNN
+F 3 "~" H 10800 5600 60  0000 C CNN
+	1    10800 5600
 	1    0    0    -1  
 $EndComp
-Text Label 10800 6450 0    60   ~ 0
+Text Label 10650 5900 0    60   ~ 0
 RAM-IN
 $Comp
-L GND #PWR028
+L Hol-1-MMU-rescue:GND #PWR028
 U 1 1 5D18EA33
-P 8650 6050
-F 0 "#PWR028" H 8650 6050 30  0001 C CNN
-F 1 "GND" H 8650 5980 30  0001 C CNN
-F 2 "~" H 8650 6050 60  0000 C CNN
-F 3 "~" H 8650 6050 60  0000 C CNN
-	1    8650 6050
+P 8500 5500
+F 0 "#PWR028" H 8500 5500 30  0001 C CNN
+F 1 "GND" H 8500 5430 30  0001 C CNN
+F 2 "~" H 8500 5500 60  0000 C CNN
+F 3 "~" H 8500 5500 60  0000 C CNN
+	1    8500 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS00 U1
+L Hol-1-MMU-rescue:74LS00 U1
 U 1 1 5D18ECEF
-P 9125 6450
-F 0 "U1" H 9125 6430 20  0000 C CNN
-F 1 "74LS00" H 9125 6470 20  0000 C CNN
-F 2 "~" H 9175 6450 60  0000 C CNN
-F 3 "~" H 9175 6450 60  0000 C CNN
-	1    9125 6450
+P 8975 5900
+F 0 "U1" H 8975 5880 20  0000 C CNN
+F 1 "74LS00" H 8975 5920 20  0000 C CNN
+F 2 "~" H 9025 5900 60  0000 C CNN
+F 3 "~" H 9025 5900 60  0000 C CNN
+	1    8975 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS00 U1
+L Hol-1-MMU-rescue:74LS00 U1
 U 5 1 5D18EE15
 P 10450 1300
 F 0 "U1" H 10450 1280 20  0000 C CNN
@@ -633,7 +602,7 @@ F 3 "~" H 10500 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR029
+L Hol-1-MMU-rescue:+5V #PWR029
 U 1 1 5D18EF02
 P 10450 850
 F 0 "#PWR029" H 10450 940 20  0001 C CNN
@@ -644,7 +613,7 @@ F 3 "~" H 10450 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L Hol-1-MMU-rescue:GND #PWR030
 U 1 1 5D18EF08
 P 10450 1750
 F 0 "#PWR030" H 10450 1750 30  0001 C CNN
@@ -655,7 +624,7 @@ F 3 "~" H 10450 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG031
+L Hol-1-MMU-rescue:PWR_FLAG #FLG031
 U 1 1 5D18F0C9
 P 10700 900
 F 0 "#FLG031" H 10700 995 30  0001 C CNN
@@ -666,7 +635,7 @@ F 3 "~" H 10700 900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG032
+L Hol-1-MMU-rescue:PWR_FLAG #FLG032
 U 1 1 5D18F0D6
 P 10700 1700
 F 0 "#FLG032" H 10700 1795 30  0001 C CNN
@@ -677,90 +646,90 @@ F 3 "~" H 10700 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_8 P4
+L Hol-1-MMU-rescue:CONN_8 P4
 U 1 1 5D18F3B6
-P 7100 5650
-F 0 "P4" V 7050 5650 60  0000 C CNN
-F 1 "MMU CONTROL" V 7150 5650 60  0000 C CNN
-F 2 "~" H 7100 5650 60  0000 C CNN
-F 3 "~" H 7100 5650 60  0000 C CNN
-	1    7100 5650
+P 6950 5350
+F 0 "P4" V 6900 5350 60  0000 C CNN
+F 1 "MMU CONTROL" V 7000 5350 60  0000 C CNN
+F 2 "~" H 6950 5350 60  0000 C CNN
+F 3 "~" H 6950 5350 60  0000 C CNN
+	1    6950 5350
 	-1   0    0    1   
 $EndComp
-Text Label 7450 5700 0    60   ~ 0
+Text Label 7300 5400 0    60   ~ 0
 CLK
-Text Label 7450 5400 0    60   ~ 0
+Text Label 7300 5100 0    60   ~ 0
 IN-D
-Text Label 7450 5900 0    60   ~ 0
+Text Label 7300 5600 0    60   ~ 0
 RAM-INPUT
-Text Label 7450 5300 0    60   ~ 0
+Text Label 7300 5000 0    60   ~ 0
 RAM-OUT
-Text Label 7850 6500 0    60   ~ 0
+Text Label 7700 5950 0    60   ~ 0
 CLK
-Text Label 10800 5950 0    60   ~ 0
+Text Label 10650 5400 0    60   ~ 0
 PROG
-NoConn ~ 10800 6550
-NoConn ~ 10800 6650
-NoConn ~ 10800 6750
+NoConn ~ 10650 6000
+NoConn ~ 10650 6100
+NoConn ~ 10650 6200
 $Comp
-L R R2
+L Hol-1-MMU-rescue:R R2
 U 1 1 5D19252D
-P 8400 6800
-F 0 "R2" V 8525 6800 40  0000 C CNN
-F 1 "1K" V 8300 6800 40  0000 C CNN
-F 2 "~" V 8330 6800 30  0000 C CNN
-F 3 "~" H 8400 6750 30  0000 C CNN
-	1    8400 6800
+P 8250 6250
+F 0 "R2" V 8375 6250 40  0000 C CNN
+F 1 "1K" V 8150 6250 40  0000 C CNN
+F 2 "~" V 8180 6250 30  0000 C CNN
+F 3 "~" H 8250 6200 30  0000 C CNN
+	1    8250 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L Hol-1-MMU-rescue:GND #PWR033
 U 1 1 5D19264C
-P 8400 7000
-F 0 "#PWR033" H 8400 7000 30  0001 C CNN
-F 1 "GND" H 8400 6930 30  0001 C CNN
-F 2 "~" H 8400 7000 60  0000 C CNN
-F 3 "~" H 8400 7000 60  0000 C CNN
-	1    8400 7000
+P 8250 6450
+F 0 "#PWR033" H 8250 6450 30  0001 C CNN
+F 1 "GND" H 8250 6380 30  0001 C CNN
+F 2 "~" H 8250 6450 60  0000 C CNN
+F 3 "~" H 8250 6450 60  0000 C CNN
+	1    8250 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Hol-1-MMU-rescue:C C1
 U 1 1 5D19265E
-P 8200 6500
-F 0 "C1" H 8200 6600 40  0000 L CNN
-F 1 "0.01uF" H 8206 6415 40  0000 L CNN
-F 2 "~" H 8238 6350 30  0000 C CNN
-F 3 "~" H 8200 6500 60  0000 C CNN
-	1    8200 6500
+P 8050 5950
+F 0 "C1" H 8050 6050 40  0000 L CNN
+F 1 "0.01uF" H 8056 5865 40  0000 L CNN
+F 2 "~" H 8088 5800 30  0000 C CNN
+F 3 "~" H 8050 5950 60  0000 C CNN
+	1    8050 5950
 	0    -1   -1   0   
 $EndComp
-Text Notes 8200 6800 2    60   ~ 0
+Text Notes 7850 6300 2    60   ~ 0
 Clock edge detection\nto provide quick snapshot\n of RAM_INPUT signal
-Text Notes 10050 4500 0    60   ~ 0
+Text Notes 10150 4800 0    60   ~ 0
 Select Run mode\nto use Data Bus\nelse Program mode\nto use input switches
 Text Notes 4050 2450 0    60   ~ 0
 Run mode = use register D to address RAM\nProgram = use switch input instead
-Text Notes 7050 4700 0    60   ~ 0
+Text Notes 7050 4800 0    60   ~ 0
 MMU controls received from Control module\n----------------------------\nRAM-OUT = output from RAM to Data Bus\nRAM-INPUT = load RAM from MMU DATA OUTPUT port\nIN-D = Input from Data Bus to memory address register (D)\nCLK = system clock for synchronisation
-Text Notes 8550 5600 0    60   ~ 0
+Text Notes 8100 5200 0    60   ~ 0
 In Program mode use SW6\nto load selected RAM address\nwith data from Data Output port
-Text Notes 2450 700  0    60   ~ 0
+Text Notes 2300 900  0    60   ~ 0
 Register D (address register)\nupper 4-bits (U2)\nlower 4-bits (U4)
 Text Notes 8850 2800 0    60   ~ 0
 6-bit RAM addressing\n   (64-bytes max)\nso use top 2 bits for\n    RAM controls
-Text Notes 3850 5800 0    60   ~ 0
+Text Notes 3850 5900 0    60   ~ 0
 Run mode = pass Data Bus to RAM\nProgram = use switch input instead
 Text Notes 8300 1950 0    60   ~ 0
 6-bit memory addressing\nso top 2 bits ignored
-NoConn ~ 7450 5800
-NoConn ~ 7450 6000
-NoConn ~ 7450 5500
-NoConn ~ 7450 5600
-Text Notes 650  7400 0    60   ~ 0
+NoConn ~ 7300 5500
+NoConn ~ 7300 5700
+NoConn ~ 7300 5200
+NoConn ~ 7300 5300
+Text Notes 750  7500 0    60   ~ 0
 Note: Rotary switches (SW1-4)\nselect 0 to F and output the\nresult in 4-bits.
 $Comp
-L CONN_2 P5
+L Hol-1-MMU-rescue:CONN_2 P5
 U 1 1 5D3C5DD9
 P 11050 1300
 F 0 "P5" V 11000 1300 40  0000 C CNN
@@ -771,7 +740,7 @@ F 3 "~" H 11050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L Hol-1-MMU-rescue:GND #PWR034
 U 1 1 5D3CC219
 P 4200 4350
 F 0 "#PWR034" H 4200 4350 30  0001 C CNN
@@ -782,7 +751,7 @@ F 3 "~" H 4200 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L Hol-1-MMU-rescue:GND #PWR035
 U 1 1 5D3CCB97
 P 7100 1150
 F 0 "#PWR035" H 7100 1150 30  0001 C CNN
@@ -792,10 +761,10 @@ F 3 "~" H 7100 1150 60  0000 C CNN
 	1    7100 1150
 	1    0    0    -1  
 $EndComp
-Text Notes 10250 650  2    60   ~ 0
+Text Notes 10300 750  2    60   ~ 0
 +5v supply to power\nrails, IC's and decoupling caps\n
 $Comp
-L C C4
+L Hol-1-MMU-rescue:C C4
 U 1 1 5D3F2FA0
 P 9450 1300
 F 0 "C4" H 9450 1400 40  0000 L CNN
@@ -806,7 +775,7 @@ F 3 "~" H 9450 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L Hol-1-MMU-rescue:C C5
 U 1 1 5D3F3F7D
 P 9650 1300
 F 0 "C5" H 9650 1400 40  0000 L CNN
@@ -817,7 +786,7 @@ F 3 "~" H 9650 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L Hol-1-MMU-rescue:C C6
 U 1 1 5D3F3F83
 P 9850 1300
 F 0 "C6" H 9850 1400 40  0000 L CNN
@@ -828,7 +797,7 @@ F 3 "~" H 9850 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L Hol-1-MMU-rescue:C C7
 U 1 1 5D3F3F89
 P 10050 1300
 F 0 "C7" H 10050 1400 40  0000 L CNN
@@ -839,7 +808,7 @@ F 3 "~" H 10050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L Hol-1-MMU-rescue:C C8
 U 1 1 5D3F3F8F
 P 10250 1300
 F 0 "C8" H 10250 1400 40  0000 L CNN
@@ -850,7 +819,7 @@ F 3 "~" H 10250 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Hol-1-MMU-rescue:C C3
 U 1 1 5D3F4132
 P 9250 1300
 F 0 "C3" H 9250 1400 40  0000 L CNN
@@ -861,7 +830,7 @@ F 3 "~" H 9250 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Hol-1-MMU-rescue:C C2
 U 1 1 5D3F4138
 P 9050 1300
 F 0 "C2" H 9050 1400 40  0000 L CNN
@@ -872,7 +841,7 @@ F 3 "~" H 9050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10-PIN_HEADER JP2
+L Hol-1-MMU-rescue:10-PIN_HEADER JP2
 U 1 1 5D420FD3
 P 3450 4200
 F 0 "JP2" H 3450 4100 60  0000 C CNN
@@ -883,7 +852,7 @@ F 3 "~" H 3400 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 10-PIN_HEADER JP1
+L Hol-1-MMU-rescue:10-PIN_HEADER JP1
 U 1 1 5D4233C9
 P 6450 1000
 F 0 "JP1" H 6450 900 60  0000 C CNN
@@ -894,7 +863,7 @@ F 3 "~" H 6400 1000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 9-PIN_HEADER JP3
+L Hol-1-MMU-rescue:9-PIN_HEADER JP3
 U 1 1 5D435CF5
 P 4050 1000
 F 0 "JP3" H 4050 900 60  0000 C CNN
@@ -905,7 +874,7 @@ F 3 "~" H 4050 1000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR036
+L Hol-1-MMU-rescue:GND #PWR036
 U 1 1 5D436A0D
 P 4650 1150
 F 0 "#PWR036" H 4650 1150 30  0001 C CNN
@@ -921,7 +890,7 @@ NoConn ~ 8200 1900
 NoConn ~ 5850 1400
 NoConn ~ 5850 1500
 $Comp
-L GND #PWR037
+L Hol-1-MMU-rescue:GND #PWR037
 U 1 1 5D445643
 P 1900 2000
 F 0 "#PWR037" H 1900 2000 30  0001 C CNN
@@ -934,12 +903,12 @@ $EndComp
 Wire Wire Line
 	3400 1400 3500 1400
 Wire Wire Line
-	3500 1250 3500 1800
+	3500 1250 3500 1400
 Wire Wire Line
 	3400 1500 3500 1500
 Connection ~ 3500 1500
 Wire Wire Line
-	1950 1400 2200 1400
+	1950 1400 2150 1400
 Wire Wire Line
 	2200 1500 2150 1500
 Wire Wire Line
@@ -950,49 +919,49 @@ Wire Wire Line
 Wire Wire Line
 	2050 3400 2200 3400
 Wire Wire Line
-	3400 2100 7000 2100
+	3400 2100 3850 2100
 Wire Wire Line
-	3400 2200 7000 2200
+	3400 2200 3950 2200
 Wire Wire Line
-	3400 3600 7000 3600
+	3400 3600 4050 3600
 Wire Wire Line
-	3400 3700 7000 3700
+	3400 3700 4150 3700
 Wire Wire Line
-	3400 3800 7000 3800
+	3400 3800 4250 3800
 Wire Wire Line
-	3400 3900 7000 3900
+	3400 3900 4350 3900
 Wire Wire Line
-	5850 1600 7000 1600
+	5850 1600 6300 1600
 Wire Wire Line
-	5850 1700 7000 1700
+	5850 1700 6400 1700
 Wire Wire Line
-	5850 3300 7000 3300
+	5850 3300 6700 3300
 Wire Wire Line
-	5850 3400 7000 3400
+	5850 3400 6800 3400
 Wire Wire Line
-	4650 3200 4650 3400
+	4650 3200 4650 3300
 Connection ~ 4650 3300
 Wire Wire Line
-	5850 3100 7000 3100
+	5850 3100 6500 3100
 Wire Wire Line
-	5850 3200 7000 3200
+	5850 3200 6600 3200
 Wire Wire Line
-	6800 1250 6800 4100
+	6800 1250 6800 3400
 Connection ~ 6800 3400
 Wire Wire Line
-	6700 1250 6700 4100
+	6700 1250 6700 3300
 Connection ~ 6700 3300
 Wire Wire Line
-	6600 1250 6600 4100
+	6600 1250 6600 3200
 Connection ~ 6600 3200
 Wire Wire Line
-	6500 1250 6500 4100
+	6500 1250 6500 3100
 Connection ~ 6500 3100
 Wire Wire Line
-	6400 1250 6400 4100
+	6400 1250 6400 1700
 Connection ~ 6400 1700
 Wire Wire Line
-	6300 1250 6300 4100
+	6300 1250 6300 1600
 Connection ~ 6300 1600
 Wire Wire Line
 	8200 1500 8350 1500
@@ -1017,19 +986,19 @@ Wire Wire Line
 Wire Wire Line
 	700  700  800  700 
 Wire Wire Line
-	900  1500 900  5200
+	900  1500 900  1550
 Wire Wire Line
 	650  1550 650  650 
 Wire Wire Line
 	650  650  900  650 
 Wire Wire Line
-	1000 1500 1000 5300
+	1000 1500 1000 1600
 Wire Wire Line
 	600  1600 600  600 
 Wire Wire Line
 	600  600  1000 600 
 Wire Wire Line
-	1100 1500 1100 5400
+	1100 1500 1100 1650
 Wire Wire Line
 	1100 1650 550  1650
 Wire Wire Line
@@ -1041,15 +1010,15 @@ Wire Wire Line
 Wire Wire Line
 	1600 1500 1600 700 
 Wire Wire Line
-	1400 1500 1400 7000
+	1400 1500 1400 1550
 Wire Wire Line
 	1400 1550 1650 1550
 Wire Wire Line
-	1300 1500 1300 6900
+	1300 1500 1300 1600
 Wire Wire Line
 	1300 1600 1700 1600
 Wire Wire Line
-	1200 1500 1200 6800
+	1200 1500 1200 1650
 Wire Wire Line
 	1200 1650 1750 1650
 Wire Wire Line
@@ -1096,48 +1065,48 @@ Wire Wire Line
 Wire Wire Line
 	1000 5300 3900 5300
 Wire Wire Line
-	2850 4600 3900 4600
+	2850 4600 3100 4600
 Wire Wire Line
-	2850 4700 3900 4700
+	2850 4700 3200 4700
 Wire Wire Line
-	2850 4800 3900 4800
+	2850 4800 3300 4800
 Wire Wire Line
-	2850 4900 3900 4900
+	2850 4900 3400 4900
 Wire Wire Line
-	2850 6500 3900 6500
+	2850 6500 3700 6500
 Wire Wire Line
-	2850 6600 3900 6600
+	2850 6600 3800 6600
 Wire Wire Line
-	2850 6300 3900 6300
+	2850 6300 3500 6300
 Wire Wire Line
-	2850 6400 3900 6400
+	2850 6400 3600 6400
 Wire Wire Line
 	3900 7300 4500 7300
 Wire Wire Line
 	4500 7300 4500 7350
 Wire Wire Line
-	3800 4450 3800 7300
+	3800 4450 3800 6600
 Connection ~ 3800 6600
 Wire Wire Line
-	3700 4450 3700 7300
+	3700 4450 3700 6500
 Connection ~ 3700 6500
 Wire Wire Line
-	3600 4450 3600 7300
+	3600 4450 3600 6400
 Connection ~ 3600 6400
 Wire Wire Line
-	3500 4450 3500 7300
+	3500 4450 3500 6300
 Connection ~ 3500 6300
 Wire Wire Line
-	3400 4450 3400 7300
+	3400 4450 3400 4900
 Connection ~ 3400 4900
 Wire Wire Line
-	3300 4450 3300 7300
+	3300 4450 3300 4800
 Connection ~ 3300 4800
 Wire Wire Line
-	3200 4450 3200 7300
+	3200 4450 3200 4700
 Connection ~ 3200 4700
 Wire Wire Line
-	3100 4450 3100 7300
+	3100 4450 3100 4600
 Connection ~ 3100 4600
 Wire Wire Line
 	5100 4700 5250 4700
@@ -1207,7 +1176,7 @@ Wire Wire Line
 	1400 7000 3900 7000
 Connection ~ 1400 3800
 Wire Wire Line
-	1500 1500 1500 7100
+	1500 1500 1500 3900
 Wire Wire Line
 	1500 7100 3900 7100
 Connection ~ 1500 3900
@@ -1242,43 +1211,43 @@ Wire Wire Line
 Wire Wire Line
 	5850 5800 5850 7100
 Wire Wire Line
-	10800 6050 10950 6050
+	10650 5500 10800 5500
 Wire Wire Line
-	10950 6050 10950 6150
+	10800 5500 10800 5600
 Wire Wire Line
-	10800 6450 11150 6450
+	10650 5900 11000 5900
 Wire Wire Line
-	8800 5950 8650 5950
+	8650 5400 8500 5400
 Wire Wire Line
-	8650 5950 8650 6050
+	8500 5400 8500 5500
 Wire Wire Line
-	9400 5950 9600 5950
+	9250 5400 9450 5400
 Wire Wire Line
-	9350 6450 9600 6450
+	9200 5900 9450 5900
 Wire Wire Line
-	10450 850  10450 950 
+	10450 850  10450 900 
 Wire Wire Line
-	10450 1650 10450 1750
+	10450 1650 10450 1700
 Wire Wire Line
-	9050 900  10700 900 
+	9050 900  9250 900 
 Connection ~ 10450 900 
 Wire Wire Line
-	9050 1700 10700 1700
+	9050 1700 9250 1700
 Connection ~ 10450 1700
 Wire Wire Line
-	8925 6500 8400 6500
+	8775 5950 8250 5950
 Wire Wire Line
-	8400 6400 8925 6400
+	8250 5850 8775 5850
 Wire Wire Line
-	10800 5950 11150 5950
+	10650 5400 11000 5400
 Wire Wire Line
-	8400 6500 8400 6600
+	8250 5950 8250 6050
 Wire Wire Line
-	7850 6500 8000 6500
+	7700 5950 7850 5950
 Wire Wire Line
-	7450 5400 7700 5400
+	7300 5100 7550 5100
 Wire Wire Line
-	7450 5300 7850 5300
+	7300 5000 7700 5000
 Wire Wire Line
 	10700 900  10700 1200
 Wire Wire Line
@@ -1332,13 +1301,13 @@ Wire Wire Line
 	9050 1500 9050 1700
 Connection ~ 9250 1700
 Wire Wire Line
-	1650 4700 1650 5000
+	1650 4700 1650 4800
 Connection ~ 1650 4800
 Wire Wire Line
-	1650 6400 1650 6600
+	1650 6400 1650 6500
 Connection ~ 1650 6500
 Wire Wire Line
-	3500 3100 3500 3500
+	3500 3100 3500 3200
 Connection ~ 3500 3400
 Connection ~ 3500 3200
 Wire Wire Line
@@ -1363,17 +1332,15 @@ Wire Wire Line
 Wire Wire Line
 	6000 1250 6000 1800
 Wire Wire Line
-	7450 5900 8400 5900
+	7300 5600 8250 5600
 Wire Wire Line
-	8400 5900 8400 6400
-Wire Wire Line
-	7450 5700 7700 5700
+	7300 5400 7550 5400
 Wire Wire Line
 	6900 4100 7600 4100
 Wire Wire Line
 	7600 4100 7600 4150
 Wire Wire Line
-	4650 1500 4650 1800
+	4650 1500 4650 1600
 Connection ~ 4650 1600
 Wire Wire Line
 	4650 1800 6000 1800
@@ -1405,7 +1372,7 @@ Wire Wire Line
 	3850 1250 3850 2100
 Connection ~ 3850 2100
 Wire Wire Line
-	3500 1250 3750 1250
+	3500 1250 3650 1250
 Connection ~ 3500 1400
 Connection ~ 3650 1250
 Wire Wire Line
@@ -1429,7 +1396,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 2000 7000 2000
 Wire Wire Line
-	6900 1250 6900 2000
+	6900 1250 6900 1400
 Wire Wire Line
 	7000 1900 6900 1900
 Connection ~ 6900 1900
@@ -1440,28 +1407,28 @@ Wire Wire Line
 	7000 1400 6900 1400
 Connection ~ 6900 1400
 Wire Wire Line
-	9600 6050 9500 6050
+	9450 5500 9350 5500
 Wire Wire Line
-	9500 6050 9500 7000
+	9350 5500 9350 5600
 Wire Wire Line
-	9500 7000 10200 7000
+	9350 6450 10050 6450
 Wire Wire Line
-	9600 6150 9500 6150
-Connection ~ 9500 6150
+	9450 5600 9350 5600
+Connection ~ 9350 5600
 Wire Wire Line
-	9600 6250 9500 6250
-Connection ~ 9500 6250
+	9450 5700 9350 5700
+Connection ~ 9350 5700
 Wire Wire Line
-	9600 6550 9500 6550
-Connection ~ 9500 6550
+	9450 6000 9350 6000
+Connection ~ 9350 6000
 Wire Wire Line
-	9600 6650 9500 6650
-Connection ~ 9500 6650
+	9450 6100 9350 6100
+Connection ~ 9350 6100
 Wire Wire Line
-	9600 6750 9500 6750
-Connection ~ 9500 6750
+	9450 6200 9350 6200
+Connection ~ 9350 6200
 $Comp
-L DPDT SW5
+L Hol-1-MMU-rescue:DPDT SW5
 U 1 1 5D8007A6
 P 10600 3850
 F 0 "SW5" H 10400 4000 50  0000 C CNN
@@ -1472,7 +1439,7 @@ F 3 "~" H 10600 3850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L Hol-1-MMU-rescue:R R3
 U 1 1 5E31EEDA
 P 10500 2550
 F 0 "R3" V 10400 2450 40  0000 C CNN
@@ -1483,6 +1450,178 @@ F 3 "~" H 10500 2500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10500 2350 10700 2350
+	10500 2350 10600 2350
 Connection ~ 10600 2350
+Wire Wire Line
+	3500 1500 3500 1700
+Wire Wire Line
+	2150 1400 2200 1400
+Wire Wire Line
+	4650 3300 4650 3400
+Wire Wire Line
+	6800 3400 7000 3400
+Wire Wire Line
+	6800 3400 6800 4100
+Wire Wire Line
+	6700 3300 7000 3300
+Wire Wire Line
+	6700 3300 6700 4100
+Wire Wire Line
+	6600 3200 7000 3200
+Wire Wire Line
+	6600 3200 6600 4100
+Wire Wire Line
+	6500 3100 7000 3100
+Wire Wire Line
+	6500 3100 6500 4100
+Wire Wire Line
+	6400 1700 7000 1700
+Wire Wire Line
+	6400 1700 6400 4100
+Wire Wire Line
+	6300 1600 7000 1600
+Wire Wire Line
+	6300 1600 6300 4100
+Wire Wire Line
+	3500 1700 3500 1800
+Wire Wire Line
+	3800 6600 3900 6600
+Wire Wire Line
+	3800 6600 3800 7300
+Wire Wire Line
+	3700 6500 3900 6500
+Wire Wire Line
+	3700 6500 3700 7300
+Wire Wire Line
+	3600 6400 3900 6400
+Wire Wire Line
+	3600 6400 3600 7300
+Wire Wire Line
+	3500 6300 3900 6300
+Wire Wire Line
+	3500 6300 3500 7300
+Wire Wire Line
+	3400 4900 3900 4900
+Wire Wire Line
+	3400 4900 3400 7300
+Wire Wire Line
+	3300 4800 3900 4800
+Wire Wire Line
+	3300 4800 3300 7300
+Wire Wire Line
+	3200 4700 3900 4700
+Wire Wire Line
+	3200 4700 3200 7300
+Wire Wire Line
+	3100 4600 3900 4600
+Wire Wire Line
+	3100 4600 3100 7300
+Wire Wire Line
+	900  1550 900  5200
+Wire Wire Line
+	1000 1600 1000 2100
+Wire Wire Line
+	1100 1650 1100 2200
+Wire Wire Line
+	1200 1650 1200 3600
+Wire Wire Line
+	1000 2100 1000 5300
+Wire Wire Line
+	1100 2200 1100 5400
+Wire Wire Line
+	1200 3600 1200 6800
+Wire Wire Line
+	1300 1600 1300 3700
+Wire Wire Line
+	1300 3700 1300 6900
+Wire Wire Line
+	1400 1550 1400 3800
+Wire Wire Line
+	1400 3800 1400 7000
+Wire Wire Line
+	1500 3900 1500 7100
+Wire Wire Line
+	10450 900  10450 950 
+Wire Wire Line
+	10450 900  10700 900 
+Wire Wire Line
+	10450 1700 10450 1750
+Wire Wire Line
+	10450 1700 10700 1700
+Wire Wire Line
+	9650 1700 9850 1700
+Wire Wire Line
+	9850 1700 10050 1700
+Wire Wire Line
+	10050 1700 10250 1700
+Wire Wire Line
+	10250 1700 10450 1700
+Wire Wire Line
+	9650 900  9850 900 
+Wire Wire Line
+	9850 900  10050 900 
+Wire Wire Line
+	10050 900  10250 900 
+Wire Wire Line
+	10250 900  10450 900 
+Wire Wire Line
+	9450 900  9650 900 
+Wire Wire Line
+	9250 900  9450 900 
+Wire Wire Line
+	9450 1700 9650 1700
+Wire Wire Line
+	9250 1700 9450 1700
+Wire Wire Line
+	1650 4800 1650 4900
+Wire Wire Line
+	1650 6500 1650 6600
+Wire Wire Line
+	3500 3400 3500 3500
+Wire Wire Line
+	3500 3200 3500 3400
+Wire Wire Line
+	1650 4900 1650 5000
+Wire Wire Line
+	4650 1600 4650 1700
+Wire Wire Line
+	4650 1700 4650 1800
+Wire Wire Line
+	4350 3900 7000 3900
+Wire Wire Line
+	4250 3800 7000 3800
+Wire Wire Line
+	4150 3700 7000 3700
+Wire Wire Line
+	4050 3600 7000 3600
+Wire Wire Line
+	3950 2200 7000 2200
+Wire Wire Line
+	3850 2100 7000 2100
+Wire Wire Line
+	3500 1400 3500 1500
+Wire Wire Line
+	3650 1250 3750 1250
+Wire Wire Line
+	6900 1900 6900 2000
+Wire Wire Line
+	6900 1500 6900 1900
+Wire Wire Line
+	6900 1400 6900 1500
+Wire Wire Line
+	9350 5600 9350 5700
+Wire Wire Line
+	9350 5700 9350 6000
+Wire Wire Line
+	9350 6000 9350 6100
+Wire Wire Line
+	9350 6100 9350 6200
+Wire Wire Line
+	9350 6200 9350 6450
+Wire Wire Line
+	10600 2350 10700 2350
+Connection ~ 8250 5950
+Connection ~ 10050 6450
+Wire Wire Line
+	8250 5600 8250 5850
 $EndSCHEMATC

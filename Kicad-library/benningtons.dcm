@@ -149,7 +149,7 @@ D Resistance
 K R DEV
 $ENDCMP
 #
-$CMP R-ARRAY-8
+$CMP R-array-8
 D 8 resistors
 K resistor array 8
 $ENDCMP
