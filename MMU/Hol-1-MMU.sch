@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Hol-1-MMU-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Hol-1-MMU-rescue:74LS173 U2
+L benningtons:74LS173 U2
 U 1 1 5D0E2AA2
 P 2800 1800
 F 0 "U2" H 2800 1650 60  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "~" H 2800 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS173 U4
+L benningtons:74LS173 U4
 U 1 1 5D0E2BBE
 P 2800 3500
 F 0 "U4" H 2800 3350 60  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "~" H 2800 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS157 U3
+L benningtons:74LS157 U3
 U 1 1 5D0EAA1C
 P 7600 1800
 F 0 "U3" H 7600 1650 60  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "~" H 7600 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS157 U5
+L benningtons:74LS157 U5
 U 1 1 5D0EAA29
 P 7600 3500
 F 0 "U5" H 7600 3350 60  0000 C CNN
@@ -59,7 +58,7 @@ F 3 "~" H 7600 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR01
+L benningtons:+5V #PWR01
 U 1 1 5D0EAA33
 P 2800 1150
 F 0 "#PWR01" H 2800 1240 20  0001 C CNN
@@ -70,7 +69,7 @@ F 3 "~" H 2800 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR02
+L benningtons:+5V #PWR02
 U 1 1 5D0EAA42
 P 7600 1150
 F 0 "#PWR02" H 7600 1240 20  0001 C CNN
@@ -81,7 +80,7 @@ F 3 "~" H 7600 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR03
+L benningtons:+5V #PWR03
 U 1 1 5D0EAA4B
 P 7600 2850
 F 0 "#PWR03" H 7600 2940 20  0001 C CNN
@@ -92,7 +91,7 @@ F 3 "~" H 7600 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR04
+L benningtons:+5V #PWR04
 U 1 1 5D0EAA51
 P 2800 2850
 F 0 "#PWR04" H 2800 2940 20  0001 C CNN
@@ -103,7 +102,7 @@ F 3 "~" H 2800 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR05
+L benningtons:GND #PWR05
 U 1 1 5D0EAA62
 P 7600 2450
 F 0 "#PWR05" H 7600 2450 30  0001 C CNN
@@ -114,7 +113,7 @@ F 3 "~" H 7600 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR06
+L benningtons:GND #PWR06
 U 1 1 5D0EAA6F
 P 2800 2450
 F 0 "#PWR06" H 2800 2450 30  0001 C CNN
@@ -125,7 +124,7 @@ F 3 "~" H 2800 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR07
+L benningtons:GND #PWR07
 U 1 1 5D0EAA75
 P 2800 4150
 F 0 "#PWR07" H 2800 4150 30  0001 C CNN
@@ -136,7 +135,7 @@ F 3 "~" H 2800 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR08
+L benningtons:GND #PWR08
 U 1 1 5D0EAA7B
 P 7600 4150
 F 0 "#PWR08" H 7600 4150 30  0001 C CNN
@@ -147,7 +146,7 @@ F 3 "~" H 7600 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR09
+L benningtons:GND #PWR09
 U 1 1 5D0EAA8A
 P 3500 1800
 F 0 "#PWR09" H 3500 1800 30  0001 C CNN
@@ -158,7 +157,7 @@ F 3 "~" H 3500 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR010
+L benningtons:GND #PWR010
 U 1 1 5D0EAAC6
 P 3500 3500
 F 0 "#PWR010" H 3500 3500 30  0001 C CNN
@@ -177,7 +176,7 @@ CLK
 Text Label 2050 3400 0    60   ~ 0
 CLK
 $Comp
-L Hol-1-MMU-rescue:CODE_SWITCH SW1
+L benningtons:CODE_SWITCH SW1
 U 1 1 5D0EBB7B
 P 5250 1450
 F 0 "SW1" H 5250 1200 60  0000 C CNN
@@ -188,7 +187,7 @@ F 3 "~" H 5250 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:CODE_SWITCH SW2
+L benningtons:CODE_SWITCH SW2
 U 1 1 5D0EBC6C
 P 5250 3150
 F 0 "SW2" H 5250 2900 60  0000 C CNN
@@ -199,7 +198,7 @@ F 3 "~" H 5250 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR011
+L benningtons:+5V #PWR011
 U 1 1 5D0EBD5E
 P 4650 1500
 F 0 "#PWR011" H 4650 1590 20  0001 C CNN
@@ -210,7 +209,7 @@ F 3 "~" H 4650 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR012
+L benningtons:+5V #PWR012
 U 1 1 5D0EBDAB
 P 4650 3200
 F 0 "#PWR012" H 4650 3290 20  0001 C CNN
@@ -221,7 +220,7 @@ F 3 "~" H 4650 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:R-array-8 RA1
+L benningtons:R-array-8 RA1
 U 1 1 5D0EBE15
 P 6450 4450
 F 0 "RA1" V 6500 4300 70  0000 C CNN
@@ -232,7 +231,7 @@ F 3 "~" H 6450 4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR013
+L benningtons:GND #PWR013
 U 1 1 5D0FBE2A
 P 8350 1600
 F 0 "#PWR013" H 8350 1600 30  0001 C CNN
@@ -243,7 +242,7 @@ F 3 "~" H 8350 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR014
+L benningtons:GND #PWR014
 U 1 1 5D0FBE37
 P 8350 3300
 F 0 "#PWR014" H 8350 3300 30  0001 C CNN
@@ -254,7 +253,7 @@ F 3 "~" H 8350 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:CONN_8X2 P1
+L benningtons:CONN_8X2 P1
 U 1 1 5D0FC049
 P 1150 1100
 F 0 "P1" V 1100 1100 60  0000 C CNN
@@ -265,7 +264,7 @@ F 3 "~" H 1150 1100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR015
+L benningtons:GND #PWR015
 U 1 1 5D0FDA78
 P 10600 4350
 F 0 "#PWR015" H 10600 4350 30  0001 C CNN
@@ -276,7 +275,7 @@ F 3 "~" H 10600 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:LED D1
+L benningtons:LED D1
 U 1 1 5D0FDAF0
 P 10500 3050
 F 0 "D1" H 10500 3150 50  0000 C CNN
@@ -287,7 +286,7 @@ F 3 "~" H 10500 3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:LED D2
+L benningtons:LED D2
 U 1 1 5D0FDAFD
 P 10700 3050
 F 0 "D2" H 10700 3150 50  0000 C CNN
@@ -298,7 +297,7 @@ F 3 "~" H 10700 3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:R R1
+L benningtons:R R1
 U 1 1 5D0FDFE4
 P 10700 2550
 F 0 "R1" V 10800 2450 40  0000 C CNN
@@ -313,7 +312,7 @@ Program\n  Mode
 Text Notes 11000 2900 2    60   ~ 0
 Run\nMode
 $Comp
-L Hol-1-MMU-rescue:CONN_8 P2
+L benningtons:CONN_8 P2
 U 1 1 5D0FF6FC
 P 9700 3550
 F 0 "P2" V 9650 3550 60  0000 C CNN
@@ -333,7 +332,7 @@ Input lower 4-bits\nof memory address
 Text Notes 4800 1050 0    60   ~ 0
 Input upper 2-bits\nof memory address
 $Comp
-L Hol-1-MMU-rescue:74LS157 U6
+L benningtons:74LS157 U6
 U 1 1 5D10059A
 P 4500 5000
 F 0 "U6" H 4500 4850 60  0000 C CNN
@@ -344,7 +343,7 @@ F 3 "~" H 4500 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS157 U8
+L benningtons:74LS157 U8
 U 1 1 5D1005A0
 P 4500 6700
 F 0 "U8" H 4500 6550 60  0000 C CNN
@@ -355,7 +354,7 @@ F 3 "~" H 4500 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR016
+L benningtons:+5V #PWR016
 U 1 1 5D1005A6
 P 4500 6050
 F 0 "#PWR016" H 4500 6140 20  0001 C CNN
@@ -366,7 +365,7 @@ F 3 "~" H 4500 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR017
+L benningtons:GND #PWR017
 U 1 1 5D1005AC
 P 4500 5650
 F 0 "#PWR017" H 4500 5650 30  0001 C CNN
@@ -377,7 +376,7 @@ F 3 "~" H 4500 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR018
+L benningtons:GND #PWR018
 U 1 1 5D1005B2
 P 4500 7350
 F 0 "#PWR018" H 4500 7350 30  0001 C CNN
@@ -388,7 +387,7 @@ F 3 "~" H 4500 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:CODE_SWITCH SW3
+L benningtons:CODE_SWITCH SW3
 U 1 1 5D1005C0
 P 2250 4650
 F 0 "SW3" H 2250 4400 60  0000 C CNN
@@ -399,7 +398,7 @@ F 3 "~" H 2250 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:CODE_SWITCH SW4
+L benningtons:CODE_SWITCH SW4
 U 1 1 5D1005C6
 P 2250 6350
 F 0 "SW4" H 2250 6100 60  0000 C CNN
@@ -410,7 +409,7 @@ F 3 "~" H 2250 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR019
+L benningtons:+5V #PWR019
 U 1 1 5D1005D2
 P 1650 4700
 F 0 "#PWR019" H 1650 4790 20  0001 C CNN
@@ -421,7 +420,7 @@ F 3 "~" H 1650 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR020
+L benningtons:+5V #PWR020
 U 1 1 5D1005DC
 P 1650 6400
 F 0 "#PWR020" H 1650 6490 20  0001 C CNN
@@ -432,7 +431,7 @@ F 3 "~" H 1650 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:R-array-8 RA2
+L benningtons:R-array-8 RA2
 U 1 1 5D1005E6
 P 3450 7650
 F 0 "RA2" V 3500 7500 70  0000 C CNN
@@ -443,7 +442,7 @@ F 3 "~" H 3450 7650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR021
+L benningtons:GND #PWR021
 U 1 1 5D100600
 P 5250 4800
 F 0 "#PWR021" H 5250 4800 30  0001 C CNN
@@ -454,7 +453,7 @@ F 3 "~" H 5250 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR022
+L benningtons:GND #PWR022
 U 1 1 5D100606
 P 5250 6500
 F 0 "#PWR022" H 5250 6500 30  0001 C CNN
@@ -465,7 +464,7 @@ F 3 "~" H 5250 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:CONN_8 P3
+L benningtons:CONN_8 P3
 U 1 1 5D100630
 P 6200 5450
 F 0 "P3" V 6150 5450 60  0000 C CNN
@@ -480,7 +479,7 @@ Input lower 4-bits\nof memory data
 Text Notes 1850 4250 0    60   ~ 0
 Input upper 4-bits\nof memory data
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR023
+L benningtons:+5V #PWR023
 U 1 1 5D10071C
 P 4500 4350
 F 0 "#PWR023" H 4500 4440 20  0001 C CNN
@@ -491,7 +490,7 @@ F 3 "~" H 4500 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR024
+L benningtons:+5V #PWR024
 U 1 1 5D102419
 P 10600 2350
 F 0 "#PWR024" H 10600 2440 20  0001 C CNN
@@ -512,7 +511,7 @@ PROG
 Text Label 5100 6300 0    60   ~ 0
 PROG
 $Comp
-L Hol-1-MMU-rescue:SW_PUSH SW6
+L benningtons:SW_PUSH SW6
 U 1 1 5D102E6A
 P 8950 5400
 F 0 "SW6" H 8800 5500 50  0000 C CNN
@@ -523,7 +522,7 @@ F 3 "~" H 8950 5400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS157 U7
+L benningtons:74LS157 U7
 U 1 1 5D102E77
 P 10050 5800
 F 0 "U7" H 10050 5650 60  0000 C CNN
@@ -534,7 +533,7 @@ F 3 "~" H 10050 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR025
+L benningtons:+5V #PWR025
 U 1 1 5D102E7D
 P 10050 5150
 F 0 "#PWR025" H 10050 5240 20  0001 C CNN
@@ -545,7 +544,7 @@ F 3 "~" H 10050 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR026
+L benningtons:GND #PWR026
 U 1 1 5D102E83
 P 10050 6450
 F 0 "#PWR026" H 10050 6450 30  0001 C CNN
@@ -556,7 +555,7 @@ F 3 "~" H 10050 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR027
+L benningtons:GND #PWR027
 U 1 1 5D102E99
 P 10800 5600
 F 0 "#PWR027" H 10800 5600 30  0001 C CNN
@@ -569,7 +568,7 @@ $EndComp
 Text Label 10650 5900 0    60   ~ 0
 RAM-IN
 $Comp
-L Hol-1-MMU-rescue:GND #PWR028
+L benningtons:GND #PWR028
 U 1 1 5D18EA33
 P 8500 5500
 F 0 "#PWR028" H 8500 5500 30  0001 C CNN
@@ -580,7 +579,7 @@ F 3 "~" H 8500 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS00 U1
+L benningtons:74LS00 U1
 U 1 1 5D18ECEF
 P 8975 5900
 F 0 "U1" H 8975 5880 20  0000 C CNN
@@ -591,7 +590,7 @@ F 3 "~" H 9025 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:74LS00 U1
+L benningtons:74LS00 U1
 U 5 1 5D18EE15
 P 10450 1300
 F 0 "U1" H 10450 1280 20  0000 C CNN
@@ -602,7 +601,7 @@ F 3 "~" H 10500 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:+5V #PWR029
+L benningtons:+5V #PWR029
 U 1 1 5D18EF02
 P 10450 850
 F 0 "#PWR029" H 10450 940 20  0001 C CNN
@@ -613,7 +612,7 @@ F 3 "~" H 10450 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR030
+L benningtons:GND #PWR030
 U 1 1 5D18EF08
 P 10450 1750
 F 0 "#PWR030" H 10450 1750 30  0001 C CNN
@@ -624,7 +623,7 @@ F 3 "~" H 10450 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:PWR_FLAG #FLG031
+L benningtons:PWR_FLAG #FLG031
 U 1 1 5D18F0C9
 P 10700 900
 F 0 "#FLG031" H 10700 995 30  0001 C CNN
@@ -635,7 +634,7 @@ F 3 "~" H 10700 900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:PWR_FLAG #FLG032
+L benningtons:PWR_FLAG #FLG032
 U 1 1 5D18F0D6
 P 10700 1700
 F 0 "#FLG032" H 10700 1795 30  0001 C CNN
@@ -646,7 +645,7 @@ F 3 "~" H 10700 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:CONN_8 P4
+L benningtons:CONN_8 P4
 U 1 1 5D18F3B6
 P 6950 5350
 F 0 "P4" V 6900 5350 60  0000 C CNN
@@ -672,7 +671,7 @@ NoConn ~ 10650 6000
 NoConn ~ 10650 6100
 NoConn ~ 10650 6200
 $Comp
-L Hol-1-MMU-rescue:R R2
+L benningtons:R R2
 U 1 1 5D19252D
 P 8250 6250
 F 0 "R2" V 8375 6250 40  0000 C CNN
@@ -683,7 +682,7 @@ F 3 "~" H 8250 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR033
+L benningtons:GND #PWR033
 U 1 1 5D19264C
 P 8250 6450
 F 0 "#PWR033" H 8250 6450 30  0001 C CNN
@@ -694,7 +693,7 @@ F 3 "~" H 8250 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C1
+L benningtons:C C1
 U 1 1 5D19265E
 P 8050 5950
 F 0 "C1" H 8050 6050 40  0000 L CNN
@@ -729,7 +728,7 @@ NoConn ~ 7300 5300
 Text Notes 750  7500 0    60   ~ 0
 Note: Rotary switches (SW1-4)\nselect 0 to F and output the\nresult in 4-bits.
 $Comp
-L Hol-1-MMU-rescue:CONN_2 P5
+L benningtons:CONN_2 P5
 U 1 1 5D3C5DD9
 P 11050 1300
 F 0 "P5" V 11000 1300 40  0000 C CNN
@@ -740,7 +739,7 @@ F 3 "~" H 11050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR034
+L benningtons:GND #PWR034
 U 1 1 5D3CC219
 P 4200 4350
 F 0 "#PWR034" H 4200 4350 30  0001 C CNN
@@ -751,7 +750,7 @@ F 3 "~" H 4200 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR035
+L benningtons:GND #PWR035
 U 1 1 5D3CCB97
 P 7100 1150
 F 0 "#PWR035" H 7100 1150 30  0001 C CNN
@@ -764,7 +763,7 @@ $EndComp
 Text Notes 10300 750  2    60   ~ 0
 +5v supply to power\nrails, IC's and decoupling caps\n
 $Comp
-L Hol-1-MMU-rescue:C C4
+L benningtons:C C4
 U 1 1 5D3F2FA0
 P 9450 1300
 F 0 "C4" H 9450 1400 40  0000 L CNN
@@ -775,7 +774,7 @@ F 3 "~" H 9450 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C5
+L benningtons:C C5
 U 1 1 5D3F3F7D
 P 9650 1300
 F 0 "C5" H 9650 1400 40  0000 L CNN
@@ -786,7 +785,7 @@ F 3 "~" H 9650 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C6
+L benningtons:C C6
 U 1 1 5D3F3F83
 P 9850 1300
 F 0 "C6" H 9850 1400 40  0000 L CNN
@@ -797,7 +796,7 @@ F 3 "~" H 9850 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C7
+L benningtons:C C7
 U 1 1 5D3F3F89
 P 10050 1300
 F 0 "C7" H 10050 1400 40  0000 L CNN
@@ -808,7 +807,7 @@ F 3 "~" H 10050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C8
+L benningtons:C C8
 U 1 1 5D3F3F8F
 P 10250 1300
 F 0 "C8" H 10250 1400 40  0000 L CNN
@@ -819,7 +818,7 @@ F 3 "~" H 10250 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C3
+L benningtons:C C3
 U 1 1 5D3F4132
 P 9250 1300
 F 0 "C3" H 9250 1400 40  0000 L CNN
@@ -830,7 +829,7 @@ F 3 "~" H 9250 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:C C2
+L benningtons:C C2
 U 1 1 5D3F4138
 P 9050 1300
 F 0 "C2" H 9050 1400 40  0000 L CNN
@@ -841,7 +840,7 @@ F 3 "~" H 9050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:10-PIN_HEADER JP2
+L benningtons:10-PIN_HEADER JP2
 U 1 1 5D420FD3
 P 3450 4200
 F 0 "JP2" H 3450 4100 60  0000 C CNN
@@ -852,7 +851,7 @@ F 3 "~" H 3400 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:10-PIN_HEADER JP1
+L benningtons:10-PIN_HEADER JP1
 U 1 1 5D4233C9
 P 6450 1000
 F 0 "JP1" H 6450 900 60  0000 C CNN
@@ -863,7 +862,7 @@ F 3 "~" H 6400 1000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:9-PIN_HEADER JP3
+L benningtons:9-PIN_HEADER JP3
 U 1 1 5D435CF5
 P 4050 1000
 F 0 "JP3" H 4050 900 60  0000 C CNN
@@ -874,7 +873,7 @@ F 3 "~" H 4050 1000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:GND #PWR036
+L benningtons:GND #PWR036
 U 1 1 5D436A0D
 P 4650 1150
 F 0 "#PWR036" H 4650 1150 30  0001 C CNN
@@ -890,7 +889,7 @@ NoConn ~ 8200 1900
 NoConn ~ 5850 1400
 NoConn ~ 5850 1500
 $Comp
-L Hol-1-MMU-rescue:GND #PWR037
+L benningtons:GND #PWR037
 U 1 1 5D445643
 P 1900 2000
 F 0 "#PWR037" H 1900 2000 30  0001 C CNN
@@ -1428,7 +1427,7 @@ Wire Wire Line
 	9450 6200 9350 6200
 Connection ~ 9350 6200
 $Comp
-L Hol-1-MMU-rescue:DPDT SW5
+L benningtons:DPDT SW5
 U 1 1 5D8007A6
 P 10600 3850
 F 0 "SW5" H 10400 4000 50  0000 C CNN
@@ -1439,7 +1438,7 @@ F 3 "~" H 10600 3850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Hol-1-MMU-rescue:R R3
+L benningtons:R R3
 U 1 1 5E31EEDA
 P 10500 2550
 F 0 "R3" V 10400 2450 40  0000 C CNN

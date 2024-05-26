@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Hol-1-ALU-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Hol-1-ALU-rescue:CONN_8 P2
+L benningtons:CONN_8 P2
 U 1 1 5C5A0CA2
 P 925 4400
 F 0 "P2" V 875 4400 60  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 925 4400 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_8 P1
+L benningtons:CONN_8 P1
 U 1 1 5C5A0CC3
 P 2100 1900
 F 0 "P1" V 2050 1900 60  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 2100 1900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:PWR_FLAG #FLG01
+L benningtons:PWR_FLAG #FLG01
 U 1 1 5C5E3694
 P 5150 6625
 F 0 "#FLG01" H 5150 6720 30  0001 C CNN
@@ -48,7 +47,7 @@ F 3 "" H 5150 6625 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:PWR_FLAG #FLG02
+L benningtons:PWR_FLAG #FLG02
 U 1 1 5C5E36A1
 P 6625 7325
 F 0 "#FLG02" H 6625 7420 30  0001 C CNN
@@ -59,7 +58,7 @@ F 3 "" H 6625 7325 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:GND #PWR03
+L benningtons:GND #PWR03
 U 1 1 5C5E36D8
 P 6475 7450
 F 0 "#PWR03" H 6475 7450 30  0001 C CNN
@@ -70,7 +69,7 @@ F 3 "" H 6475 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS245 U5
+L benningtons:74LS245 U5
 U 1 1 5C607B53
 P 9175 2500
 F 0 "U5" H 9125 2300 60  0000 L BNN
@@ -81,7 +80,7 @@ F 3 "~" H 9175 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:GND #PWR04
+L benningtons:GND #PWR04
 U 1 1 5C607B70
 P 9175 3250
 F 0 "#PWR04" H 9175 3250 30  0001 C CNN
@@ -92,7 +91,7 @@ F 3 "" H 9175 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:9-PIN_HEADER JP2
+L benningtons:9-PIN_HEADER JP2
 U 1 1 5C608CCD
 P 7150 5200
 F 0 "JP2" H 7150 5100 60  0000 C CNN
@@ -103,7 +102,7 @@ F 3 "" H 7150 5200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:C C1
+L benningtons:C C1
 U 1 1 5C60D0BB
 P 6025 6975
 F 0 "C1" H 6025 7075 40  0000 L CNN
@@ -114,7 +113,7 @@ F 3 "~" H 6025 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:C C2
+L benningtons:C C2
 U 1 1 5C60D0D2
 P 6250 6975
 F 0 "C2" H 6250 7075 40  0000 L CNN
@@ -125,7 +124,7 @@ F 3 "~" H 6250 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:C C3
+L benningtons:C C3
 U 1 1 5C60D0D8
 P 6475 6975
 F 0 "C3" H 6475 7075 40  0000 L CNN
@@ -136,7 +135,7 @@ F 3 "~" H 6475 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR05
+L benningtons:+5V #PWR05
 U 1 1 5C60D23A
 P 5275 6525
 F 0 "#PWR05" H 5275 6615 20  0001 C CNN
@@ -147,7 +146,7 @@ F 3 "" H 5275 6525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR06
+L benningtons:+5V #PWR06
 U 1 1 5C60D2F3
 P 9175 1750
 F 0 "#PWR06" H 9175 1840 20  0001 C CNN
@@ -158,7 +157,7 @@ F 3 "" H 9175 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_2 P8
+L benningtons:CONN_2 P8
 U 1 1 5C71F9E9
 P 4800 7000
 F 0 "P8" V 4750 7000 40  0000 C CNN
@@ -169,7 +168,7 @@ F 3 "" H 4800 7000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_8X2 P4
+L benningtons:CONN_8X2 P4
 U 1 1 5C81A7CD
 P 10600 3400
 F 0 "P4" V 10600 3625 60  0000 C CNN
@@ -180,7 +179,7 @@ F 3 "" H 10600 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_8 P3
+L benningtons:CONN_8 P3
 U 1 1 5C81A843
 P 975 3325
 F 0 "P3" V 925 3325 60  0000 C CNN
@@ -191,7 +190,7 @@ F 3 "" H 975 3325 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS283 U1
+L benningtons:74LS283 U1
 U 1 1 5C81AD95
 P 5275 1550
 F 0 "U1" H 5225 1350 60  0000 L BNN
@@ -202,7 +201,7 @@ F 3 "~" H 5275 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS283 U2
+L benningtons:74LS283 U2
 U 1 1 5C81ADA2
 P 5275 3450
 F 0 "U2" H 5225 3250 60  0000 L BNN
@@ -213,7 +212,7 @@ F 3 "~" H 5275 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U3
+L benningtons:74LS86 U3
 U 3 1 5C81C8AD
 P 3800 4850
 F 0 "U3" H 3800 4830 20  0000 C CNN
@@ -224,7 +223,7 @@ F 3 "~" H 3850 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U3
+L benningtons:74LS86 U3
 U 4 1 5C81C8BA
 P 3800 5050
 F 0 "U3" H 3800 5030 20  0000 C CNN
@@ -235,7 +234,7 @@ F 3 "~" H 3850 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U3
+L benningtons:74LS86 U3
 U 1 1 5C81C8C2
 P 3800 5250
 F 0 "U3" H 3800 5230 20  0000 C CNN
@@ -246,7 +245,7 @@ F 3 "~" H 3850 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U3
+L benningtons:74LS86 U3
 U 2 1 5C81C8D1
 P 3800 5450
 F 0 "U3" H 3800 5430 20  0000 C CNN
@@ -257,7 +256,7 @@ F 3 "~" H 3850 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U4
+L benningtons:74LS86 U4
 U 3 1 5C81C8E0
 P 3800 5650
 F 0 "U4" H 3800 5630 20  0000 C CNN
@@ -268,7 +267,7 @@ F 3 "~" H 3850 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U4
+L benningtons:74LS86 U4
 U 4 1 5C81C8EF
 P 3800 5850
 F 0 "U4" H 3800 5830 20  0000 C CNN
@@ -279,7 +278,7 @@ F 3 "~" H 3850 5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U4
+L benningtons:74LS86 U4
 U 1 1 5C81C8FE
 P 3800 6050
 F 0 "U4" H 3800 6030 20  0000 C CNN
@@ -290,7 +289,7 @@ F 3 "~" H 3850 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U4
+L benningtons:74LS86 U4
 U 2 1 5C81C90D
 P 3800 6250
 F 0 "U4" H 3800 6230 20  0000 C CNN
@@ -301,7 +300,7 @@ F 3 "~" H 3850 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U3
+L benningtons:74LS86 U3
 U 5 1 5C81C91C
 P 5475 6975
 F 0 "U3" H 5475 6955 20  0000 C CNN
@@ -312,7 +311,7 @@ F 3 "~" H 5525 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:74LS86 U4
+L benningtons:74LS86 U4
 U 5 1 5C81C938
 P 5775 6975
 F 0 "U4" H 5775 6955 20  0000 C CNN
@@ -323,7 +322,7 @@ F 3 "~" H 5825 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D7
+L benningtons:DIODE D7
 U 1 1 5C81CBC0
 P 7975 4650
 F 0 "D7" H 8000 4725 40  0000 C CNN
@@ -334,7 +333,7 @@ F 3 "~" H 7975 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D6
+L benningtons:DIODE D6
 U 1 1 5C81CC4B
 P 7975 4500
 F 0 "D6" H 8000 4575 40  0000 C CNN
@@ -345,7 +344,7 @@ F 3 "~" H 7975 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D5
+L benningtons:DIODE D5
 U 1 1 5C81CC5A
 P 7975 4350
 F 0 "D5" H 8000 4425 40  0000 C CNN
@@ -356,7 +355,7 @@ F 3 "~" H 7975 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D1
+L benningtons:DIODE D1
 U 1 1 5C81CC69
 P 7975 3750
 F 0 "D1" H 8000 3825 40  0000 C CNN
@@ -367,7 +366,7 @@ F 3 "~" H 7975 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D8
+L benningtons:DIODE D8
 U 1 1 5C81CC78
 P 7975 4800
 F 0 "D8" H 8000 4875 40  0000 C CNN
@@ -378,7 +377,7 @@ F 3 "~" H 7975 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D4
+L benningtons:DIODE D4
 U 1 1 5C81CC87
 P 7975 4200
 F 0 "D4" H 8000 4275 40  0000 C CNN
@@ -389,7 +388,7 @@ F 3 "~" H 7975 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D3
+L benningtons:DIODE D3
 U 1 1 5C81CC96
 P 7975 4050
 F 0 "D3" H 8000 4125 40  0000 C CNN
@@ -400,7 +399,7 @@ F 3 "~" H 7975 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:DIODE D2
+L benningtons:DIODE D2
 U 1 1 5C81CCA5
 P 7975 3900
 F 0 "D2" H 8000 3975 40  0000 C CNN
@@ -411,7 +410,7 @@ F 3 "~" H 7975 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:R-array-8 RA1
+L benningtons:R-array-8 RA1
 U 1 1 5C81D152
 P 3000 6900
 F 0 "RA1" V 3175 6925 70  0000 C CNN
@@ -422,7 +421,7 @@ F 3 "~" H 3000 6900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:R R1
+L benningtons:R R1
 U 1 1 5C81D24A
 P 2475 6750
 F 0 "R1" V 2400 6650 40  0000 C CNN
@@ -483,7 +482,7 @@ A7
 Text Label 4550 1400 0    60   ~ 0
 A8
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR07
+L benningtons:+5V #PWR07
 U 1 1 5C8474A4
 P 5275 800
 F 0 "#PWR07" H 5275 890 20  0001 C CNN
@@ -494,7 +493,7 @@ F 3 "" H 5275 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR08
+L benningtons:+5V #PWR08
 U 1 1 5C8474AA
 P 5275 2700
 F 0 "#PWR08" H 5275 2790 20  0001 C CNN
@@ -505,7 +504,7 @@ F 3 "" H 5275 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR09
+L benningtons:+5V #PWR09
 U 1 1 5C8474B0
 P 1875 4650
 F 0 "#PWR09" H 1875 4740 20  0001 C CNN
@@ -516,7 +515,7 @@ F 3 "" H 1875 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:GND #PWR010
+L benningtons:GND #PWR010
 U 1 1 5C847526
 P 5275 4200
 F 0 "#PWR010" H 5275 4200 30  0001 C CNN
@@ -527,7 +526,7 @@ F 3 "" H 5275 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:GND #PWR011
+L benningtons:GND #PWR011
 U 1 1 5C84752C
 P 5275 2300
 F 0 "#PWR011" H 5275 2300 30  0001 C CNN
@@ -552,7 +551,7 @@ Odd?
 Text Label 1325 3075 0    60   ~ 0
 Carry?
 $Comp
-L Hol-1-ALU-rescue:9-PIN_HEADER JP1
+L benningtons:9-PIN_HEADER JP1
 U 1 1 5C847A3A
 P 2300 4000
 F 0 "JP1" H 2300 3900 60  0000 C CNN
@@ -563,7 +562,7 @@ F 3 "" H 2300 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:GND #PWR012
+L benningtons:GND #PWR012
 U 1 1 5C847C07
 P 1575 3850
 F 0 "#PWR012" H 1575 3850 30  0001 C CNN
@@ -576,7 +575,7 @@ $EndComp
 Text Label 2475 4950 0    60   ~ 0
 INC
 $Comp
-L Hol-1-ALU-rescue:GND #PWR013
+L benningtons:GND #PWR013
 U 1 1 5C847520
 P 1875 6150
 F 0 "#PWR013" H 1875 6150 30  0001 C CNN
@@ -587,7 +586,7 @@ F 3 "" H 1875 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:GND #PWR014
+L benningtons:GND #PWR014
 U 1 1 5C850142
 P 3950 6975
 F 0 "#PWR014" H 3950 6975 30  0001 C CNN
@@ -768,7 +767,7 @@ Odd?
 Text Label 8350 1350 0    60   ~ 0
 Negative?
 $Comp
-L Hol-1-ALU-rescue:GND #PWR015
+L benningtons:GND #PWR015
 U 1 1 5C855E86
 P 7825 5225
 F 0 "#PWR015" H 7825 5225 30  0001 C CNN
@@ -779,7 +778,7 @@ F 3 "" H 7825 5225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_8X2 P5
+L benningtons:CONN_8X2 P5
 U 1 1 5C856897
 P 10600 4300
 F 0 "P5" V 10600 4525 60  0000 C CNN
@@ -790,7 +789,7 @@ F 3 "" H 10600 4300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_8X2 P6
+L benningtons:CONN_8X2 P6
 U 1 1 5C85689D
 P 10600 5200
 F 0 "P6" V 10600 5425 60  0000 C CNN
@@ -801,7 +800,7 @@ F 3 "" H 10600 5200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Hol-1-ALU-rescue:CONN_8X2 P7
+L benningtons:CONN_8X2 P7
 U 1 1 5C8568A3
 P 10600 6100
 F 0 "P7" V 10600 6325 60  0000 C CNN
@@ -1240,7 +1239,7 @@ A5
 Text Label 2450 2250 0    60   ~ 0
 A4
 $Comp
-L Hol-1-ALU-rescue:74LS245 U6
+L benningtons:74LS245 U6
 U 1 1 5C81A802
 P 1875 5400
 F 0 "U6" H 1825 5200 60  0000 L BNN
@@ -1281,7 +1280,7 @@ Wire Wire Line
 Wire Wire Line
 	575  5300 1275 5300
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR016
+L benningtons:+5V #PWR016
 U 1 1 5E23B821
 P 1025 5850
 F 0 "#PWR016" H 1025 5940 20  0001 C CNN
@@ -1296,7 +1295,7 @@ Wire Wire Line
 Wire Wire Line
 	1275 6950 2475 6950
 $Comp
-L Hol-1-ALU-rescue:+5V #PWR017
+L benningtons:+5V #PWR017
 U 1 1 5E23BE9C
 P 8500 2950
 F 0 "#PWR017" H 8500 3040 20  0001 C CNN
@@ -1571,6 +1570,7 @@ Wire Wire Line
 Connection ~ 10850 3000
 Wire Wire Line
 	10950 2300 10950 3000
+Connection ~ 10950 3000
 Wire Bus Line
 	4450 1000 4450 1300
 Wire Bus Line
@@ -1599,5 +1599,4 @@ Wire Bus Line
 	2975 2050 2975 2700
 Wire Bus Line
 	2975 1000 2975 1950
-Connection ~ 10950 3000
 $EndSCHEMATC

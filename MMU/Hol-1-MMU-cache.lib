@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Hol-1-MMU-rescue_+5V
+# benningtons_+5V
 #
-DEF Hol-1-MMU-rescue_+5V #PWR 0 40 Y Y 1 F P
+DEF benningtons_+5V #PWR 0 40 Y Y 1 F P
 F0 "#PWR" 0 90 20 H I C CNN
-F1 "Hol-1-MMU-rescue_+5V" 0 100 59 H V C CNN
+F1 "benningtons_+5V" 0 100 59 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -15,11 +15,11 @@ X +5V 1 0 0 0 U 20 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_10-PIN_HEADER
+# benningtons_10-PIN_HEADER
 #
-DEF Hol-1-MMU-rescue_10-PIN_HEADER JP 0 0 Y N 1 F N
+DEF benningtons_10-PIN_HEADER JP 0 0 Y N 1 F N
 F0 "JP" 0 -100 60 H V C CNN
-F1 "Hol-1-MMU-rescue_10-PIN_HEADER" 0 0 60 H V C CNN
+F1 "benningtons_10-PIN_HEADER" 0 0 60 H V C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -37,11 +37,11 @@ X pin9 9 350 250 197 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_74LS00
+# benningtons_74LS00
 #
-DEF Hol-1-MMU-rescue_74LS00 U 0 20 Y Y 5 F N
+DEF benningtons_74LS00 U 0 20 Y Y 5 F N
 F0 "U" 0 -20 20 H V C CNN
-F1 "Hol-1-MMU-rescue_74LS00" 0 20 20 H V C CNN
+F1 "benningtons_74LS00" 0 20 20 H V C CNN
 F2 "" 50 0 60 H V C CNN
 F3 "" 50 0 60 H V C CNN
 $FPLIST
@@ -98,11 +98,11 @@ X GND 7 0 -350 98 U 20 20 5 2 W
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_74LS157
+# benningtons_74LS157
 #
-DEF Hol-1-MMU-rescue_74LS157 U 0 40 Y Y 1 F N
+DEF benningtons_74LS157 U 0 40 Y Y 1 F N
 F0 "U" 0 -150 60 H V C CNN
-F1 "Hol-1-MMU-rescue_74LS157" 0 0 60 H V C CNN
+F1 "benningtons_74LS157" 0 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -129,11 +129,11 @@ X 3Y 9 600 -300 197 L 50 50 1 1 T
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_74LS173
+# benningtons_74LS173
 #
-DEF Hol-1-MMU-rescue_74LS173 U 0 40 Y Y 1 F N
+DEF benningtons_74LS173 U 0 40 Y Y 1 F N
 F0 "U" 0 -150 60 H V C CNN
-F1 "Hol-1-MMU-rescue_74LS173" 0 0 60 H V C CNN
+F1 "benningtons_74LS173" 0 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -160,11 +160,11 @@ X ~IE1 9 -600 400 197 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_9-PIN_HEADER
+# benningtons_9-PIN_HEADER
 #
-DEF Hol-1-MMU-rescue_9-PIN_HEADER JP 0 0 Y N 1 F N
+DEF benningtons_9-PIN_HEADER JP 0 0 Y N 1 F N
 F0 "JP" 0 -100 60 H V C CNN
-F1 "Hol-1-MMU-rescue_9-PIN_HEADER" 0 0 60 H V C CNN
+F1 "benningtons_9-PIN_HEADER" 0 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -181,11 +181,11 @@ X pin9 9 400 250 197 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_C
+# benningtons_C
 #
-DEF Hol-1-MMU-rescue_C C 0 10 N Y 1 F N
+DEF benningtons_C C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
-F1 "Hol-1-MMU-rescue_C" 6 -85 40 H V L CNN
+F1 "benningtons_C" 6 -85 40 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -201,11 +201,11 @@ X ~ 2 0 -200 177 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_CODE_SWITCH
+# benningtons_CODE_SWITCH
 #
-DEF Hol-1-MMU-rescue_CODE_SWITCH SW 0 40 Y Y 1 F N
+DEF benningtons_CODE_SWITCH SW 0 40 Y Y 1 F N
 F0 "SW" 0 -250 60 H V C CNN
-F1 "Hol-1-MMU-rescue_CODE_SWITCH" 0 250 60 H V C CNN
+F1 "benningtons_CODE_SWITCH" 0 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -221,11 +221,11 @@ X D0 6 600 50 300 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_CONN_2
+# benningtons_CONN_2
 #
-DEF Hol-1-MMU-rescue_CONN_2 P 0 40 Y N 1 F N
+DEF benningtons_CONN_2 P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "Hol-1-MMU-rescue_CONN_2" 50 0 40 V V C CNN
+F1 "benningtons_CONN_2" 50 0 40 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -235,11 +235,11 @@ X PM 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_CONN_8
+# benningtons_CONN_8
 #
-DEF Hol-1-MMU-rescue_CONN_8 P 0 40 Y N 1 F N
+DEF benningtons_CONN_8 P 0 40 Y N 1 F N
 F0 "P" -50 0 60 V V C CNN
-F1 "Hol-1-MMU-rescue_CONN_8" 50 0 60 V V C CNN
+F1 "benningtons_CONN_8" 50 0 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -255,11 +255,11 @@ X P8 8 -350 -350 250 R 50 50 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_CONN_8X2
+# benningtons_CONN_8X2
 #
-DEF Hol-1-MMU-rescue_CONN_8X2 P 0 40 Y Y 1 F N
+DEF benningtons_CONN_8X2 P 0 40 Y Y 1 F N
 F0 "P" 0 450 60 H V C CNN
-F1 "Hol-1-MMU-rescue_CONN_8X2" 0 0 50 V V C CNN
+F1 "benningtons_CONN_8X2" 0 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -283,11 +283,11 @@ X ~ 9 -400 -50 300 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_DPDT
+# benningtons_DPDT
 #
-DEF ~Hol-1-MMU-rescue_DPDT SW 0 0 Y Y 2 F N
+DEF benningtons_DPDT SW 0 0 Y Y 2 F N
 F0 "SW" -200 150 50 H V C CNN
-F1 "Hol-1-MMU-rescue_DPDT" -150 -150 50 H I C CNN
+F1 "benningtons_DPDT" -150 -150 50 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -304,11 +304,11 @@ X ~ 6 -500 0 300 R 60 60 2 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_GND
+# benningtons_GND
 #
-DEF ~Hol-1-MMU-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF benningtons_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "Hol-1-MMU-rescue_GND" 0 -70 30 H I C CNN
+F1 "benningtons_GND" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -317,11 +317,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_LED
+# benningtons_LED
 #
-DEF ~Hol-1-MMU-rescue_LED D 0 40 N N 1 F N
+DEF benningtons_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Hol-1-MMU-rescue_LED" 0 -100 50 H I C CNN
+F1 "benningtons_LED" 0 -100 50 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -345,11 +345,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_PWR_FLAG
+# benningtons_PWR_FLAG
 #
-DEF Hol-1-MMU-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF benningtons_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 30 H I C CNN
-F1 "Hol-1-MMU-rescue_PWR_FLAG" 0 180 30 H V C CNN
+F1 "benningtons_PWR_FLAG" 0 180 30 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -358,11 +358,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_R
+# benningtons_R
 #
-DEF ~Hol-1-MMU-rescue_R R 0 0 N Y 1 F N
+DEF benningtons_R R 0 0 N Y 1 F N
 F0 "R" 125 0 40 V V C CNN
-F1 "Hol-1-MMU-rescue_R" -100 0 40 V I C CNN
+F1 "benningtons_R" -100 0 40 V I C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 -50 30 H V C CNN
 $FPLIST
@@ -379,11 +379,11 @@ X ~ 2 0 -200 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_R-array-8
+# benningtons_R-array-8
 #
-DEF Hol-1-MMU-rescue_R-array-8 RA 0 40 Y N 1 F N
+DEF benningtons_R-array-8 RA 0 40 Y N 1 F N
 F0 "RA" 50 550 70 H V C CNN
-F1 "Hol-1-MMU-rescue_R-array-8" 30 0 70 V V C CNN
+F1 "benningtons_R-array-8" 30 0 70 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -400,11 +400,11 @@ X 9 9 -350 -350 300 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Hol-1-MMU-rescue_SW_PUSH
+# benningtons_SW_PUSH
 #
-DEF Hol-1-MMU-rescue_SW_PUSH SW 0 40 N N 1 F N
+DEF benningtons_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Hol-1-MMU-rescue_SW_PUSH" 0 -80 50 H V C CNN
+F1 "benningtons_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
